@@ -1,0 +1,19 @@
+/* Style for the terminal container */
+#terminal-container {
+  margin: 20px;
+  padding: 10px;
+  background-color: black;
+  color: green;
+  font-family: 'Courier Prime', monospace;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 255, 0, 0.3);
+  min-height: 300px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+/* Adjustments for the terminal text */
+#terminal {
+  padding: 10px;
+  white-space: pre-wrap;
+}
