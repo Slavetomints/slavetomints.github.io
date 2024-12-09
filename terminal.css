@@ -17,3 +17,21 @@
   padding: 10px;
   white-space: pre-wrap;
 }
+
+/* Formatting for the actual input line */
+#input-line {
+  display: flex;
+}
+
+#input-line span {
+  color: #0f0;
+}
+
+#input-line input {
+  background: none;
+  border: none;
+  color: #0f0;
+  flex: 1;
+  font-family: monospace;
+  outline: none;
+}
