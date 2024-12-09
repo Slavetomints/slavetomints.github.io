@@ -1,0 +1,253 @@
+/* General Styles */
+body {
+  background-color: #000000;
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: #00FF00; /* Default text color for non-code elements */
+}
+
+/* Code Block Styles */
+md-block pre code {
+  color: inherit; /* Let Prism handle syntax highlighting */
+  background-color: #000000; /* Keep background dark */
+}
+
+pre {
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+  border: 2px solid #00FF00; /* Green border for code */
+}
+
+/* Links */
+body a {
+  color: #00FF00;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+body li {
+  padding: 10px;
+}
+
+body a:hover {
+  background-color: #00FF00;
+  color: #000000;
+}
+
+/* Navigation Styles */
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #00FF00;
+  text-decoration: none;
+  padding: 10%;
+  border-radius: 25px;
+}
+
+nav a:hover {
+  background-color: #00FF00;
+  color: #000000;
+}
+
+nav p {
+  font-size: 15px;
+}
+
+nav h1 {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: auto;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+}
+
+/* Code Styling */
+code {
+  font-family: "Courier Prime", monospace;
+  font-size: 16px;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+/* Ruby Syntax Highlighting */
+
+/* Keywords */
+code.language-ruby .token.keyword {
+  color: #f92672; /* Red for Ruby keywords */
+  font-weight: bold;
+}
+
+/* Strings */
+code.language-ruby .token.string {
+  color: #e6db74; /* Yellow/Beige for strings */
+  font-style: italic;
+}
+
+/* Numbers */
+code.language-ruby .token.number {
+  color: #ae81ff; /* Purple for numbers */
+}
+
+/* Comments */
+code.language-ruby .token.comment {
+  color: #75715e; /* Light grey for comments */
+  font-style: italic;
+}
+
+/* Functions / Method names */
+code.language-ruby .token.function {
+  color: #a6e22e; /* Green for function names */
+  font-weight: bold;
+}
+
+/* Operators */
+code.language-ruby .token.operator {
+  color: #f92672; /* Red for operators */
+}
+
+/* Class and Module Names */
+code.language-ruby .token.class-name,
+code.language-ruby .token.type {
+  color: #e6db74; /* Yellow for class/module names */
+  font-weight: bold;
+}
+
+/* Constants */
+code.language-ruby .token.constant {
+  color: #e06c75; /* Red for constants */
+}
+
+/* Variables */
+code.language-ruby .token.variable {
+  color: #f8f8f2; /* White for variables */
+}
+
+/* Symbols */
+code.language-ruby .token.symbol {
+  color: #c678dd; /* Purple for Ruby symbols */
+}
+
+/* Method Arguments */
+code.language-ruby .token.parameter {
+  color: #d19a66; /* Orange for method arguments */
+}
+
+/* Special Types */
+code.language-ruby .token.boolean,
+code.language-ruby .token.null {
+  color: #98c379; /* Green for boolean values */
+}
+
+/* String Interpolation */
+code.language-ruby .token.interpolation {
+  color: #abb2bf; /* Light grey for interpolation */
+}
+
+/* Code Block Background */
+pre[class*="language-"]  {
+  background-color: rgb(40, 32, 26) !important;
+  background-image: none;
+}
+
+pre[class*="language-"] code {
+  color: rgb(232, 230, 227) !important;
+  text-shadow: none !important;
+}
+
+.token.operator {
+  color: rgb(200, 159, 110) !important;
+  background: none !important;
+}
+
+/* Blockquote Styles */
+md-block p code {
+  color: #FFFFFF;
+  padding: 0;
+  border-radius: 0;
+}
+
+md-block pre code {
+  background-color: transparent !important;
+}
+
+md-block blockquote p {
+  color: #FF4500;
+}
+
+md-block a {
+  color: #FF4500;
+  text-decoration: none;
+}
+
+md-block blockquote a:hover {
+  background-color: #FF4500;
+  color: #000000;
+}
+
+/* Images inside md-block */
+md-block img {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Additional Styles */
+#larger-margins {
+  margin: 2% 15% 5% 15%;
+  padding: 0;
+}
+
+.green-border {
+  border-style: solid;
+  border-color: #00FF00;
+  border-width: 5px;
+  border-radius: 15px;
+  margin: 2% 5% 5% 5%;
+  padding: 5%;
+}
+
+.green-border h2 {
+  text-align: center;
+}
+
+/* Custom Font Classes */
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
