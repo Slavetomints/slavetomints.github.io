@@ -7,6 +7,12 @@ body {
   color: #00FF00; /* Default text color for non-code elements */
 }
 
+/* This is for the iframe that contains the writeups site on the projects page */
+iframe {
+  width: 100%;
+  height: 600px;
+}
+
 /* Code Block Styles */
 md-block pre code {
   color: inherit; /* Let Prism handle syntax highlighting */
@@ -92,105 +98,11 @@ code {
   border-radius: 5px;
 }
 
-/* Ruby Syntax Highlighting */
-
-/* Keywords */
-code.language-ruby .token.keyword {
-  color: #f92672; /* Red for Ruby keywords */
-  font-weight: bold;
-}
-
-/* Strings */
-code.language-ruby .token.string {
-  color: #e6db74; /* Yellow/Beige for strings */
-  font-style: italic;
-}
-
-/* Numbers */
-code.language-ruby .token.number {
-  color: #ae81ff; /* Purple for numbers */
-}
-
-/* Comments */
-code.language-ruby .token.comment {
-  color: #75715e; /* Light grey for comments */
-  font-style: italic;
-}
-
-/* Functions / Method names */
-code.language-ruby .token.function {
-  color: #a6e22e; /* Green for function names */
-  font-weight: bold;
-}
-
-/* Operators */
-code.language-ruby .token.operator {
-  color: #f92672; /* Red for operators */
-}
-
-/* Class and Module Names */
-code.language-ruby .token.class-name,
-code.language-ruby .token.type {
-  color: #e6db74; /* Yellow for class/module names */
-  font-weight: bold;
-}
-
-/* Constants */
-code.language-ruby .token.constant {
-  color: #e06c75; /* Red for constants */
-}
-
-/* Variables */
-code.language-ruby .token.variable {
-  color: #f8f8f2; /* White for variables */
-}
-
-/* Symbols */
-code.language-ruby .token.symbol {
-  color: #c678dd; /* Purple for Ruby symbols */
-}
-
-/* Method Arguments */
-code.language-ruby .token.parameter {
-  color: #d19a66; /* Orange for method arguments */
-}
-
-/* Special Types */
-code.language-ruby .token.boolean,
-code.language-ruby .token.null {
-  color: #98c379; /* Green for boolean values */
-}
-
-/* String Interpolation */
-code.language-ruby .token.interpolation {
-  color: #abb2bf; /* Light grey for interpolation */
-}
-
-/* Code Block Background */
-pre[class*="language-"]  {
-  background-color: rgb(40, 32, 26) !important;
-  background-image: none;
-}
-
-pre[class*="language-"] code {
-  color: rgb(232, 230, 227) !important;
-  text-shadow: none !important;
-}
-
-.token.operator {
-  color: rgb(200, 159, 110) !important;
-  background: none !important;
-}
-
 /* Blockquote Styles */
 md-block p code {
   color: #FFFFFF;
   padding: 0;
   border-radius: 0;
-}
-
-md-block pre code {
-  background-color: transparent !important;
 }
 
 md-block blockquote p {
@@ -200,18 +112,6 @@ md-block blockquote p {
 md-block a {
   color: #FF4500;
   text-decoration: none;
-}
-
-md-block blockquote a:hover {
-  background-color: #FF4500;
-  color: #000000;
-}
-
-/* Images inside md-block */
-md-block img {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* Additional Styles */
@@ -232,6 +132,117 @@ md-block img {
 .green-border h2 {
   text-align: center;
 }
+
+section {
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border: 2px solid #00FF00;
+  border-radius: 10px;
+}
+
+/* About Section */
+#about-section h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#about-section p {
+  line-height: 1.5;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+#about-section-container {
+  display: flex;
+}
+
+#about-section-container div img {
+  width: 500px;
+  height: auto;
+  margin-left: 10%;
+}
+
+.link-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.link-icons a {
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.link-icons a:hover {
+  transform: scale(1.1);
+  transform-origin: center;
+}
+
+.link-icons img {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+/* Contact Section */
+#contacts h2, #stats h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#contacts ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#contacts li {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three cards across */
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.stats-item {
+  width: 500px; /* Increased width */
+  height: 300px; /* Increased height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000; /* Matches background */
+  overflow: hidden;
+}
+
+.stats-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Keeps image aspect ratio */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 1024px) {
+  .stats-container {
+    grid-template-columns: repeat(2, 1fr); /* Two across for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .stats-container {
+    grid-template-columns: 1fr; /* One card per row for narrow screens */
+  }
+}
+
+
+
 
 /* Custom Font Classes */
 .courier-prime-bold {

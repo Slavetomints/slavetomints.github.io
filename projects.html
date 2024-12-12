@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://slavetomints.github.io/style.css">
@@ -9,19 +9,91 @@
     <link rel="icon" type="image/x-icon" href="https://slavetomints.github.io/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>Slavetomints</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="green-border" id="larger-margins">
-        <h1>Slavetomints</h1>
-        <p><i>Cybersecurity student, Ruby fangirl, Flag chaser</i></p>
-        <ul>
-            <li><a href="https://slavetomints.github.io/index.html">Home</a></li>
-            <li><a href="https://slavetomints.github.io/writeups/index.html">Writeups</a></li>
-            <li><a href="https://slavetomints.github.io/guides/index.html">Guides</a></li>
-            <li><a href="https://slavetomints.github.io/projects.html">Projects</a></li>
-            <li><a href="https://slavetomints.github.io/about.html">About</a></li>
-        </ul>
+      <h1>Slavetomints</h1>
+      <p><i>Cybersecurity student, Ruby fangirl, Flag chaser</i></p>
+      <ul>
+          <li><a href="https://slavetomints.github.io/index.html">Home</a></li>
+          <li><a href="https://slavetomints.github.io/writeups/index.html">Writeups</a></li>
+          <li><a href="https://slavetomints.github.io/guides/index.html">Guides</a></li>
+          <li><a href="https://slavetomints.github.io/projects.html">Projects</a></li>
+          <li><a href="https://slavetomints.github.io/about.html">About</a></li>
+      </ul>
     </nav>
 
-</body>
+    <div class="green-border">
+      <md-block>
+# RVC Hacking Toolbox - [github.com](https://github.com/Slavetomints/rvc_hacking_toolbox)
+
+A 100% Ruby toolbox for all of you CTF needs. Includes modes to encrypt and decrypt content, check websites for basic vulnerabilities, and a multitude of wordlist enhancing options. 
+
+```
+
+┌ RVC Hacking Toolbox ──────────────────────────────────────────┐
+│                                                               │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡠⢤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⠟⠃⠀⠀⠙⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠋⠀⠀⠀⠀⠀⠀⠘⣆⠀⠀⠀⠀⠀⠀⠀⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠾⢛⠒⠀⠀⠀⠀⠀⠀⠀⢸⡆⠀⠀⠀⠀⠀⠀⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣶⣄⡈⠓⢄⠠⡀⠀⠀⠀⣄⣷⠀⠀⠀⠀⠀⠀⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣷⠀⠈⠱⡄⠑⣌⠆⠀⠀⡜⢻⠀⠀⠀⠀⠀⠀⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡿⠳⡆⠐⢿⣆⠈⢿⠀⠀⡇⠘⡆⠀⠀⠀⠀⠀⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣷⡇⠀⠀⠈⢆⠈⠆⢸⠀⠀⢣⠀⠀⠀⠀⠀⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣧⠀⠀⠈⢂⠀⡇⠀⠀⢨⠓⣄⠀⠀⠀⠀│
+│ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⣿⣿⣦⣤⠖⡏⡸⠀⣀⡴⠋⠀⠈⠢⡀⠀⠀ │
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⠁⣹⣿⣿⣿⣷⣾⠽⠖⠊⢹⣀⠄⠀⠀⠀⠈⢣⡀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡟⣇⣰⢫⢻⢉⠉⠀⣿⡆⠀⠀⡸⡏⠀⠀⠀⠀⠀⠀⢇│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢨⡇⡇⠈⢸⢸⢸⠀⠀⡇⡇⠀⠀⠁⠻⡄⡠⠂⠀⠀⠀⠘│
+│  ⢤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠛⠓⡇⠀⠸⡆⢸⠀⢠⣿⠀⠀⠀⠀⣰⣿⣵⡆⠀⠀⠀⠀│
+│  ⠈⢻⣷⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡿⣦⣀⡇⠀⢧⡇⠀⠀⢺⡟⠀⠀⠀⢰⠉⣰⠟⠊⣠⠂⠀⡸│
+│  ⠀⠀⢻⣿⣿⣷⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢧⡙⠺⠿⡇⠀⠘⠇⠀⠀⢸⣧⠀⠀⢠⠃⣾⣌⠉⠩⠭⠍⣉⡇│
+│  ⠀⠀⠀⠻⣿⣿⣿⣿⣿⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣞⣋⠀⠈⠀⡳⣧⠀⠀⠀⠀⠀⢸⡏⠀⠀⡞⢰⠉⠉⠉⠉⠉⠓⢻⠃│
+│  ⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀⢀⣀⠠⠤⣤⣤⠤⠞⠓⢠⠈⡆⠀⢣⣸⣾⠆⠀⠀⠀⠀⠀⢀⣀⡼⠁⡿⠈⣉⣉⣒⡒⠢⡼⠀│
+│  ⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣎⣽⣶⣤⡶⢋⣤⠃⣠⡦⢀⡼⢦⣾⡤⠚⣟⣁⣀⣀⣀⣀⠀⣀⣈⣀⣠⣾⣅⠀⠑⠂⠤⠌⣩⡇⠀│
+│  ⠀⠀⠀⠀⠀⠀⠘⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡁⣺⢁⣞⣉⡴⠟⡀⠀⠀⠀⠁⠸⡅⠀⠈⢷⠈⠏⠙⠀⢹⡛⠀⢉⠀⠀⠀⣀⣀⣼⡇⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣽⣿⡟⢡⠖⣡⡴⠂⣀⣀⣀⣰⣁⣀⣀⣸⠀⠀⠀⠀⠈⠁⠀⠀⠈⠀⣠⠜⠋⣠⠁⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣿⣿⡟⢿⣿⣿⣷⡟⢋⣥⣖⣉⠀⠈⢁⡀⠤⠚⠿⣷⡦⢀⣠⣀⠢⣄⣀⡠⠔⠋⠁⠀⣼⠃⠀⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⡄⠈⠻⣿⣿⢿⣛⣩⠤⠒⠉⠁⠀⠀⠀⠀⠀⠉⠒⢤⡀⠉⠁⠀⠀⠀⠀⠀⢀⡿⠀⠀⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⢿⣤⣤⠴⠟⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠤⠀⠀⠀⠀⠀⢩⠇⠀⠀⠀│
+│  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀│
+└─────────────────────────────────────────────────────── v0.4.1 ┘
+Please select your mode (Press ↑/↓ arrow to move and Enter to select)
+  Open Source Intelligence (In Development)
+‣ Cryptography
+  Password Cracking
+  Forensics
+  Log Analysis
+  Network Traffic Analysis (In Development)
+  Scanning & Reconnaissance (In Development)
+  Web Application Exploitation
+  Wireless Access Exploitation (In Development)
+  Enumeration & Exploitation (In Development)
+  Quit Program
+
+
+```
+      </md-block>
+    </div>  
+
+    <div class="green-border">
+      <md-block>
+# Writeups - [slavetomints.github.io/writeups](slavetomints.github.io/writeups)
+
+An important skill for every aspiring Cybersecurity student. The ability to effectively communicate your ideas will take you further than any hacking and computer prowess. Here I hone my skill of creating writeups that effectively potray my mindset, while remaining informative and interesting to follow with pictures and syntax-highlighted code snippets. I attempt to complete a writeup for every challenge I get correct in a CTF.
+      </md-block>
+      <iframe src="https://slavetomints.github.io/writeups/index.html"></iframe>
+    </div>  
+
+    <div class="green-border">
+      <md-block>
+# The Odin Project projects
+
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptatibus rem quod, neque officiis similique! Fugit, repellat ex, officia nesciunt unde alias deleniti maxime magni aliquam quas sunt voluptates non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis autem magni asperiores quam sequi ex voluptatum, modi ab iure, cum dolore unde nisi cumque, laboriosam fuga odio veritatis non explicabo! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde natus hic ducimus incidunt quaerat! Nisi, illo libero architecto excepturi temporibus maxime et fugiat asperiores tempora culpa modi optio vero nulla? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla voluptatum quaerat perspiciatis vitae quisquam nisi ad, tempora earum maiores! Rem ex ut consequuntur fuga ducimus reprehenderit ratione dolorem placeat atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque autem ipsa ducimus vel officia eaque praesentium, repellendus incidunt cum necessitatibus quis qui veritatis modi adipisci culpa debitis placeat est assumenda? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero velit quidem, odio molestias minima modi aut sapiente nam. Placeat aperiam, sequi nam sint laborum non enim aut eius quisquam voluptas.
+      </md-block>
+    </div>  
+    <script src="https://cdn.jsdelivr.net/npm/marked@5.1.2/marked.min.js"></script>
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+  </body>
 </html>
