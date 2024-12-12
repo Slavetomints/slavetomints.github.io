@@ -55,15 +55,20 @@ nav ul {
 }
 
 nav a {
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
   color: #00FF00;
   text-decoration: none;
-  padding: 10%;
-  border-radius: 25px;
+  padding: 15%;
+  border: 2px solid #00FF00;
+  border-radius: 15px;
 }
 
 nav a:hover {
+  border: 3px solid #00FF00;
   background-color: #00FF00;
   color: #000000;
+  transform: scale(1.1);
 }
 
 nav p {
@@ -240,9 +245,6 @@ section {
     grid-template-columns: 1fr; /* One card per row for narrow screens */
   }
 }
-
-
-
 
 /* Custom Font Classes */
 .courier-prime-bold {
