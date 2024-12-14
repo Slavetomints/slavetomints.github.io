@@ -79,8 +79,8 @@ So now that we've looked as some of the devices and identified them, what else c
 
 ## Figuring out service versions
 
-So lets take a look at the 
+So lets take a look at the versions of the active services to see if anything has any vulnerabilities. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE4MzcxODcsMzM1NzU4MjQ3LDc1MT
-Y3MzQ0NywxMzI5NTM3NDIyXX0=
+eyJoaXN0b3J5IjpbLTE5NDIwNjQ1NzksLTE5MDE4MzcxODcsMz
+M1NzU4MjQ3LDc1MTY3MzQ0NywxMzI5NTM3NDIyXX0=
 -->
