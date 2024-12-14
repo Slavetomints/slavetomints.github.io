@@ -73,8 +73,8 @@ Nmap done: 256 IP addresses (7 hosts up) scanned in 12.34 seconds
 
 Wow! That's a lot of information! So we now need to figure out what is what. Some of it is pretty simple, such as `192.160.0.200`. We know from the MAC Address that it is an Apple device, probably an iPhone or an iPad. What else can we figure out from this scan?
 
-Another point of interest is the device at `192.168.0.10`, which we know is a Dell computer, but which one
+Another point of interest is the device at `192.168.0.10`, which we know is a Dell computer, but what else? Well, it's likely that its a Windows wor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTE2OTY0OSw3NTE2NzM0NDcsMTMyOT
+eyJoaXN0b3J5IjpbMjAzOTI1ODc4MCw3NTE2NzM0NDcsMTMyOT
 UzNzQyMl19
 -->
