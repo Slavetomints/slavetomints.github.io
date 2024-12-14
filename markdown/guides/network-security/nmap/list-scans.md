@@ -36,8 +36,8 @@ Nmap scan report for 192.168.0.255
 ```
 This is helpful in the reconnaissance phase since the "scan" doesn't send any packets and instead tries only to resolve hostnames. The reason it is important that you don't accidentally scan the wrong network is that you can get in serious trouble for acting out of scope, as you have no legal protections for that.
 
-If DNS is configured, Nmap may resolve and display hostnames alongside IP addresses. Otherwise, it will just list the IPs. In this example, we only got hostnames, but its still nice to be able to verify that what wer
+If DNS is configured, Nmap may resolve and display hostnames alongside IP addresses. Otherwise, it will just list the IPs. In this example, we only got hostnames, but its still nice to be able to verify that what we're scanning is correct.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODQ4OTAxOSw1NjU2NzU2NTgsLTE0NT
+eyJoaXN0b3J5IjpbLTkzMTUzOTYyNiw1NjU2NzU2NTgsLTE0NT
 k3OTMyNjMsLTQwMTg5MjE3NiwtMTU0MTUzMjYwOV19
 -->
