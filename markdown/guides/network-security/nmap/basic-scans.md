@@ -75,12 +75,9 @@ Wow! That's a lot of information! So we now need to figure out what is what. Som
 
 Another point of interest is the device at `192.168.0.10`, which we know is a Dell computer, but what else? Well, it's likely that its a Windows workstation due to the fact that FTP is up and running, and that port 139 is active, which is usually used for file sharing purposes for devices such as printers on a Windows machine. 
 
-So now that we've looked as some of the devices and identified them, what else can you find about this network?
-
-## Figuring out service versions
-
-So lets take a look at the versions of the active services to see if anything has any vulnerabilities. 
+So now that we've looked as some of the devices and identified them, it's your turn to identify the other devices and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDIwNjQ1NzksLTE5MDE4MzcxODcsMz
-M1NzU4MjQ3LDc1MTY3MzQ0NywxMzI5NTM3NDIyXX0=
+eyJoaXN0b3J5IjpbLTEwNzkwODcyMDEsLTE5NDIwNjQ1NzksLT
+E5MDE4MzcxODcsMzM1NzU4MjQ3LDc1MTY3MzQ0NywxMzI5NTM3
+NDIyXX0=
 -->
