@@ -34,9 +34,9 @@ Nmap scan report for 192.168.0.253
 Nmap scan report for 192.168.0.254
 Nmap scan report for 192.168.0.255
 ```
-
+This is helpful in the recconaissance phase since the "scan" doen't send any packets and instead tries only to resolve hostnames. The reason it is important that you dont accidentally scan the wrong network is that you can get in ser
 Now, knowing that you're in scope, its time to hack!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1Njc1NjU4LC0xNDU5NzkzMjYzLC00MD
-E4OTIxNzYsLTE1NDE1MzI2MDldfQ==
+eyJoaXN0b3J5IjpbLTE2OTg5NTkyNDMsNTY1Njc1NjU4LC0xND
+U5NzkzMjYzLC00MDE4OTIxNzYsLTE1NDE1MzI2MDldfQ==
 -->
