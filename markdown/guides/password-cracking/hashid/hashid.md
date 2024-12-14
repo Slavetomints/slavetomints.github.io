@@ -197,31 +197,18 @@ Analyzing '9686c6f3173c9d463fe3a78da4f3616c'
 [+] Skype [Hashcat Mode: 23]
 [+] Snefru-128 [JtR Format: snefru-128]
 [+] NTLM [Hashcat Mode: 1000][JtR Format: nt]
-
 [+] Domain Cached Credentials [Hashcat Mode: 1100][JtR Format: mscach]
-
 [+] Domain Cached Credentials 2 [Hashcat Mode: 2100][JtR Format: mscach2]
-
 [+] DNSSEC(NSEC3) [Hashcat Mode: 8300]
-
 [+] RAdmin v2.x [Hashcat Mode: 9900][JtR Format: radmin]
-
 Analyzing '0d107d09f5bbe40cade3de5c71e9e9b7'
-
 [+] MD2 [JtR Format: md2]
-
 [+] MD5 [Hashcat Mode: 0][JtR Format: raw-md5]
-
 [+] MD4 [Hashcat Mode: 900][JtR Format: raw-md4]
-
 [+] Double MD5 [Hashcat Mode: 2600]
-
 [+] LM [Hashcat Mode: 3000][JtR Format: lm]
-
 [+] RIPEMD-128 [JtR Format: ripemd-128]
-
 [+] Haval-128 [JtR Format: haval-128-4]
-
 [+] Tiger-128
 [+] Skein-256(128)
 [+] Skein-512(128)
@@ -237,5 +224,5 @@ Analyzing '0d107d09f5bbe40cade3de5c71e9e9b7'
 
 Happy cracking!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzU3OTE0M119
+eyJoaXN0b3J5IjpbLTE1MjQ1ODg0OTFdfQ==
 -->
