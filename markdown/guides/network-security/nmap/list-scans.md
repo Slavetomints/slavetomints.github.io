@@ -35,8 +35,13 @@ Nmap scan report for 192.168.0.254
 Nmap scan report for 192.168.0.255
 ```
 
-Sweet! But what if we want to scan both `192.168.0.0/24` and `192.168.2.0/24`? That's pretty simple, all we need to do is 
+Sweet! But what if we want to scan both `192.168.0.0/24` and `192.168.2.0/24`? There's twoThat's pretty simple, all we need to do is list out both network in our command.
+
+```
+
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTg1OTgxMzgsLTE0NTk3OTMyNjMsLT
-QwMTg5MjE3NiwtMTU0MTUzMjYwOV19
+eyJoaXN0b3J5IjpbMTA2NTkwMjIwNywtMTQ1OTc5MzI2MywtND
+AxODkyMTc2LC0xNTQxNTMyNjA5XX0=
 -->
