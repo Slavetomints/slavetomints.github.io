@@ -27,8 +27,6 @@ Now you can call `john hashes.txt` on the command line and watch the fireworks! 
 
 ```
 
-  
-
 ┌─[slavetomints@parrot]─[~]
 └──╼ $john hashes.txt
 Warning: detected hash type "LM", but the string is also recognized as "dynamic=md5($p)"
@@ -150,5 +148,5 @@ $2y$12$4W.9YYtbXxL0XWv1VOZGz/ZkgYWGxIgexnBPLopIV0C5p2b45RnoS
 $2y$12$MZYD8Jd39lMEwXgk2zoFhvoTfX5ShZIFz.ajI6iMeG4osVsF9O/ri
 $2y$12$FLrgy6e0Fz0AWf5MrDA2cePiay8l0eLHLGbXMKMHH7h2jMOGaWv5K
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzODk2MzkyNF19
+eyJoaXN0b3J5IjpbLTE2ODE3MjEwODBdfQ==
 -->
