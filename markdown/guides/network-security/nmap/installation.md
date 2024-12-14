@@ -12,7 +12,7 @@ Compiled with: liblua-5.4.4 openssl-3.0.15 libssh2-1.10.0 libz-1.2.13 libpcre2-1
 Compiled without:
 Available nsock engines: epoll poll select
 ```
-This check firstly if Nmap exists and then if it does it checks the version of Nmap installed. If nothing shows up, then you might need to install Nmap. For `Linux` systems you can install Nmap using your package manager
+This check firstly if Nmap exists and then if it does it checks the version of Nmap installed. If nothing shows up, then you might need to install Nmap. For `Linux` systems you can install Nmap using your package manager, or by downloading the `RPM` package. For `Windows` systems you can download the setup exe file from https://nmap.org/download.html
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMzkyODQxMl19
+eyJoaXN0b3J5IjpbOTUxNjAwMjg4XX0=
 -->
