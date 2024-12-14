@@ -1,7 +1,4 @@
-
 # Super SSH
-
-  
 
 Challenge description:
 
@@ -29,5 +26,5 @@ Well......that was easy
 
 FLAG: `picoCTF{s3cur3_c0nn3ct10n_3e293eea}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODU4MDUwNl19
+eyJoaXN0b3J5IjpbLTEzMTg1NzU4MDBdfQ==
 -->
