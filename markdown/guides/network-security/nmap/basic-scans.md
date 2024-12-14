@@ -71,8 +71,8 @@ MAC Address: F4:F5:24:A6:C8:EF (Cisco Systems, Inc.)
 Nmap done: 256 IP addresses (7 hosts up) scanned in 12.34 seconds
 ```
 
-Wow! That's a lot of information! So we now need to figure out what is what. Some of it is pretty simple, such as `192.160.0.200`
+Wow! That's a lot of information! So we now need to figure out what is what. Some of it is pretty simple, such as `192.160.0.200`. We know from the MAC Address that it is an Apple device, such as an iPhone or an iPad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzYyMDU0Niw3NTE2NzM0NDcsMTMyOT
-UzNzQyMl19
+eyJoaXN0b3J5IjpbLTIxMDgyMTU1ODUsNzUxNjczNDQ3LDEzMj
+k1Mzc0MjJdfQ==
 -->
