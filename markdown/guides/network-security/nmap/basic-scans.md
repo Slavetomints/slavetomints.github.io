@@ -77,8 +77,10 @@ Another point of interest is the device at `192.168.0.10`, which we know is a De
 
 So now that we've looked as some of the devices and identified them, what else can you find about this network?
 
-## Figuring out serviversions
+## Figuring out service versions
+
+So lets take a look at the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzY5MDgsMzM1NzU4MjQ3LDc1MTY3Mz
-Q0NywxMzI5NTM3NDIyXX0=
+eyJoaXN0b3J5IjpbLTE5MDE4MzcxODcsMzM1NzU4MjQ3LDc1MT
+Y3MzQ0NywxMzI5NTM3NDIyXX0=
 -->
