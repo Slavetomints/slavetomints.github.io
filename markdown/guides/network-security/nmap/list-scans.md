@@ -35,13 +35,8 @@ Nmap scan report for 192.168.0.254
 Nmap scan report for 192.168.0.255
 ```
 
-Sweet! But what if we want to scan both `192.168.0.0/24` and `192.168.2.0/24`? There's twoThat's pretty simple, all we need to do is list out both network in our command.
-
-```
-
-
-```
+Now, knowing that you're in scope, its time to hack!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTkwMjIwNywtMTQ1OTc5MzI2MywtND
-AxODkyMTc2LC0xNTQxNTMyNjA5XX0=
+eyJoaXN0b3J5IjpbNTY1Njc1NjU4LC0xNDU5NzkzMjYzLC00MD
+E4OTIxNzYsLTE1NDE1MzI2MDldfQ==
 -->
