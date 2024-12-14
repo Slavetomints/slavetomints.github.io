@@ -73,8 +73,10 @@ Nmap done: 256 IP addresses (7 hosts up) scanned in 12.34 seconds
 
 Wow! That's a lot of information! So we now need to figure out what is what. Some of it is pretty simple, such as `192.160.0.200`. We know from the MAC Address that it is an Apple device, probably an iPhone or an iPad. What else can we figure out from this scan?
 
-Another point of interest is the device at `192.168.0.10`, which we know is a Dell computer, but what else? Well, it's likely that its a Windows wor
+Another point of interest is the device at `192.168.0.10`, which we know is a Dell computer, but what else? Well, it's likely that its a Windows workstation due to the fact that FTP is up and running, and that port 139 is active, which is usually used for file sharing purposes for devices such as printers on a Windows machine. 
+
+So now that we've looked as some of the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTI1ODc4MCw3NTE2NzM0NDcsMTMyOT
-UzNzQyMl19
+eyJoaXN0b3J5IjpbNzQyNTU0NjA3LDc1MTY3MzQ0NywxMzI5NT
+M3NDIyXX0=
 -->
