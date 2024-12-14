@@ -8,9 +8,35 @@ The `--sL` flag stands for  List Scan, and all it does it list out the target th
 
 ```
 
-
+┌─[slavetomints@parrot]─[~]
+└──╼ $nmap -sL 192.168.0.0/24
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-12-14 15:47 CST
+Nmap scan report for 192.168.0.0
+Nmap scan report for 192.168.0.1
+Nmap scan report for 192.168.0.2
+Nmap scan report for 192.168.0.3
+Nmap scan report for 192.168.0.4
+Nmap scan report for 192.168.0.5
+Nmap scan report for 192.168.0.6
+Nmap scan report for 192.168.0.7
+Nmap scan report for 192.168.0.8
+Nmap scan report for 192.168.0.9
+Nmap scan report for 192.168.0.10
+Nmap scan report for 192.168.0.11
+Nmap scan report for 192.168.0.12
+--------<Cut for brevity>--------
+Nmap scan report for 192.168.0.248
+Nmap scan report for 192.168.0.249
+Nmap scan report for 192.168.0.250
+Nmap scan report for 192.168.0.251
+Nmap scan report for 192.168.0.252
+Nmap scan report for 192.168.0.253
+Nmap scan report for 192.168.0.254
+Nmap scan report for 192.168.0.255
 ```
+
+Sweet! But what if we want to scan both `192.168.0.0/24` and `1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDUzNzkxMiwtMTQ1OTc5MzI2MywtND
+eyJoaXN0b3J5IjpbLTI4MjY1NTkxNCwtMTQ1OTc5MzI2MywtND
 AxODkyMTc2LC0xNTQxNTMyNjA5XX0=
 -->
