@@ -4,7 +4,7 @@
 #### Beginner Guides
 
 -   ~~Introduction to John the Ripper: Overview and common use cases for password cracking.~~
--  ~~Installing John the Ripper: Installation and configuration on Linux, Windows, and macOS.~~
+-  Installing John the Ripper: Installation and configuration on Linux, Windows, and macOS.
 -   ~~First Steps: Running your first cracking session with John the Ripper.~~
 -   Understanding Hashes: Basics of password hashes and their importance in security.
 
@@ -38,5 +38,5 @@
 
 ----------
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzNjE5MDQzXX0=
+eyJoaXN0b3J5IjpbLTQyMzY4MDE1N119
 -->
