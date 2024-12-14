@@ -6,8 +6,8 @@
 -   ~~Introduction to Nmap: Overview of Nmap and its role in network security.~~
 -  ~~Installing Nmap: Step-by-step guide to installing Nmap on Linux, Windows,~~ and macOS.
 -   ~~List scans using `-sL`.~~
--   Basic Scanning: Performing simple scans to discover devices on a network.
--   Understanding Scan Outputs: Reading and interpreting results from Nmap scans.
+-   ~~Basic Scanning: Performing simple scans to discover devices on a network.~~
+-   ~~Understanding Scan Outputs: Reading and interpreting results from Nmap scans.~~
 
 #### Intermediate Guides
 
@@ -37,5 +37,5 @@
 -   Reducing Noise: Performing stealth scans to avoid detection.
 -   Custom Configurations: Tailoring Nmap to specific environments or use cases.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzMzODgwOV19
+eyJoaXN0b3J5IjpbMTE4NjQ2Mzk0M119
 -->
