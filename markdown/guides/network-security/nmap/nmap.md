@@ -1,7 +1,7 @@
 
 # Nmap
 
-Nmap is the well known network scanner that can serve a variety of functions, such as port scanning, identifying hosts, and ping scanning.
+Nmap is the well known network scanner that can serve a variety of functions, such as port scanning, identifying hosts, and ping scanning. Often when you are looking to 
   
 
 ```
@@ -21,5 +21,5 @@ PORT STATE SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 5.92 seconds
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTgxODg0MjZdfQ==
+eyJoaXN0b3J5IjpbLTE5Njc5MzU0NzNdfQ==
 -->
