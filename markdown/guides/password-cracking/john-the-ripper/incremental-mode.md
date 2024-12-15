@@ -7,14 +7,12 @@ For today's purposes we'll be using the following `hashes.txt` at first as our h
 
 ```
 
-joe:8627d2dde8a6c1c3fc06f2519b33ff62
-admin:913fe0708e469bd545866b2b9a203171
-supervisor1:cd64a7aaaafdf1926b21cc4c218b861f
-phil:78048e67122ec794d6d136c4e22fcc63
-billy:e61c631c5b30fc7aac63ddec56ad8329
-codebot:16151ca215795e8c71b3be21f8e14c2a
-production-server:6f46559d3bd87771fecf34cf917976dc
-ssh:681d8f483e7af51c8c7d43eb03b20067
+joe:913fe0708e469bd545866b2b9a203171
+admin:16151ca215795e8c71b3be21f8e14c2a
+supervisor:cd64a7aaaafdf1926b21cc4c218b861f
+phil:8627d2dde8a6c1c3fc06f2519b33ff62
+ssh:6ce591ab6eb1c2c639cbe88ab9a7de41
+production-server:068dae5b1c463aa491d64785a070cb5d
 ```
 
 So, the syntax of the command is extremely simply again, all we have to do is call `john --format=format --incremental hashes.txt`. For our purposes, the format is Raw MD5 for simplicity's sake.
@@ -45,5 +43,6 @@ John comes with the following character sets:
 
 In order to use one of these character sets with the `--incremental` mode, all you need to do is add `--`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1MjA3NzUsMjMyMjI0NjVdfQ==
+eyJoaXN0b3J5IjpbLTE1Mjg4NzM4MywzNzUyMDc3NSwyMzIyMj
+Q2NV19
 -->
