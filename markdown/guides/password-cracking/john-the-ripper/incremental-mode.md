@@ -18,6 +18,15 @@ ssh:681d8f483e7af51c8c7d43eb03b20067
 ```
 
 So, the syntax of the command is extremely simply again, all we have to do is call `john --format=format --incremental hashes.txt`. For our purposes, the format is Raw MD5 for simplicity's sake.
+
+```
+
+
+```
+
+Sweet! But that's not all you can do with the incremental mode. Let's cover some of its other features.
+
+## Custom character sets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY1MDAwODY4LDIzMjIyNDY1XX0=
+eyJoaXN0b3J5IjpbLTExODExNTMxNzYsMjMyMjI0NjVdfQ==
 -->
