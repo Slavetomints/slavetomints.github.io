@@ -32,7 +32,18 @@ By default, John will use the `ASCII` character set, which contains all of the 9
 
 John comes with the following character sets:
 
-"ASCII" (all 95 printable ASCII characters), "LM_ASCII" (for use on LM hashes), "Alnum" (all 62 alphanumeric characters), "Alpha" (all 52 letters), "LowerNum" (lowercase letters plus digits, for 36 total), "UpperNum" (uppercase letters plus digits, for 36 total), "LowerSpace" (lowercase letters plus space, for 27 total), "Lower" (lowercase letters), "Upper" (uppercase letters), and "Digits" (digits only)
+-   **`ASCII`**: All 95 printable ASCII characters
+-   **`LM_ASCII`**: For use on LM hashes (specific to certain legacy Windows hashes)
+-   **`Alnum`**: All 62 alphanumeric characters (uppercase + lowercase letters + digits)
+-   **`Alpha`**: All 52 letters (uppercase + lowercase letters)
+-   **`LowerNum`**: Lowercase letters plus digits (36 characters total)
+-   **`UpperNum`**: Uppercase letters plus digits (36 characters total)
+-   **`LowerSpace`**: Lowercase letters plus space (27 characters total)
+-   **`Lower`**: Lowercase letters only
+-   **`Upper`**: Uppercase letters only
+-   **`Digits`**: Digits only (0-9)
+
+In order to use one of these character sets with the `--incremental` mode, all you need to do is add `--`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjgwNTcyOCwyMzIyMjQ2NV19
+eyJoaXN0b3J5IjpbMzc1MjA3NzUsMjMyMjI0NjVdfQ==
 -->
