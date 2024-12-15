@@ -28,7 +28,7 @@ Sweet! But that's not all you can do with the incremental mode. Let's cover some
 
 ## Defining character sets
 
-By default, John will use the `ASCII` character set, which contains all of the 95 printable ASCII characters. This is quite a lot, meaning that just to find every 6 character password it will generate
+By default, John will use the `ASCII` character set, which contains all of the 95 printable ASCII characters. This is quite a lot, meaning that just to find every 6 character password it will generate 735 billion passwords. While a wordlist might make the process faster, a wordlist of that size would be about 4.8 Terabytes large. When 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0NDY1ODE4LDIzMjIyNDY1XX0=
+eyJoaXN0b3J5IjpbLTEyMjE5OTYxNjUsMjMyMjI0NjVdfQ==
 -->
