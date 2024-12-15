@@ -26,7 +26,9 @@ So, the syntax of the command is extremely simply again, all we have to do is ca
 
 Sweet! But that's not all you can do with the incremental mode. Let's cover some of its other features.
 
-## Custom character sets
+## Defining character sets
+
+By default, John will use the `ASCII` character set, which contains all of the 95 printable ASCII characters. This is quite a lot, meaning that just to find every 6 character password it will generate
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODExNTMxNzYsMjMyMjI0NjVdfQ==
+eyJoaXN0b3J5IjpbNzU0NDY1ODE4LDIzMjIyNDY1XX0=
 -->
