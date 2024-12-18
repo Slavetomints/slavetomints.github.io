@@ -39,6 +39,15 @@ b'd3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX2xoNjBsMDBpfQ=='
 ```
 
 Hm, it looks like its pretty obfuscated still. Let's get rid of those quotes and the leading "b", and try running it through base64 again.
+
+```
+
+┌─[slavetomints@parrot]─[~/training/picoCTF/cryptogtaphy/interencdec]
+└──╼ $echo "d3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX2xoNjBsMDBpfQ==" | base64 -d
+wpjvJAM{jhlzhy_k3jy9wa3k_lh60l00i}
+```
+
+Hey, I recognize that format! It looks like its been rotated, so lets try to bruteforce the rotation with a simple script.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxNjI1MzMxLC0yMDU2OTg2MTQ1XX0=
+eyJoaXN0b3J5IjpbLTM5NDk1NDgwNSwtMjA1Njk4NjE0NV19
 -->
