@@ -27,8 +27,17 @@ enc_flag
 ┌─[slavetomints@parrot]─[~]
 └──╼ $cat enc_flag 
 YidkM0JxZGtwQlRYdHFhR3g2YUhsZmF6TnFlVGwzWVROclgyeG9OakJzTURCcGZRPT0nCg==
+```
+
+Looks like some standard Base64 encoding, lets decode it and see what we get
+
+```
+
+┌─[slavetomints@parrot]─[~]
+└──╼ $echo "YidkM0JxZGtwQlRYdHFhR3g2YUhsZmF6TnFlVGwzWVROclgyeG9OakJzTURCcGZRPT0nCg==" | base64 -d
+b'd3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX2xoNjBsMDBpfQ=='
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY5ODYxNDVdfQ==
+eyJoaXN0b3J5IjpbLTEwMzQxNTIwNywtMjA1Njk4NjE0NV19
 -->
