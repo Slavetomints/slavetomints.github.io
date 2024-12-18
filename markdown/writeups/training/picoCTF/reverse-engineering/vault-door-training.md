@@ -42,11 +42,11 @@ Oh you poor poor minion. You're so screwed. Lets validate the code just to doubl
 
 ```
 
-┌─[slavetomints@parrot]─[~/training/picoCTF]
-└──╼ $ java 
+┌─[slavetomints@parrot]─[~]
+└──╼ $ java VaultDoorTraining.java
 Enter vault password: picoCTF{w4rm1ng_Up_w1tH_jAv4_3808d338b46}
 Access granted.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTU0MjI0LC0yMTM3Mjc5OTM1XX0=
+eyJoaXN0b3J5IjpbLTc1OTIzODUyLC0yMTM3Mjc5OTM1XX0=
 -->
