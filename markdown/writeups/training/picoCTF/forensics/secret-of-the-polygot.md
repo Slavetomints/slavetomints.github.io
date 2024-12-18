@@ -19,11 +19,11 @@ Hm, that's odd, let's `cp` it into a PNG file and render it
 
 Hm, odd. I wonder what happens if I try to load in the PDF?
 
-![theres the other half!](assets/image1.png)
+![there's the other half!](assets/image1.png)
 
 Huh, that was weird.
 
 FLAG: `picoCTF{f1u3n7_1n_pn9_&_pdf_249d05c0}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODA3Nzc2MV19
+eyJoaXN0b3J5IjpbLTUzNjc4MjA1MF19
 -->
