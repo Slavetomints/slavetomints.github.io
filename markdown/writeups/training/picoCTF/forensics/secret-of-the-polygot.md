@@ -23,7 +23,7 @@ Hm, odd. I wonder what happens if I try to load in the PDF?
 
 Huh, that was weird.
 
-FLAG: ``
+FLAG: `picoCTF{f1u3n7_1n_pn9_&_pdf_249d05c0}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjA1MjIzNjFdfQ==
+eyJoaXN0b3J5IjpbMTIxODA3Nzc2MV19
 -->
