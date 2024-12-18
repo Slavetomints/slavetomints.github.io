@@ -36,8 +36,9 @@ Looks like some standard Base64 encoding, lets decode it and see what we get
 ┌─[slavetomints@parrot]─[~]
 └──╼ $echo "YidkM0JxZGtwQlRYdHFhR3g2YUhsZmF6TnFlVGwzWVROclgyeG9OakJzTURCcGZRPT0nCg==" | base64 -d
 b'd3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX2xoNjBsMDBpfQ=='
-
 ```
+
+Hm, it looks like its pretty obfuscated still. Let's get rid of those quotes and the leading "b", and try running it through base64 again.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQxNTIwNywtMjA1Njk4NjE0NV19
+eyJoaXN0b3J5IjpbNDgxNjI1MzMxLC0yMDU2OTg2MTQ1XX0=
 -->
