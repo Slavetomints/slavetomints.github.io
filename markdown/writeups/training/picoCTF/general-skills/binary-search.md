@@ -64,9 +64,10 @@ Hm, this is troubling. We only have 10 guesses to guess a single number out of 1
 
 A binary search algorithm will split the "array" of values in half, and check if that middle number is greater than, less than, or equal to the value that it is looking for, and eliminate the half that it is greater than or equal to, and repeat the process. 
 
-This image from Wikipedia should help demonstrate:
+This GIF from Wikipedia should help demonstrate:
 
-![]https://upload.wikimedia.org/wikipedia/commons/c/c1/Binary-search-work.gif
+![](https://upload.wikimedia.org/wikipedia/commons/c/c1/Binary-search-work.gif)
+So lets apply it here, and reap the rewards!
 
 ```
 
@@ -94,7 +95,9 @@ Congratulations! You guessed the correct number: 638
 Here's your flag: picoCTF{g00d_gu355_1597707f}
 Connection to atlas.picoctf.net closed.
 ```
+
+FLAG: `picoCTF{g00d_gu355_1597707f}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDkxOTM5LC0xODU5NzQyMjQsLTcxOT
+eyJoaXN0b3J5IjpbNTQ4MDUwNDQ1LC0xODU5NzQyMjQsLTcxOT
 c4MDc0MCwtMjA1NzA4MDIwMV19
 -->
