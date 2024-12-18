@@ -377,7 +377,12 @@ files/zPynJW9E: ASCII text
 files/ztuBoBBF: ASCII text
 ```
 
-Hm, seems like `files/8
+Hm, seems like `files/8eee7195` is a little different, lets check the SHA-256 hashes of each file and check it against the checksum we were provided.
+
+```
+
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzQ1MDAzOV19
+eyJoaXN0b3J5IjpbLTY2NTc4NTIxNF19
 -->
