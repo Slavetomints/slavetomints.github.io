@@ -8,9 +8,16 @@ Challenge description:
 >
 > `ssh -p 63188 ctf-player@atlas.picoctf.net` Using the password `1db87a14`. Accept the fingerprint with `yes`, and `ls` once connected to begin. Remember, in a shell, passwords are hidden!
 
+Alright, lets download the zip and take a look at whats inside!
+
+## guessing_game.sh
+
+```bash
+
+
 ```
 
-
+```
 
 ┌─[slavetomints@parrot]─[~]
 └──╼ $ssh -p 63188 ctf-player@atlas.picoctf.net
@@ -37,5 +44,5 @@ Here's your flag: picoCTF{g00d_gu355_1597707f}
 Connection to atlas.picoctf.net closed.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5Nzc5NDcsLTIwNTcwODAyMDFdfQ==
+eyJoaXN0b3J5IjpbLTcxOTc4MDc0MCwtMjA1NzA4MDIwMV19
 -->
