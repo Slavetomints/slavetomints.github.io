@@ -14,7 +14,6 @@ Alright, lets download the zip and take a look at whats inside!
 
 ```bash
 
-
 #!/bin/bash
 
 # Generate a random number between 1 and 1000
@@ -61,6 +60,10 @@ echo "Sorry, you've exceeded the maximum number of guesses."
 exit 1  # Exit with error code to close the connection
 ```
 
+Hm, this is troubling. We only have 10 guesses to guess a single number out of 1000 possibilities. While it might seem impossible without extreme luck, there's actually a guaranteed way to do it.
+
+A binary search algorithm
+
 ```
 
 ┌─[slavetomints@parrot]─[~]
@@ -88,5 +91,6 @@ Here's your flag: picoCTF{g00d_gu355_1597707f}
 Connection to atlas.picoctf.net closed.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTc4MDc0MCwtMjA1NzA4MDIwMV19
+eyJoaXN0b3J5IjpbLTE4NTk3NDIyNCwtNzE5NzgwNzQwLC0yMD
+U3MDgwMjAxXX0=
 -->
