@@ -381,8 +381,21 @@ Hm, seems like `files/8eee7195` is a little different, lets check the SHA-256 ha
 
 ```
 
+ctf-player@pico-chall$ sha256sum files/* | grep "5848768e56185707f76c1d74f34f4e03fb0573ecc1ca7b11238007226654bcda"
+5848768e56185707f76c1d74f34f4e03fb0573ecc1ca7b11238007226654bcda  files/8eee7195
+```
+
+Seems like that same file showed up again! Let's try to decrypt it.
 
 ```
+
+ctf-player@pico-chall$ ./decrypt.sh files/8eee7195 
+picoCTF{trust_but_verify_8eee7195}
+```
+
+Bingo!
+
+FLAG: `picoCTF{trust_but_verify_8eee7195}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTc4NTIxNF19
+eyJoaXN0b3J5IjpbMTA3Njc0MjEwOV19
 -->
