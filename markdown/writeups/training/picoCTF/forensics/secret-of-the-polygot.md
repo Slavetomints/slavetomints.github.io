@@ -13,7 +13,17 @@ Alrighty! Lets first check the file type using the `file` command!
 flag2of2-final.pdf: PNG image data, 50 x 50, 8-bit/color RGBA, non-interlaced
 ```
 
-Hm, thats 
+Hm, that's odd, let's `cp` it into a PNG file and render it
+
+![that... half the flag](assets/image0.png)
+
+Hm, odd. I wonder what happens if I try to load in the PDF?
+
+![theres the other half!](assets/image1.png)
+
+Huh, that was weird.
+
+FLAG: ``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MDE1MTAxNl19
+eyJoaXN0b3J5IjpbLTE0MjA1MjIzNjFdfQ==
 -->
