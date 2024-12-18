@@ -1,5 +1,6 @@
 # Binary Search
 
+Challenge
 ```
 
 ┌─[slavetomints@parrot]─[~]
@@ -27,5 +28,5 @@ Here's your flag: picoCTF{g00d_gu355_1597707f}
 Connection to atlas.picoctf.net closed.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQwNTYyNF19
+eyJoaXN0b3J5IjpbNjAzNzk1MDddfQ==
 -->
