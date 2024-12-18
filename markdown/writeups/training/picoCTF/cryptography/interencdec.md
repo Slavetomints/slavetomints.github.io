@@ -48,6 +48,12 @@ wpjvJAM{jhlzhy_k3jy9wa3k_lh60l00i}
 ```
 
 Hey, I recognize that format! It looks like its been rotated, so lets try to bruteforce the rotation with a simple script.
+
+```ruby
+
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDk1NDgwNSwtMjA1Njk4NjE0NV19
+eyJoaXN0b3J5IjpbLTE4Nzc2MzUyOSwtMzk0OTU0ODA1LC0yMD
+U2OTg2MTQ1XX0=
 -->
