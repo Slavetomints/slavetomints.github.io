@@ -51,7 +51,25 @@ Hey, I recognize that format! It looks like its been rotated, so lets try to bru
 
 ```ruby
 
+encoded_variable = "wpjvJAM{jhlzhy_k3jy9wa3k_lh60l00i}"
+flag = ''
 
+(0..26).each do |num|
+  current_word = ''
+  encoded_variable.each_char do |char|
+    if char.match?(/[a-zA-Z]/)  # Check if the character is a letter
+      base = char.ord < 91 ? 'A'.ord : 'a'.ord  # Determine ASCII base (uppercase/lowercase)
+      current_word += ((char.ord - base + num) % 26 + base).chr
+    else
+      current_word += char  # Keep non-letter characters unchanged
+    end
+  end
+  puts "#{num} - #{current_word}"
+  current_word.start_with?("picoCTF") ? flag = current_word : next
+end
+
+puts "\n"
+puts "FLAG: #{flag}"
 ```
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE4Nzc2MzUyOSwtMzk0OTU0ODA1LC0yMD
