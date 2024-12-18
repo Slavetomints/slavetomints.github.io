@@ -62,7 +62,11 @@ exit 1  # Exit with error code to close the connection
 
 Hm, this is troubling. We only have 10 guesses to guess a single number out of 1000 possibilities. While it might seem impossible without extreme luck, there's actually a guaranteed way to do it.
 
-A binary search algorithm
+A binary search algorithm will split the "array" of values in half, and check if that middle number is greater than, less than, or equal to the value that it is looking for, and eliminate the half that it is greater than or equal to, and repeat the process. 
+
+This image from Wikipedia should help demonstrate:
+
+![]https://upload.wikimedia.org/wikipedia/commons/c/c1/Binary-search-work.gif
 
 ```
 
@@ -91,6 +95,6 @@ Here's your flag: picoCTF{g00d_gu355_1597707f}
 Connection to atlas.picoctf.net closed.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTk3NDIyNCwtNzE5NzgwNzQwLC0yMD
-U3MDgwMjAxXX0=
+eyJoaXN0b3J5IjpbMTM3NDkxOTM5LC0xODU5NzQyMjQsLTcxOT
+c4MDc0MCwtMjA1NzA4MDIwMV19
 -->
