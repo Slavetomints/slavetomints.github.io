@@ -38,5 +38,5 @@ class VaultDoorTraining {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDkwNjcyOV19
+eyJoaXN0b3J5IjpbLTIxMzcyNzk5MzVdfQ==
 -->
