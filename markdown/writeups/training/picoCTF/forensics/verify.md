@@ -30,15 +30,22 @@ file_name="$1"
 
 # Check if the provided argument is a file and not a folder
 if [ ! -f "/home/ctf-player/drop-in/$file_name" ]; then
-      echo "Error: '$file_name' is not a valid file. Look inside the 'files' folder with 'ls -R'!"
-            exit 1
-        fi
+  echo "Error: '$file_name' is not a valid file. Look inside the 'files' folder with 'ls -R'!"
+  exit 1
+fi
 
-        # If there's an error reading the file, print an error message
-        if ! openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -salt -in "/home/ctf-player/drop-in/$file_name" -k picoCTF; then
-            echo "Error: Failed to decrypt '$file_name'. This flag is fake! Keep looking!"
-        fi
+# If there's an error reading the file, print an error message
+if ! openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -salt -in "/home/ctf-player/drop-in/$file_name" -k picoCTF; then
+  echo "Error: Failed to decrypt '$file_name'. This flag is fake! Keep looking!"
+fi
+```
+
+Pretty simple it seems, looks like we cant call the entire `files/` directory, which makes this mildly harder, but lets see how many files there are in there.
+
+```
+
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDA4MDQ1M119
+eyJoaXN0b3J5IjpbLTU0NDM1MjA0NV19
 -->
