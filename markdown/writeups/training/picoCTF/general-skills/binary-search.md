@@ -10,6 +10,8 @@ Challenge description:
 
 ```
 
+
+
 ┌─[slavetomints@parrot]─[~]
 └──╼ $ssh -p 63188 ctf-player@atlas.picoctf.net
 ctf-player@atlas.picoctf.net's password: 
@@ -35,5 +37,5 @@ Here's your flag: picoCTF{g00d_gu355_1597707f}
 Connection to atlas.picoctf.net closed.
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTcwODAyMDFdfQ==
+eyJoaXN0b3J5IjpbNzQ5Nzc5NDcsLTIwNTcwODAyMDFdfQ==
 -->
