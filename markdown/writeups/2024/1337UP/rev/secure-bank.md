@@ -127,5 +127,7 @@ Alright! So the 2FA code is now right there, so lets go connect into the bank!
 
 ![money!](image3.png)
 
-
 FLAG: `INTIGRITI{pfff7_wh47_2f4?!}`
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTI3NTc3MDg5Ml19
+-->
