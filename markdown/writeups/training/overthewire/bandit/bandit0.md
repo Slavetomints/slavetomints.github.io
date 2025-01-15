@@ -33,7 +33,7 @@ readme
 
 ```
 
-Now, if you've never wondered what the `bandit0@bandit:~$` means on the command line, let's quickly look at that.
+Now before we check out that file, if you've never wondered what the `bandit0@bandit:~$` means on the command line, let's quickly look at that.
 
 The first part is the username for the active user, who in this case is `bandit0`. If you want to find out for yourself who the active user is, run the command `whoami` in the command line.
 
@@ -59,7 +59,24 @@ bandit0@bandit:~$
 ```
 
 Now, what does the `$` mean? It means that you are a user with normal user privileges. if you were the root user you'd likely see a `#` instead, indicating that you have elevated admin privileges.
+
+Okay! So now lets look at the file we found earlier!
+
+```
+
+bandit0@bandit:~$ cat readme 
+Congratulations on your first steps into the bandit game!!
+Please make sure you have read the rules at https://overthewire.org/rules/
+If you are following a course, workshop, walkthrough or other educational activity,
+please inform the instructor about the rules as well and encourage them to
+contribute to the OverTheWire community so we can keep these games free!
+
+The password you are looking for is: {hidden in accordance with game rules}
+
+```
+
+Remember to save that password, as we'll use it to log into the next level.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzg4ODYxOTYsNjQ5MzgzODcwLDEwMD
-Y2OTY2MjJdfQ==
+eyJoaXN0b3J5IjpbNjA1MzE3NDY0LDY0OTM4Mzg3MCwxMDA2Nj
+k2NjIyXX0=
 -->
