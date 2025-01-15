@@ -35,8 +35,11 @@ The way around it is to specify exactly what we want to `cat`. See the following
 
 ```
 
-
+bandit1@bandit:~$ cat ./-
+{hidden in accordance with game rules}
 ```
+
+What this does is it uses `.` to specify the current directory, and then the file named `-` in it. And that how we can get the password for the next level.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTgyOTc1MDJdfQ==
+eyJoaXN0b3J5IjpbLTE4Mzk3MDA5NDldfQ==
 -->
