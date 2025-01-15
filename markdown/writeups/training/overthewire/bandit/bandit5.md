@@ -7,8 +7,8 @@
 > -   1033 bytes in size
 > -   not executable
 
-
+Here is where we are going to show off the `find` command
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjI2NTI4ODAsLTE3NzI5ODQxNzZdfQ
-==
+eyJoaXN0b3J5IjpbNzM1NzI1OTAzLC0xNzIyNjUyODgwLC0xNz
+cyOTg0MTc2XX0=
 -->
