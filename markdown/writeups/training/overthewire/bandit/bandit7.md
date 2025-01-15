@@ -4,7 +4,7 @@
 > 
 > The password for the next level is stored in the file **data.txt** next to the word **millionth**
 
-So
+So, if we try to cat the file `data.txt` we notice that there are quite a few lines in it, and while we could read through until we find the word millionth it would take quite a while. So lets use the `grep` command 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzMTU1MjgxLC04NTM0NzIxNzZdfQ==
+eyJoaXN0b3J5IjpbOTAzMzM5MDE4LC04NTM0NzIxNzZdfQ==
 -->
