@@ -1,8 +1,11 @@
 # bandit4
 
 > ssh bandit4@bandit.labs.overthewire.org -p 2220
+> The password for the next level is stored in the only human-readable file in the **inhere** directory. Tip: if your terminal is messed up, try the “reset” command.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjU2NTI4XX0=
+eyJoaXN0b3J5IjpbMjA1ODM5MTkyOF19
 -->
