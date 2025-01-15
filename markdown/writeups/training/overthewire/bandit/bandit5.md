@@ -15,8 +15,15 @@ We know that the file needs to be human-readable and is exactly 1033 bytes in si
 
 bandit5@bandit:~$ find -readable -size 1033c
 ./maybehere07/.file2
-``
+```
+ And the password awaits us in that file!
+
+```
+
+bandit5@bandit:~$ cat ./inhere/maybehere07/.file2 
+{removed in accordance with game rules}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjkxMDk1OCw3MzU3MjU5MDMsLTE3Mj
+eyJoaXN0b3J5IjpbMTE0NzkwNTgxNCw3MzU3MjU5MDMsLTE3Mj
 I2NTI4ODAsLTE3NzI5ODQxNzZdfQ==
 -->
