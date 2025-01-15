@@ -1,8 +1,8 @@
-# bandit3
+# bandit7
 
-> ssh bandit3@bandit.labs.overthewire.org -p 2220
+> ssh bandit7@bandit.labs.overthewire.org -p 2220
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjQ3MTEyMF19
+eyJoaXN0b3J5IjpbLTg1MzQ3MjE3Nl19
 -->
