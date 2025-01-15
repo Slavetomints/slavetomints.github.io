@@ -19,8 +19,31 @@ Now, we're looking for the only human-readable file. While we could `cat` every 
 
 Now, remembering the lessons we learned earlier, if the file starts with '-' it is going to be interpreted as a flag, so instead lets prepend `./` to the file names. 
 
-Also, instead of just looking at each file one after another, lets 
+Also, instead of just looking at each file one after another, lets use the wildcard `*` to designate that I want to use every single file in the directory.
+
+```
+
+bandit4@bandit:~/inhere$ file ./*
+./-file00: data
+./-file01: data
+./-file02: data
+./-file03: data
+./-file04: data
+./-file05: data
+./-file06: data
+./-file07: ASCII text
+./-file08: data
+./-file09: data
+```
+
+Looks like `-file07` is the one we want.
+
+```
+
+bandit4@bandit:~/inhere$ cat ./-file07 
+{hidden in accordance with game rules}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzIxMTI1NSwtMTQ3OTIzNzYyMiwtMT
+eyJoaXN0b3J5IjpbMTQxMzUyNzMxMiwtMTQ3OTIzNzYyMiwtMT
 U5NzQ2ODMyMiwyMDU4MzkxOTI4XX0=
 -->
