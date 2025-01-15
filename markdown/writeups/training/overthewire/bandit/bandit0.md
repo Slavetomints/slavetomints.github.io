@@ -37,11 +37,18 @@ Now, if you've never wondered what the `bandit0@bandit:~$` means on the command 
 
 The first part is the username for the active user, who in this case is `bandit0`. If you want to find out for yourself who the active user is, run the command `whoami` in the command line.
 
-```
-bandit0@bandit:~$ whoami
-bandit0
+The next part, the `bandit` is the hostname of the machine. You can also find this out by running the aptly named command `hostname`.
 
 ```
+
+bandit0@bandit:~$ whoami
+bandit0
+bandit0@bandit:~$ hostname
+bandit
+
+```
+
+The "~", called a tilde, is your current location on the file syst
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTg0MjI0NjcsMTAwNjY5NjYyMl19
+eyJoaXN0b3J5IjpbMTc0NzM5MDU3NywxMDA2Njk2NjIyXX0=
 -->
