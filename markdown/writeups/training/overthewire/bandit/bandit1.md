@@ -29,7 +29,7 @@ Now, this one seems simple enough, actually it should be just as easy as the las
 bandit1@bandit:~$ cat -
       
 ```
-Huh, that's odd. What happened what tha
+Huh, that's odd. What happened is that `-` is used for a few different things in UNIX/UNIX-like systems,  to specify flags for a command `(ls -sa)`, as a replacement for standard input and output `(
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg4ODM2OTJdfQ==
+eyJoaXN0b3J5IjpbLTE1MzQzMTE4NjhdfQ==
 -->
