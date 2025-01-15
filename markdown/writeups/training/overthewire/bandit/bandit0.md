@@ -48,7 +48,17 @@ bandit
 
 ```
 
-The "~", called a tilde, is your current location on the file syst
+The "~", called a tilde, is your current location on the file system. The tilde means the users home directory. If you go to another user's home directory, you'll see the full path to it, but you only see the tilde if it is your own home directory.
+
+```
+
+bandit0@bandit:~$ cd /home/bandit1
+bandit0@bandit:/home/bandit1$ cd /home/bandit0
+bandit0@bandit:~$ 
+
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzM5MDU3NywxMDA2Njk2NjIyXX0=
+eyJoaXN0b3J5IjpbLTExNzIzMTI0MDgsMTAwNjY5NjYyMl19
 -->
