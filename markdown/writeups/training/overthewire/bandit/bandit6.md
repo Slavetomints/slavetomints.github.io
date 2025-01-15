@@ -11,15 +11,17 @@ Alrighty, this one seems like the last challenge but it is asking for some diffe
 
 With this search we are going to use the `-size`, `-group`, and `-user` flags to help refine what we're looking for. 
 
-We set the size to `-size 33c` as that only looks for files that are 33bytes in size, the `-group bandit6` and `-user bandit7` in accordance with the challenge description.
+We set the size to `-size 33c` as that only looks for files that are 33bytes in size, the `-group bandit6` and `-user bandit7` in following with the challenge description.
 
 ```
 
 bandit6@bandit:/$ find -user bandit7 -group bandit6 -size 33c 2>/dev/null
 ./var/lib/dpkg/info/bandit7.password
+bandit6@bandit:/$ cat /var/lib/dpkg/info/bandit7.password 
+{removed in accordance with game rules}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjE2NDQ0MywyODkwNjQ3OCw4MzQyNT
+eyJoaXN0b3J5IjpbLTI0ODcwMTc1NiwyODkwNjQ3OCw4MzQyNT
 U0NzJdfQ==
 -->
