@@ -8,7 +8,14 @@ Let's take a look at the server now.
 
 ```
 
+bandit4@bandit:~$ ls
+inhere
+bandit4@bandit:~$ cd inhere
+bandit4@bandit:~/inhere$ ls
+-file00  -file01  -file02  -file03  -file04  -file05  -file06  -file07  -file08  -file09
+```
 
+Now, we're looking for the only human-readable file. While we could `cat` every single file, we run the risk to breaking our terminal is we output binary data. So lets use the `file` command to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4MzUyNjQ1LDIwNTgzOTE5MjhdfQ==
+eyJoaXN0b3J5IjpbLTE1OTc0NjgzMjIsMjA1ODM5MTkyOF19
 -->
