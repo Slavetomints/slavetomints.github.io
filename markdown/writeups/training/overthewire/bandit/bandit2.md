@@ -16,7 +16,8 @@ cat: this: No such file or directory
 cat: filename: No such file or directory
 ```
 
-So there's two 
+So there's two ways we can do this, the first way is arguably easier and its through simply putting the filename in quotes. The other way involves using the escape character `\` in front of each space to signal that it is part of the string and not part of the command
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEwNjk0MDk1LDMxNjYyMTg3XX0=
+eyJoaXN0b3J5IjpbLTQ2MTU4Njk5NywzMTY2MjE4N119
 -->
