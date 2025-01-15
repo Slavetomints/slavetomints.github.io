@@ -14,7 +14,7 @@ bandit3@bandit:~/inhere$ ls
 bandit3@bandit:~/inhere$ 
 ```
 
-So let's talk a little bit about `ls`. 
+Hm, nothing, let's talk a little bit about `ls`. 
 
 ## ls
 `ls` is short for the word list, and it does just that. it lists all the files and directories in the specified directory. If no directory is given, then it uses the current one. By default, hidden files and directories (those with a period in front of them), do not show up as they are considered "hidden". The man page shows this for the `-a` flag
@@ -31,7 +31,17 @@ bandit3@bandit:~/inhere$ ls -a
 .  ..  ...Hiding-From-You
 ```
 
-The `.` and `..` are the current directory and the directory one level higher up respectively
+The `.` and `..` are the current directory and the directory one level higher up respectively, like how they would be used with `cd`. 
+
+Now that we know what the name of the file is, lets use cat to figure it out.\
+
+```
+
+bandit3@bandit:~/inhere$ cat ...Hiding-From-You 
+{hidden in accordance with game rules}
+```
+
+Bingo!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjgzNzcxM119
+eyJoaXN0b3J5IjpbMTQwMTM4MDE2M119
 -->
