@@ -58,7 +58,7 @@ bandit0@bandit:~$
 
 ```
 
-
+Now, what does the `$` mean? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzIzMTI0MDgsMTAwNjY5NjYyMl19
+eyJoaXN0b3J5IjpbNjQ5MzgzODcwLDEwMDY2OTY2MjJdfQ==
 -->
