@@ -19,8 +19,8 @@ Now, we're looking for the only human-readable file. While we could `cat` every 
 
 Now, remembering the lessons we learned earlier, if the file starts with '-' it is going to be interpreted as a flag, so instead lets prepend `./` to the file names. 
 
-Also, instead of just looking at each 
+Also, instead of just looking at each file one after another, lets 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzkyMzc2MjIsLTE1OTc0NjgzMjIsMj
-A1ODM5MTkyOF19
+eyJoaXN0b3J5IjpbMTc0MzIxMTI1NSwtMTQ3OTIzNzYyMiwtMT
+U5NzQ2ODMyMiwyMDU4MzkxOTI4XX0=
 -->
