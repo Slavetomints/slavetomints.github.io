@@ -22,8 +22,18 @@ The syntax for `ssh` is `ssh user@host -p port`. When it asks to continue connec
 
 bandit0@bandit.labs.overthewire.org's password: 
 
+```
+
+Great! Welcome to the server! Let's take a look around and see what we can find here.
 
 ```
+
+bandit0@bandit:~$ ls
+readme
+
+```
+
+Now, if you've never 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2Nzk2MjY3LDEwMDY2OTY2MjJdfQ==
+eyJoaXN0b3J5IjpbLTMyMTQ2NDQ5NCwxMDA2Njk2NjIyXX0=
 -->
