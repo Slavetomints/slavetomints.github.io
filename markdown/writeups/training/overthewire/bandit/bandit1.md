@@ -29,6 +29,7 @@ Now, this one seems simple enough, actually it should be just as easy as the las
 bandit1@bandit:~$ cat -
       
 ```
+Huh, that's odd. What happened what tha
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzIwNjE3MV19
+eyJoaXN0b3J5IjpbLTEzNjg4ODM2OTJdfQ==
 -->
