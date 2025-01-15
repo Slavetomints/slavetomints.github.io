@@ -58,7 +58,8 @@ bandit0@bandit:~$
 
 ```
 
-Now, what does the `$` mean? 
+Now, what does the `$` mean? It means that you are a user with normal user privileges. if you were the root user you'd likely see a `#` instead, indicating that you have elevated admin privileges.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5MzgzODcwLDEwMDY2OTY2MjJdfQ==
+eyJoaXN0b3J5IjpbLTE3Mzg4ODYxOTYsNjQ5MzgzODcwLDEwMD
+Y2OTY2MjJdfQ==
 -->
