@@ -33,7 +33,15 @@ readme
 
 ```
 
-Now, if you've never 
+Now, if you've never wondered what the `bandit0@bandit:~$` means on the command line, let's quickly look at that.
+
+The first part is the username for the active user, who in this case is `bandit0`. If you want to find out for yourself who the active user is, run the command `whoami` in the command line.
+
+```
+bandit0@bandit:~$ whoami
+bandit0
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTQ2NDQ5NCwxMDA2Njk2NjIyXX0=
+eyJoaXN0b3J5IjpbLTExOTg0MjI0NjcsMTAwNjY5NjYyMl19
 -->
