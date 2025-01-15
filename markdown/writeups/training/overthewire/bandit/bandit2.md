@@ -16,8 +16,17 @@ cat: this: No such file or directory
 cat: filename: No such file or directory
 ```
 
-So there's two ways we can do this, the first way is arguably easier and its through simply putting the filename in quotes. The other way involves using the escape character `\` in front of each space to signal that it is part of the string and not part of the command
+So there's two ways we can do this, the first way is arguably easier and its through simply putting the filename in quotes. The other way involves using the escape character `\` in front of each space to signal that it is part of the string and not part of the command .\
 
+```
+
+bandit2@bandit:~$ cat 'spaces in this filename' 
+{hidden in accordance with game rules}
+bandit2@bandit:~$ cat spaces\ in\ this\ filename 
+{hidden in accordance with game rules}
+```
+
+Now using that password, lets go check out bandit3!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTU4Njk5NywzMTY2MjE4N119
+eyJoaXN0b3J5IjpbLTE1NzYyMDk4MjUsMzE2NjIxODddfQ==
 -->
