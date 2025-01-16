@@ -58,7 +58,14 @@ bzip2: Can't guess original name for compressed -- using compressed.out
 ## tar
 
 `tar` is another fun one. To decompress with `tar` we want to use the `-xvf` flags, where those mean the following: 
+| Flag | Definition |
+|:--:|:--:|
+| x | |
+| v | |
+| f | |
+
+# You need to change the directories oki?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ1NTcyNTMsLTEzOTk0MDcxNzUsMT
-g3NDk3MjczOSwtMTM3MDEwNTMyMCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNTAwMDM5MDQzLC0xMzk5NDA3MTc1LDE4Nz
+Q5NzI3MzksLTEzNzAxMDUzMjAsLTIwODg3NDY2MTJdfQ==
 -->
