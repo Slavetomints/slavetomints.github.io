@@ -12,7 +12,7 @@ bandit10@bandit:~$ cat data.txt
 VGhlIHBhc3N3b3JkIGlzIGR0UjE3M2ZaS2IwUlJzREZTR3NnMlJXbnBOVmozcVJyCg==
 ```
 
-The 
+The biggest tell that this is base64 encoded data is the trailing equal signs, which base64 encoding uses to get the string to a standard size if it is too short. To decode this we'll need to introduce 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjY1MzUyMjAsLTM3MzYzMTc1NF19
+eyJoaXN0b3J5IjpbNzE4NTQ2MTY5LC0zNzM2MzE3NTRdfQ==
 -->
