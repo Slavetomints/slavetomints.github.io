@@ -32,7 +32,9 @@ DESCRIPTION
        -d, --decode
               decode data
 ```
+*Taken from the man page for base64*
 
+This is all we're going to need
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA0ODczMTcsLTM3MzYzMTc1NF19
+eyJoaXN0b3J5IjpbLTEwMDI1MjkwMiwtMzczNjMxNzU0XX0=
 -->
