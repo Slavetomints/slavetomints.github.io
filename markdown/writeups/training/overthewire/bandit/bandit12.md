@@ -37,13 +37,21 @@ Let's take a look at those compression protocols.
 
 ## gzip
 
-`gzip` is going to be our troublemaker today, as it wont decompress unless it has the `.gz` file extention. T^o change a file's extensuions you can use `mv` to change the name to something new, and then use `gzip -d` where the flag d is for decompress to decompressing your file
+`gzip` is going to be our troublemaker today, as it wont decompress unless it has the `.gz` file extension. To change a file's extension you can use `mv` to change the name to something new, and then use `gzip -d` where the flag d is for decompress to decompressing your file
+
+```
+
+bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ mv compressed.txt compressed.gz
+bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ gzip -d compressed.gz 
+```
 
 ## bzip2
+
+`bzip2` is similar to `gzip` in which it wants you to select the file format, but its not going to be picky about it and will work without it. You decompredd the same was as 
 
 ## tar
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODk1NzExNywtMTM5OTQwNzE3NSwxOD
+eyJoaXN0b3J5IjpbLTEwODAwOTM4NywtMTM5OTQwNzE3NSwxOD
 c0OTcyNzM5LC0xMzcwMTA1MzIwLC0yMDg4NzQ2NjEyXX0=
 -->
