@@ -34,7 +34,13 @@ DESCRIPTION
 ```
 *Taken from the man page for base64*
 
-This is all we're going to need in order to solve this level. Using `base64` with the flag `-d` for decode we can figure out what the 
+This is all we're going to need in order to solve this level. Using `base64` with the flag `-d` for decode we can figure out what the password is.
+
+```
+
+bandit10@bandit:~$ base64 -d data.txt 
+The password is {removed in accordance with game rules}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NjQ2NzYwMCwtMzczNjMxNzU0XX0=
+eyJoaXN0b3J5IjpbODU3NDMxOTIzLC0zNzM2MzE3NTRdfQ==
 -->
