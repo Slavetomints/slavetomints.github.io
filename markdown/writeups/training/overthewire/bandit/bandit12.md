@@ -6,9 +6,17 @@
 
 This level is a little bit different. I am going to walk you through how to decompress the three different file types and how to get started on the challenge and then show you the full output from my terminal.
 
-Firstly though we need to move the file to a place where we can make edits to the file, so we'll to the work in `/tmp` which is for temporary file storage and is cleared when the computer shuts down. We'll use `mktemp -d` so it makes a random directory in `/tmp` so other people can't mess with our stuff.
+Firstly though we need to move the file to a place where we can make edits to the file, so we'll to the work in `/tmp` which is for temporary file storage and is cleared when the computer shuts down. We'll use `mktemp -d` so it makes a random directory in `/tmp` so other people can't mess with our stuff. And then finally copy over the file with the `cp` command.
 
+```rus
+
+bandit12@bandit:~$ mktemp -d
+/tmp/tmp.dVNGKtAhrL
+bandit12@bandit:~$ cd /tmp/tmp.dVNGKtAhrL
+bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ cp /home/bandit12/data.txt data.txt
+bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ ls
+data.txt
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzQ4MDU1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMjE1MTc3NTYwLC0yMDg4NzQ2NjEyXX0=
 -->
