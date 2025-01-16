@@ -18,8 +18,8 @@ bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ ls
 data.txt
 ```
 
-Now, before we do any decompressing, we need to make the file out of the hexdump. We're going to use 
+Now, before we do any decompressing, we need to make the file out of the hexdump. We're going to use `xxd` to reverse the process with the handy dandy `-r` flag, which stands for reverse. We'll send that into a new fi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAxMDUzMjAsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTE5NjYyNTA3MTQsLTEzNzAxMDUzMjAsLT
+IwODg3NDY2MTJdfQ==
 -->
