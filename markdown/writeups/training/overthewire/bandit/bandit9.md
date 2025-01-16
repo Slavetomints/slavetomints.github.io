@@ -12,7 +12,7 @@ bandit9@bandit:~$ file data.txt
 data.txt: data
 ```
 
-Okay, since this isn't an ASXCI
+Okay, since this isn't an ASCII text file, we'll need to use something other than `cat` to work it out. While we could use `cat` we run the risk of it breaking out terminal since we're outputting binary data through standard output. Instead, we'll use strings to
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTY0ODQxNDQsODI4Nzg4MDJdfQ==
+eyJoaXN0b3J5IjpbLTIwODk5NzIyOTAsODI4Nzg4MDJdfQ==
 -->
