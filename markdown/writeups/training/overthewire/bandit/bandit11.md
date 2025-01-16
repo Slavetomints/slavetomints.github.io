@@ -14,7 +14,13 @@ For this funky challenge we are going to make use of `tr`, which stands for tran
 | N-Z | A-M |
 
 So lets now try our command with the data in `data.txt`
+
+```
+
+bandit11@bandit:~$ cat data.txt | tr 'a-mn-zA-MN-Z' 'n-za-mN-ZA-M'
+The password is {removed in accordance with game rules}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU5NjU3NSwtMjA3NzE2NDQ5NSwtMj
+eyJoaXN0b3J5IjpbLTc0NTM2MTUyNiwtMjA3NzE2NDQ5NSwtMj
 A4ODc0NjYxMl19
 -->
