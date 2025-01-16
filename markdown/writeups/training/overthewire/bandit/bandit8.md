@@ -4,8 +4,9 @@
 >
 > The password for the next level is stored in the file **data.txt** and is the only line of text that occurs only once
 
-Similar to the last level, this level utilizes the file
+Similar to the last level, this level utilizes the file `data.txt` however 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ1NDAyNjYsMTc1Mzc2NzQ3Ml19
+eyJoaXN0b3J5IjpbOTM2ODYyNjQ4LC0xODE0NTQwMjY2LDE3NT
+M3Njc0NzJdfQ==
 -->
