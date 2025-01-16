@@ -12,7 +12,9 @@ For this funky challenge we are going to make use of `tr`, which stands for tran
 | n-z | a-m |
 | A-M | N-Z |
 | N-Z | A-M |
+
+So lets now try our command with the data in `data.txt`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzcxNjQ0OTUsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTEwMDU5NjU3NSwtMjA3NzE2NDQ5NSwtMj
+A4ODc0NjYxMl19
 -->
