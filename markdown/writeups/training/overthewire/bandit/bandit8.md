@@ -8,9 +8,10 @@ Similar to the last level, this level utilizes the file `data.txt` however this 
 
 The first idea you might have is to use the command `cat data.txt | uniq -u`, but this will not work as it sees every line as its own unique line. What we need to do first is sort them so that `uniq` can properly work it out. 
 
-The `sort` command does exactly that, it sorts the content so that all like lines are in next to each other. So we can then pipe that into the 
+The `sort` command does exactly that, it sorts the content so that all like lines are in next to each other. So we can then pipe that into the `uniq` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODAxNzU0NTIsLTEyNzQxMTMwMTMsLT
-U5NTU4NTYyOCwtMTgxNDU0MDI2NiwxNzUzNzY3NDcyXX0=
+eyJoaXN0b3J5IjpbLTE2NzYxNTIyNDUsLTE4ODAxNzU0NTIsLT
+EyNzQxMTMwMTMsLTU5NTU4NTYyOCwtMTgxNDU0MDI2NiwxNzUz
+NzY3NDcyXX0=
 -->
