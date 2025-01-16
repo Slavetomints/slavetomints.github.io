@@ -11,6 +11,8 @@ Alrighty, so we know that the file contains base64 encoded data, so lets verify 
 bandit10@bandit:~$ cat data.txt 
 VGhlIHBhc3N3b3JkIGlzIGR0UjE3M2ZaS2IwUlJzREZTR3NnMlJXbnBOVmozcVJyCg==
 ```
+
+The 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjUzNjEyODEsLTM3MzYzMTc1NF19
+eyJoaXN0b3J5IjpbLTEwNjY1MzUyMjAsLTM3MzYzMTc1NF19
 -->
