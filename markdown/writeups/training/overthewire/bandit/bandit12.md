@@ -18,8 +18,13 @@ bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ ls
 data.txt
 ```
 
-Now, before we do any decompressing, we need to make the file out of the hexdump. We're going to use `xxd` to reverse the process with the handy dandy `-r` flag, which stands for reverse. We'll send that into a new fi
+Now, before we do any decompressing, we need to make the file out of the hexdump. We're going to use `xxd` to reverse the process with the handy dandy `-r` flag, which stands for reverse. We'll send that into a new file named `compressed.txt` and we're off to the races.
+
+```
+
+bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ xxd -r data.txt > compressed.txt
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjYyNTA3MTQsLTEzNzAxMDUzMjAsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTg3NDk3MjczOSwtMTM3MDEwNTMyMCwtMj
+A4ODc0NjYxMl19
 -->
