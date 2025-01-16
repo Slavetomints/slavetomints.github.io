@@ -24,7 +24,9 @@ Now, before we do any decompressing, we need to make the file out of the hexdump
 
 bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ xxd -r data.txt > compressed.txt
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDk3MjczOSwtMTM3MDEwNTMyMCwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE2OTE2NjQ0ODEsMTg3NDk3MjczOSwtMT
+M3MDEwNTMyMCwtMjA4ODc0NjYxMl19
 -->
