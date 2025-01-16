@@ -25,8 +25,23 @@ Now, before we do any decompressing, we need to make the file out of the hexdump
 bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ xxd -r data.txt > compressed.txt
 ```
 
+In order to figure out the type of file that we're dealing with, we need to use `file` to discover it.
+
+```
+
+bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ file compressed.txt 
+compressed.txt: gzip compressed data, was "data2.bin", last modified: Thu Sep 19 07:08:15 2024, max compression, from Unix, original size modulo 2^32 574
+```
+
+Let's take a look at those compression protocols.
+
+## gzip
+
+## bzip2
+
+## tar
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE2NjQ0ODEsMTg3NDk3MjczOSwtMT
+eyJoaXN0b3J5IjpbLTEzOTk0MDcxNzUsMTg3NDk3MjczOSwtMT
 M3MDEwNTMyMCwtMjA4ODc0NjYxMl19
 -->
