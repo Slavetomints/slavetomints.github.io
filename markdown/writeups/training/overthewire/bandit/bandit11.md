@@ -7,8 +7,12 @@
 For this funky challenge we are going to make use of `tr`, which stands for translate, and use it to translate the content of the file. The first thing we'll need to do is define the character set we're using, which is going to look like `a-zA-Z`, aka all alphabetic characters lowercase and uppercase, and then define what we are going to translate that to, which is going to look like `n-za-mN-ZA-M`. This second part is a bit more tricky to figure out, but we can rewrite the first set to look like `a-mn-zA-MN-Z` and it makes a bit more sense. I'll put it in a table so we can understand it a little better.
 
 | Original Set | Translated Set |
-|---------------|---------------|
-| a-z |
+|:---------------:|:---------------:|
+| a-m | n-z |
+| n-z | a-m |
+| A-M | N-Z |
+| N-Z | A-M |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg2NTE0OSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTIwNzcxNjQ0OTUsLTIwODg3NDY2MTJdfQ
+==
 -->
