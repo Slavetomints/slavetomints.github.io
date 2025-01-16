@@ -47,11 +47,18 @@ bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ gzip -d compressed.gz
 
 ## bzip2
 
-`bzip2` is similar to `gzip` in which it wants you to select the file format, but its not going to be picky about it and will work without it. You decompredd the same was as 
+`bzip2` is similar to `gzip` in which it wants you to select the file format, but its not going to be picky about it and will work without it. You decompress the same was as `gzip` such as `bzip2 -d`
+
+```
+
+bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ bzip2 -d compressed
+bzip2: Can't guess original name for compressed -- using compressed.out
+```
 
 ## tar
 
+`tar` is another fun one. To decompress with `tar` we want to use the `-xvf` flags, where those mean the following: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODAwOTM4NywtMTM5OTQwNzE3NSwxOD
-c0OTcyNzM5LC0xMzcwMTA1MzIwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE4NzQ1NTcyNTMsLTEzOTk0MDcxNzUsMT
+g3NDk3MjczOSwtMTM3MDEwNTMyMCwtMjA4ODc0NjYxMl19
 -->
