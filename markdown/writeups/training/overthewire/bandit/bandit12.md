@@ -37,11 +37,13 @@ Let's take a look at those compression protocols.
 
 ## gzip
 
+`gzip` is going to be our troublemaker today, as it wont decompress unless it has the `.gz` file extention. T^o change a file's extensuions you can use `mv` to change the name to something new, and then use `gzip -d` where the flag d is for decompress to decompressing your file
+
 ## bzip2
 
 ## tar
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTk0MDcxNzUsMTg3NDk3MjczOSwtMT
-M3MDEwNTMyMCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjExODk1NzExNywtMTM5OTQwNzE3NSwxOD
+c0OTcyNzM5LC0xMzcwMTA1MzIwLC0yMDg4NzQ2NjEyXX0=
 -->
