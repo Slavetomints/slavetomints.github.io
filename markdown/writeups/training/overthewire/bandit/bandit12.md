@@ -60,10 +60,21 @@ bzip2: Can't guess original name for compressed -- using compressed.out
 `tar` is another fun one. To decompress with `tar` we want to use the `-xvf` flags, where those mean the following: 
 | Flag | Definition |
 |:--:|:--:|
-| x | |
+| x | extract files from an archive |
 | v | verbosely list files processed |
-| f | |
+| f | use archive file or device ARCHIVE |
 
+For example:
+
+```
+
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ file compressed 
+compressed: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ tar -xvf compressed
+data5.bin
+```
+
+## Putting it together
 ```
 
 bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ file compressed.txt 
@@ -102,7 +113,7 @@ bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ cat data8
 The password is {removed in accordance with game rules}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzA5MDc3MSwtMTg2MjM5Njk4OSw1MD
-AwMzkwNDMsLTEzOTk0MDcxNzUsMTg3NDk3MjczOSwtMTM3MDEw
-NTMyMCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE1ODE1MDQyMzcsLTE4NjIzOTY5ODksNT
+AwMDM5MDQzLC0xMzk5NDA3MTc1LDE4NzQ5NzI3MzksLTEzNzAx
+MDUzMjAsLTIwODg3NDY2MTJdfQ==
 -->
