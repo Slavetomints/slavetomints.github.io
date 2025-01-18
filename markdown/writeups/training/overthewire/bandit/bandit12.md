@@ -42,7 +42,7 @@ Let's take a look at those compression protocols.
 ```
 
 bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ mv compressed.txt compressed.gz
-bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ gzip -d compressed.gz 
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ gzip -d compressed.gz 
 ```
 
 ## bzip2
@@ -51,7 +51,7 @@ bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ gzip -d compressed.gz
 
 ```
 
-bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ bzip2 -d compressed
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ bzip2 -d compressed
 bzip2: Can't guess original name for compressed -- using compressed.out
 ```
 
@@ -66,7 +66,7 @@ bzip2: Can't guess original name for compressed -- using compressed.out
 
 # You need to change the directories oki?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODE1MTg2OSw1MDAwMzkwNDMsLTEzOT
-k0MDcxNzUsMTg3NDk3MjczOSwtMTM3MDEwNTMyMCwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbLTE4NjIzOTY5ODksNTAwMDM5MDQzLC0xMz
+k5NDA3MTc1LDE4NzQ5NzI3MzksLTEzNzAxMDUzMjAsLTIwODg3
+NDY2MTJdfQ==
 -->
