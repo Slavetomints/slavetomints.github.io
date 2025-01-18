@@ -66,8 +66,16 @@ Load key "sshkey.private": bad permissions
 bandit14@bandit.labs.overthewire.org's password: 
 ```
 
-Uh oh, looks like 
+Uh oh, looks like our key is too open with its permissions, so we cant use it. Lets take a look at the permissions for the file.
+
+```
+
+┌─[slavetomints@parrot]─[~]
+└──╼ $ls -lsa sshkey.private 
+4 -rw-r--r-- 1 slavetomints slavetomints 1679 Jan 18 01:01 sshkey.private
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzQxNjM1MCwxOTAwNDIwNzU2LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE1OTM1MDIwMDQsMTkwMDQyMDc1NiwtMj
+A4ODc0NjYxMl19
 -->
