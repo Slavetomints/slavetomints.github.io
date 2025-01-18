@@ -40,8 +40,34 @@ ChAllEnGEThIsNoTtHeAcTuAlKeyFrOmThEChAllEnGE
 -----END RSA PRIVATE KEY-----
 ```
 
-Alrighty, lets copy it onto a file on our machine and give it the same name. And in order to use in with `ssh`, we'll need to specify `-i sshkey.private`
+Alrighty, lets copy it onto a file on our machine and give it the same name. And in order to use in with `ssh`, we'll need to specify `-i sshkey.private`, where the `-i` signifies out the identity file as the one associated to the private key.
+
+```
+
+┌─[slavetomints@parrot]─[~]
+└──╼ $ssh bandit14@bandit.labs.overthewire.org -p 2220 -i sshkey.private 
+                         _                     _ _ _   
+                        | |__   __ _ _ __   __| (_) |_ 
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_ 
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+                                                       
+
+                      This is an OverTheWire game server. 
+            More information on http://www.overthewire.org/wargames
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0644 for 'sshkey.private' are too open.
+It is required that your private key files are NOT accessible by others.
+This private key will be ignored.
+Load key "sshkey.private": bad permissions
+bandit14@bandit.labs.overthewire.org's password: 
+```
+
+Uh oh, looks like 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDQwNDkwMywxOTAwNDIwNzU2LC0yMD
+eyJoaXN0b3J5IjpbLTM5NzQxNjM1MCwxOTAwNDIwNzU2LC0yMD
 g4NzQ2NjEyXX0=
 -->
