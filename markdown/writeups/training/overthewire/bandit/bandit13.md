@@ -75,10 +75,8 @@ Uh oh, looks like our key is too open with its permissions, so we cant use it. L
 4 -rw-r--r-- 1 slavetomints slavetomints 1679 Jan 18 01:01 sshkey.private
 ```
  
- So, when it comes to file permissons in linux, we need to look at the `-rw-r--r--` section. You can think of this as three seperate parts more alike the following:
-| Permissions | Scope |
-| -------- | -
+ So, when it comes to file permissons in linux, we need to look at the `-rw-r--r--` section. The firs three parts, that is the `rw-` has to do with the owner of the file. This signifies that they can read and write to the file, but there is a dash where the x should be, so they can not execute the file. Next 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4OTUyNjg2LC0xNTkzNTAyMDA0LDE5MD
-A0MjA3NTYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIyNTYxNTA0MiwtMTU5MzUwMjAwNCwxOT
+AwNDIwNzU2LC0yMDg4NzQ2NjEyXX0=
 -->
