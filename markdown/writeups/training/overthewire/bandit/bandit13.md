@@ -87,8 +87,14 @@ So now we need to make it so only we can read it and we'll use `chmod` to do so.
 
 So lets say we have a file where we want the owner to be able to read, write and execute the file, the group to be able to read and execute the file, and everyone to read the file. What we would to is add the numbers for each group in order to select the correct permissions.
 
-Owner: `
+Owner: `read(4) + write(2) + execute(1) = 7`
+
+Group: `read(4) + execute(1) = 5`
+
+Everybody: `read(4) = 4`
+
+Those permissions would be represented as the number `754` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTE3OTI3LC0xNTkzNTAyMDA0LDE5MD
+eyJoaXN0b3J5IjpbMTIxMzA5ODI4LC0xNTkzNTAyMDA0LDE5MD
 A0MjA3NTYsLTIwODg3NDY2MTJdfQ==
 -->
