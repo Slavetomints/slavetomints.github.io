@@ -40,8 +40,8 @@ ChAllEnGEThIsNoTtHeAcTuAlKeyFrOmThEChAllEnGE
 -----END RSA PRIVATE KEY-----
 ```
 
-Alrighty, lets copy it onto a file on our machine and give i
+Alrighty, lets copy it onto a file on our machine and give it the same name. And in order to use in with `ssh`, we'll need to specify `-i sshkey.private`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTk1NzA3OTUsMTkwMDQyMDc1NiwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTMyMDQwNDkwMywxOTAwNDIwNzU2LC0yMD
+g4NzQ2NjEyXX0=
 -->
