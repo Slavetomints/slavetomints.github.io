@@ -146,7 +146,9 @@ Welcome to OverTheWire!
 
 bandit14@bandit:~$ 
 ```
+
+No password for this challenge, we'll see it in the next challenge
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzU3MjY1MywtMTU5MzUwMjAwNCwxOT
-AwNDIwNzU2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMzI1OTIwNjk2LDE2ODM1NzI2NTMsLTE1OT
+M1MDIwMDQsMTkwMDQyMDc1NiwtMjA4ODc0NjYxMl19
 -->
