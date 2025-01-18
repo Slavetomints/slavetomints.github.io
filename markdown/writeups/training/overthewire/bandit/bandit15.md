@@ -20,7 +20,20 @@ It doesnt mention SSL anywhere in that snippet, and that is because SSL was depr
 However, it will still work for the purposes of today's challenge. We are going to be using the `s_client -connect` command with `openssl`, which opens a standard SSL/TLS client with the specified host and port. And since all we need to do is We are going to be connecting to localhost on port 30001, so our full command will look like `openssl s_client -connect localhost:30001`. And once we have the connection open, we'll just paste in the password for bandit15.
 
 ```
+
+bandit15@bandit:~$ openssl s_client -connect localhost:30001
+CONNECTED(00000003)
+
+---cut for brevity---
+
+read R BLOCK
+{removed in accordance with game rules}
+Correct!
+{removed in accordance with game rules}
+
+closed
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzY1MjI2OSwtMjExMDY3ODg3Miw4OT
+eyJoaXN0b3J5IjpbMjA0Mzk2Mjg3OSwtMjExMDY3ODg3Miw4OT
 U3ODYxMjgsLTIwODg3NDY2MTJdfQ==
 -->
