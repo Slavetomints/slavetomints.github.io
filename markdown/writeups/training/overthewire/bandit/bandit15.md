@@ -17,8 +17,8 @@ It doesnt mention SSL anywhere in that snippet, and that is because SSL was depr
    Layer Security (TLS) 1.2 ([RFC 5246](https://datatracker.ietf.org/doc/html/rfc5246)), are considerably more secure and
    capable protocols.
 
-However, it will still work for the purposes of today's challenge. We are going to be using the `s_client` command with `openssl`, which opens a standard SSL/TLS client with the specified host and port. We are going to be connecting to localhost on port 30001, so our full command will look like `openssl s_client -connect localhost:30001
+However, it will still work for the purposes of today's challenge. We are going to be using the `s_client -connect` command with `openssl`, which opens a standard SSL/TLS client with the specified host and port. And since all we need to do is We are going to be connecting to localhost on port 30001, so our full command will look like `openssl s_client -connect localhost:30001`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTIxMDUzNywtMjExMDY3ODg3Miw4OT
-U3ODYxMjgsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbODc3NDI2NzA0LC0yMTEwNjc4ODcyLDg5NT
+c4NjEyOCwtMjA4ODc0NjYxMl19
 -->
