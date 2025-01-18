@@ -12,8 +12,8 @@ bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
 {removed in accordance with game rules}
 ```
 
-For this challenge, its asking us to submit the password to port `30000` on `localhost`, which is out own machine, aka `127.0.0.1`. We can open this connecting with Netcat, which is, according to the GNU Netcat project, "a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol." All we need to know for now is that the syntax for netcat is `nc ip_address -p port`
+For this challenge, its asking us to submit the password to port `30000` on `localhost`, which is out own machine, aka `127.0.0.1`. We can open this connecting with Netcat, which is, according to the GNU Netcat project, "a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol." All we need to know for now is that the syntax for netcat is `nc ip_address port` So in our case, we're looking to make a conne
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTc1MjUzMjYsLTUwNTYyODEwMSwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMzY3NzA5NjUyLC01MDU2MjgxMDEsLTIwOD
+g3NDY2MTJdfQ==
 -->
