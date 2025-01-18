@@ -77,8 +77,16 @@ Uh oh, looks like our key is too open with its permissions, so we cant use it. L
  
  So, when it comes to file permissons in linux, we need to look at the `-rw-r--r--` section. The firs three parts, that is the `rw-` has to do with the owner of the file. This signifies that they can read and write to the file, but there is a dash where the x should be, so they can not execute the file. Next we have `r--` which pertains to the group specified for the file. Since theres only an r, it mens that anyone in the group is allowed to read the file, but they cant write to or execute it. And the last three are for everybody. Since this is the same as the group permissions, its a little pedantic to go over it again.
 
-So now we need to make it so only we can read it and we'll use `chmod` to do so. Before we do so we need to assign some numerical codes to the read, write, and execute options, which w.
+So now we need to make it so only we can read it and we'll use `chmod` to do so. Before we do so we need to assign some numerical codes to the read, write, and execute options, which will be outlined in the table.
+
+| Permission | Symbol | Number |
+| :-------: | :-------: | :--------: |
+| Read | r | 4 |
+| Write | w | 2 |
+| Execute | x | 1 |
+
+So lets say in ou
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDk3NTU5MiwtMTU5MzUwMjAwNCwxOT
-AwNDIwNzU2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNjY2OTI1NjI0LC0xNTkzNTAyMDA0LDE5MD
+A0MjA3NTYsLTIwODg3NDY2MTJdfQ==
 -->
