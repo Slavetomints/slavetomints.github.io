@@ -85,8 +85,10 @@ So now we need to make it so only we can read it and we'll use `chmod` to do so.
 | Write | w | 2 |
 | Execute | x | 1 |
 
-So lets say in ou
+So lets say we have a file where we want the owner to be able to read, write and execute the file, the group to be able to read and execute the file, and everyone to read the file. What we would to is add the numbers for each group in order to select the correct permissions.
+
+Owner: `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2OTI1NjI0LC0xNTkzNTAyMDA0LDE5MD
+eyJoaXN0b3J5IjpbMjEwMTE3OTI3LC0xNTkzNTAyMDA0LDE5MD
 A0MjA3NTYsLTIwODg3NDY2MTJdfQ==
 -->
