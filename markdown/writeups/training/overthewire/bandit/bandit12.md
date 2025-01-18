@@ -61,12 +61,48 @@ bzip2: Can't guess original name for compressed -- using compressed.out
 | Flag | Definition |
 |:--:|:--:|
 | x | |
-| v | |
+| v | verbosely list files processed |
 | f | |
 
+```
 
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ file compressed.txt 
+compressed.txt: gzip compressed data, was "data2.bin", last modified: Thu Sep 19 07:08:15 2024, max compression, from Unix, original size modulo 2^32 574
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ mv compressed.txt compressed.gz
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ gzip -d compressed.gz 
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ bzip2 -d compressed
+bzip2: Can't guess original name for compressed -- using compressed.out
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ file compressed.out 
+compressed.out: gzip compressed data, was "data4.bin", last modified: Thu Sep 19 07:08:15 2024, max compression, from Unix, original size modulo 2^32 20480
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ mv compressed.out compressed.gz
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ gzip -d compressed.gz 
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ file compressed 
+compressed: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ tar -xvf compressed
+data5.bin
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ file data5.bin 
+data5.bin: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ tar -xvf data5.bin
+data6.bin
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ file data6.bin
+data6.bin: bzip2 compressed data, block size = 900k
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ bzip2 -d data6.bin
+bzip2: Can't guess original name for data6.bin -- using data6.bin.out
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ file data6.bin.out 
+data6.bin.out: POSIX tar archive (GNU)
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ tar -xvf data6.bin.out
+data8.bin
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ file data8.bin 
+data8.bin: gzip compressed data, was "data9.bin", last modified: Thu Sep 19 07:08:15 2024, max compression, from Unix, original size modulo 2^32 49
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ mv data8.bin data8.gz
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ gzip -d data8.gz 
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ file data8 
+data8: ASCII text
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ cat data8
+The password is {removed in accordance with game rules}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzA4MDE2NCwtMTg2MjM5Njk4OSw1MD
+eyJoaXN0b3J5IjpbMTM0NzA5MDc3MSwtMTg2MjM5Njk4OSw1MD
 AwMzkwNDMsLTEzOTk0MDcxNzUsMTg3NDk3MjczOSwtMTM3MDEw
 NTMyMCwtMjA4ODc0NjYxMl19
 -->
