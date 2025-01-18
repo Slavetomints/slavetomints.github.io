@@ -104,8 +104,49 @@ Back to our key, we need to lock it down some more, so lets make it so that only
 ┌─[slavetomints@parrot]─[~]
 └──╼ $ls -lsa sshkey.private 
 4 -r-------- 1 slavetomints slavetomints 1679 Jan 18 01:01 sshkey.private
-`
+```
+
+We can now see that the file can only be read by the owner, and if we try to use it again for the SSH, we should expect to get in.
+
+```
+
+┌─[slavetomints@parrot]─[~]
+└──╼ $ssh bandit14@bandit.labs.overthewire.org -p 2220 -i sshkey.private 
+                         _                     _ _ _   
+                        | |__   __ _ _ __   __| (_) |_ 
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_ 
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+                                                       
+
+                      This is an OverTheWire game server. 
+            More information on http://www.overthewire.org/wargames
+
+
+      ,----..            ,----,          .---.
+     /   /   \         ,/   .`|         /. ./|
+    /   .     :      ,`   .'  :     .--'.  ' ;
+   .   /   ;.  \   ;    ;     /    /__./ \ : |
+  .   ;   /  ` ; .'___,/    ,' .--'.  '   \' .
+  ;   |  ; \ ; | |    :     | /___/ \ |    ' '
+  |   :  | ; | ' ;    |.';  ; ;   \  \;      :
+  .   |  ' ' ' : `----'  |  |  \   ;  `      |
+  '   ;  \; /  |     '   :  ;   .   \    .\  ;
+   \   \  ',  /      |   |  '    \   \   ' \ |
+    ;   :    /       '   :  |     :   '  |--"
+     \   \ .'        ;   |.'       \   \ ;
+  www. `---` ver     '---' he       '---" ire.org
+
+
+Welcome to OverTheWire!
+
+-----Cut For Brevity-------
+
+  Enjoy your stay!
+
+bandit14@bandit:~$ 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODA1NTYzNjcsLTE1OTM1MDIwMDQsMT
-kwMDQyMDc1NiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTY4MzU3MjY1MywtMTU5MzUwMjAwNCwxOT
+AwNDIwNzU2LC0yMDg4NzQ2NjEyXX0=
 -->
