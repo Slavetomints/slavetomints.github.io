@@ -93,8 +93,19 @@ Group: `read(4) + execute(1) = 5`
 
 Everybody: `read(4) = 4`
 
-Those permissions would be represented as the number `754` 
+Those permissions would be represented as the number `754` and the final command would look like `chmod 754 file.txt`.
+
+Back to our key, we need to lock it down some more, so lets make it so that only the owner of the file can read it, and nobody else can access it. This makes our command look like the following:
+
+```
+
+┌─[slavetomints@parrot]─[~]
+└──╼ $chmod 400 sshkey.private 
+┌─[slavetomints@parrot]─[~]
+└──╼ $ls -lsa sshkey.private 
+4 -r-------- 1 slavetomints slavetomints 1679 Jan 18 01:01 sshkey.private
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzA5ODI4LC0xNTkzNTAyMDA0LDE5MD
-A0MjA3NTYsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEzODA1NTYzNjcsLTE1OTM1MDIwMDQsMT
+kwMDQyMDc1NiwtMjA4ODc0NjYxMl19
 -->
