@@ -64,9 +64,9 @@ bzip2: Can't guess original name for compressed -- using compressed.out
 | v | |
 | f | |
 
-# You need to change the directories oki?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjIzOTY5ODksNTAwMDM5MDQzLC0xMz
-k5NDA3MTc1LDE4NzQ5NzI3MzksLTEzNzAxMDUzMjAsLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTEwNzA4MDE2NCwtMTg2MjM5Njk4OSw1MD
+AwMzkwNDMsLTEzOTk0MDcxNzUsMTg3NDk3MjczOSwtMTM3MDEw
+NTMyMCwtMjA4ODc0NjYxMl19
 -->
