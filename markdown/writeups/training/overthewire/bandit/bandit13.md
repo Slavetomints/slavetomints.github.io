@@ -75,8 +75,10 @@ Uh oh, looks like our key is too open with its permissions, so we cant use it. L
 4 -rw-r--r-- 1 slavetomints slavetomints 1679 Jan 18 01:01 sshkey.private
 ```
  
- So, when it comes to file permissons in linux, we need to look at the `-rw-r--r--` section. The firs three parts, that is the `rw-` has to do with the owner of the file. This signifies that they can read and write to the file, but there is a dash where the x should be, so they can not execute the file. Next 
+ So, when it comes to file permissons in linux, we need to look at the `-rw-r--r--` section. The firs three parts, that is the `rw-` has to do with the owner of the file. This signifies that they can read and write to the file, but there is a dash where the x should be, so they can not execute the file. Next we have `r--` which pertains to the group specified for the file. Since theres only an r, it mens that anyone in the group is allowed to read the file, but they cant write to or execute it. And the last three are for everybody. Since this is the same as the group permissions, its a little pedantic to go over it again.
+
+So now we need to make it so only we 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTYxNTA0MiwtMTU5MzUwMjAwNCwxOT
-AwNDIwNzU2LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNjMwMDU5ODA4LC0xNTkzNTAyMDA0LDE5MD
+A0MjA3NTYsLTIwODg3NDY2MTJdfQ==
 -->
