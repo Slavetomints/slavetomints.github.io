@@ -17,8 +17,8 @@ It doesnt mention SSL anywhere in that snippet, and that is because SSL was depr
    Layer Security (TLS) 1.2 ([RFC 5246](https://datatracker.ietf.org/doc/html/rfc5246)), are considerably more secure and
    capable protocols.
 
-However, it will still work for the purposes of todays challenge.
+However, it will still work for the purposes of today's challenge. We are going to be using the `s_client` option for
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA2Nzg4NzIsODk1Nzg2MTI4LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNzAwNDQxMTY5LC0yMTEwNjc4ODcyLDg5NT
+c4NjEyOCwtMjA4ODc0NjYxMl19
 -->
