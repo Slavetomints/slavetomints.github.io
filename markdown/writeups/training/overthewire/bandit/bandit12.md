@@ -11,10 +11,10 @@ Firstly though we need to move the file to a place where we can make edits to th
 ```
 
 bandit12@bandit:~$ mktemp -d
-/tmp/tmp.dVNGKtAhrL
-bandit12@bandit:~$ cd /tmp/tmp.dVNGKtAhrL
-bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ cp /home/bandit12/data.txt data.txt
-bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ ls
+/tmp/tmp.QSXjJUP0qG
+bandit12@bandit:~$ cd /tmp/tmp.QSXjJUP0qG
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ cp /home/bandit12/data.txt data.txt
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ ls
 data.txt
 ```
 
@@ -22,14 +22,14 @@ Now, before we do any decompressing, we need to make the file out of the hexdump
 
 ```
 
-bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ xxd -r data.txt > compressed.txt
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ xxd -r data.txt > compressed.txt
 ```
 
 In order to figure out the type of file that we're dealing with, we need to use `file` to discover it.
 
 ```
 
-bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ file compressed.txt 
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ file compressed.txt 
 compressed.txt: gzip compressed data, was "data2.bin", last modified: Thu Sep 19 07:08:15 2024, max compression, from Unix, original size modulo 2^32 574
 ```
 
@@ -41,7 +41,7 @@ Let's take a look at those compression protocols.
 
 ```
 
-bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ mv compressed.txt compressed.gz
+bandit12@bandit:/tmp/tmp.QSXjJUP0qG$ mv compressed.txt compressed.gz
 bandit12@bandit:/tmp/tmp.dVNGKtAhrL$ gzip -d compressed.gz 
 ```
 
@@ -66,6 +66,7 @@ bzip2: Can't guess original name for compressed -- using compressed.out
 
 # You need to change the directories oki?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwMDM5MDQzLC0xMzk5NDA3MTc1LDE4Nz
-Q5NzI3MzksLTEzNzAxMDUzMjAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIzODE1MTg2OSw1MDAwMzkwNDMsLTEzOT
+k0MDcxNzUsMTg3NDk3MjczOSwtMTM3MDEwNTMyMCwtMjA4ODc0
+NjYxMl19
 -->
