@@ -74,8 +74,8 @@ Uh oh, looks like our key is too open with its permissions, so we cant use it. L
 └──╼ $ls -lsa sshkey.private 
 4 -rw-r--r-- 1 slavetomints slavetomints 1679 Jan 18 01:01 sshkey.private
 ```
-
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTM1MDIwMDQsMTkwMDQyMDc1NiwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjc1MDIxMDMyLC0xNTkzNTAyMDA0LDE5MD
+A0MjA3NTYsLTIwODg3NDY2MTJdfQ==
 -->
