@@ -8,7 +8,7 @@ Alrighty, this one takes a little bit of finagling. The first thing that we'll n
 
 ```
 
-bandit20@bandit:~$ echo -n "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -l -p 1337 &
+bandit20@bandit:~$ echo -n "{removed in accordance with game rules}" | nc -l -p 1337 &
 [1] 4112773
 ```
 
@@ -18,9 +18,18 @@ For the `netcat` commands we want to use `-l` and `-p`. The `-l` puts us into li
 
 However, when we open a connection with `netcat` we need to close it to run another command, which stops the broadcast. The way for us to fix this is to make it a background process with `&` added to the end. The resulting output is the process ID (PID) of the process for later use. 
 
-Once you've run all of th
+Once you've run all of that you can then use `./suconnect 1337` and retrerive that password.
+
+```
+
+bandit20@bandit:~$ ./suconnect 1234
+Read: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+Password matches, sending next password
+{removed in accordance with game rules}
+[1]+  Done                    echo -n "{removed in accordance with game rules}" | nc -l -p 1234
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTg2OTc2OSw2MzkzOTU2ODAsLTQ1NT
+eyJoaXN0b3J5IjpbLTgwNTA5OTAxMiw2MzkzOTU2ODAsLTQ1NT
 kxOTczMiwxNjU2Mjk5NjE0LDE0NzMxMzEzODgsMTgxMzMyNDU1
 LDcyMDQzNzg1MiwtMjA4ODc0NjYxMl19
 -->
