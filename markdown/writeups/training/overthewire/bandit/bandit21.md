@@ -25,6 +25,14 @@ bandit21@bandit:~$ ls /etc/cron.d/
 cronjob_bandit22  cronjob_bandit23  cronjob_bandit24  e2scrub_all  otw-tmp-dir  sysstat
 ```
 
+Hm, now that we know what's there, the `cronjob_bandit22` is probably the one that pertains to us, so lets take a quick look inside there. 
+
+```
+
+bandit21@bandit:~$ cat /etc/cron.d/cronjob_bandit22
+@reboot bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+* * * * * bandit22 /usr/bin/cronjob_bandit22.sh &> /dev/null
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzM4MDEzMiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTYwODYzNzQwNSwtMjA4ODc0NjYxMl19
 -->
