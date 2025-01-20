@@ -51,7 +51,8 @@ Looks like it changes the readability of a temp directory to readable by everyon
 bandit21@bandit:~$ cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 {removed in accordance with games rules}
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE5ODY5OTcsLTIwMzE1MTIyMjcsLT
-YwODYzNzQwNSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjA1NDcyNDUzNywtMTk2MTk4Njk5NywtMj
+AzMTUxMjIyNywtNjA4NjM3NDA1LC0yMDg4NzQ2NjEyXX0=
 -->
