@@ -4,7 +4,7 @@
 >  
 >  There are 2 files in the homedirectory: **passwords.old and passwords.new**. The password for the next level is in **passwords.new** and is the only line that has been changed between **passwords.old and passwords.new**
 
-If you are having issues with your identify file, make
+*If you are having issues with your identify file, make sure that you update the permissions so that only you can read from it.*
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTExOTg4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTg1MTg1NTUzOCwtMjA4ODc0NjYxMl19
 -->
