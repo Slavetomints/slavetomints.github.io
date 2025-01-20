@@ -12,10 +12,10 @@ bandit20@bandit:~$ echo -n "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -l -p 1234 &
 [1] 4112773
 ```
 
-So, we know that echo is probably the best way to get the message to `nc` using a pipe, and since we know the passwords are going to be compared then we should use the `-n` operator to remove any trailing newline character so only the exact passweords are compared
+So, we know that echo is probably the best way to get the message to `nc` using a pipe, and since we know the passwords are going to be compared then we should use the `-n` operator to remove any trailing newline character so only the exact passwords are compared. 
 However, when we open a connection with `netcat` we need to close it to run another command, which stops the broadcast. The way for us to fix this is to make it a background process with `&`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzIxNDc5LC00NTU5MTk3MzIsMTY1Nj
+eyJoaXN0b3J5IjpbNjM5Mzk1NjgwLC00NTU5MTk3MzIsMTY1Nj
 I5OTYxNCwxNDczMTMxMzg4LDE4MTMzMjQ1NSw3MjA0Mzc4NTIs
 LTIwODg3NDY2MTJdfQ==
 -->
