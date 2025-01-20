@@ -12,9 +12,10 @@ bandit20@bandit:~$ echo -n "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -l -p 1234 &
 [1] 4112773
 ```
 
-So, we know that echo is probably the best way to get the 
+So, we know that echo is probably the best way to get the message 
 However, when we open a connection with `netcat` we need to close it to run another command, which stops the broadcast. The way for us to fix this is to make it a background process with `&`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NjI5OTYxNCwxNDczMTMxMzg4LDE4MT
-MzMjQ1NSw3MjA0Mzc4NTIsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE5MzIzNjk0MDMsMTY1NjI5OTYxNCwxND
+czMTMxMzg4LDE4MTMzMjQ1NSw3MjA0Mzc4NTIsLTIwODg3NDY2
+MTJdfQ==
 -->
