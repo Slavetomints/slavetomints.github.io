@@ -8,16 +8,19 @@ Alrighty, this one takes a little bit of finagling. The first thing that we'll n
 
 ```
 
-bandit20@bandit:~$ echo -n "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -l -p 1234 &
+bandit20@bandit:~$ echo -n "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -l -p 1337 &
 [1] 4112773
 ```
 
 So, we know that `echo` is probably the best way to get the message to `nc` using a pipe, and since we know the passwords are going to be compared then we should use the `-n` operator to remove any trailing newline character so only the exact passwords are compared. 
 
-For the `netcat` commands we want to use `-l` and `-p 1234`. The `-l` puts us into listen mode so it's waiting fro inbound connects, and the `-p` allows us to specify the port number, which in this case will be 1234
-However, when we open a connection with `netcat` we need to close it to run another command, which stops the broadcast. The way for us to fix this is to make it a background process with `&`
+For the `netcat` commands we want to use `-l` and `-p`. The `-l` puts us into listen mode so it's waiting fro inbound connects, and the `-p` allows us to specify the port number, which in this case will be 1337.
+
+However, when we open a connection with `netcat` we need to close it to run another command, which stops the broadcast. The way for us to fix this is to make it a background process with `&` added to the end. The resulting output is the process ID (PID) of the process for later use. 
+
+Once you've run all of th
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTU5NDUyLDYzOTM5NTY4MCwtNDU1OT
-E5NzMyLDE2NTYyOTk2MTQsMTQ3MzEzMTM4OCwxODEzMzI0NTUs
-NzIwNDM3ODUyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMjA2NTg2OTc2OSw2MzkzOTU2ODAsLTQ1NT
+kxOTczMiwxNjU2Mjk5NjE0LDE0NzMxMzEzODgsMTgxMzMyNDU1
+LDcyMDQzNzg1MiwtMjA4ODc0NjYxMl19
 -->
