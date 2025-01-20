@@ -46,7 +46,9 @@ bandit16@bandit:~$ openssl s_client -connect localhost:31790 -ign_eof
 
 And then once prompted, let's give it the password for the current level
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDA2MTY5NCwtMTc1MzgxMDQ0Nyw2OT
-YyNDc5NjksMzAxMjQwMjIsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTk2NTI0NTg2OCwxMTQ0MDYxNjk0LC0xNz
+UzODEwNDQ3LDY5NjI0Nzk2OSwzMDEyNDAyMiwtMjA4ODc0NjYx
+Ml19
 -->
