@@ -35,7 +35,9 @@ bandit21@bandit:~$ cat /etc/cron.d/cronjob_bandit22
 ```
 
 Now that we know the command the job is running, lets pop open that shell script and see if we can find anything more important in there.
+
+``
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzE1MTIyMjcsLTYwODYzNzQwNSwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNzUzNDA5MDE3LC0yMDMxNTEyMjI3LC02MD
+g2Mzc0MDUsLTIwODg3NDY2MTJdfQ==
 -->
