@@ -21,10 +21,19 @@ cat /etc/bandit_pass/$myname > /tmp/$mytarget
 
 First the script sets the user's name to the `myname` variable, and then uses it in a string that gets obfuscated. That string ends up being the temp file where the password from bandit23 gets saved. The way to access this is to use the same obfuscation method used there, piping the string "I am user bandit23" into `md5sum` and uses `cut` to format it some more.
 
-Let's set up the command the same way, substituting the `$myname` with the actual value of the name so we can figure out where the password is hiding, and `cat
+Let's set up the command the same way, substituting the `$myname` with the actual value of the name so we can figure out where the password is hiding, and `cat` the results of that.
+
+```
+
+bandit22@bandit:~$ echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+8ca319486bfbbc3663ea0fbe81326349
+bandit22@bandit:~$ cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+{removed according to game rules}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTk5MTgwNSwtMjA5NTYwODM4OCw4Nj
-kxMDg5NTIsLTE3ODA5NTc4MjcsMTg1MDg0MzY3OCwzNDE1NDY5
-ODEsLTExODA4MDMwMDgsLTEzNDY2ODkzMTYsLTIwNDcyMjkyNz
-gsMTQ2NjA2OTIwNCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNTc4OTU2NTM3LC0yMDk1NjA4Mzg4LDg2OT
+EwODk1MiwtMTc4MDk1NzgyNywxODUwODQzNjc4LDM0MTU0Njk4
+MSwtMTE4MDgwMzAwOCwtMTM0NjY4OTMxNiwtMjA0NzIyOTI3OC
+wxNDY2MDY5MjA0LC0yMDg4NzQ2NjEyXX0=
 -->
