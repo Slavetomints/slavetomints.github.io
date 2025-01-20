@@ -38,12 +38,15 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 157.83 seconds
 ```
 
-Hm, looks like the only port where the service is just `SSL` is port `31790`, so lets use `openssl`to get into that one and take a look there. We
+Hm, looks like the only port where the service is just `SSL` is port `31790`, so lets use `openssl`to get into that one and take a look there. We'll use the following command to connect to the port over SSL/TLS.
 
 ```
 bandit16@bandit:~$ openssl s_client -connect localhost:31790 -ign_eof
 ```
+
+And then once prompted, let's give it the password for the current level
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDQ2OTUyMSwtMTc1MzgxMDQ0Nyw2OT
+eyJoaXN0b3J5IjpbMTE0NDA2MTY5NCwtMTc1MzgxMDQ0Nyw2OT
 YyNDc5NjksMzAxMjQwMjIsLTIwODg3NDY2MTJdfQ==
 -->
