@@ -21,10 +21,10 @@ cat /etc/bandit_pass/$myname > /tmp/$mytarget
 
 First the script sets the user's name to the `myname` variable, and then uses it in a string that gets obfuscated. That string ends up being the temp file where the password from bandit23 gets saved. The way to access this is to use the same obfuscation method used there, piping the string "I am user bandit23" into `md5sum` and uses `cut` to format it some more.
 
-Let's set up the command the same way, substituting the `$myname` with the actual value of the name s
+Let's set up the command the same way, substituting the `$myname` with the actual value of the name so we can figure out where the password is hiding, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxODYxNDc3LDg2OTEwODk1MiwtMTc4MD
-k1NzgyNywxODUwODQzNjc4LDM0MTU0Njk4MSwtMTE4MDgwMzAw
-OCwtMTM0NjY4OTMxNiwtMjA0NzIyOTI3OCwxNDY2MDY5MjA0LC
-0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTIwOTU2MDgzODgsODY5MTA4OTUyLC0xNz
+gwOTU3ODI3LDE4NTA4NDM2NzgsMzQxNTQ2OTgxLC0xMTgwODAz
+MDA4LC0xMzQ2Njg5MzE2LC0yMDQ3MjI5Mjc4LDE0NjYwNjkyMD
+QsLTIwODg3NDY2MTJdfQ==
 -->
