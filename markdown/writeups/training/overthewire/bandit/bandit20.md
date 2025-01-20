@@ -4,8 +4,17 @@
 >  
 >  There is a setuid binary in the homedirectory that does the following: it makes a connection to localhost on the port you specify as a commandline argument. It then reads a line of text from the connection and compares it to the password in the previous level (bandit20). If the password is correct, it will transmit the password for the next level (bandit21).
 
-Alrighty, this one takes a little bit of finagling. The first thing that we'll need to so is get a port to broadcast the password for bandit 20, which is pretty easy to do using `nc`. However, when we open a connection with `netcat` we need to close it to run another command, which stops the broadcast. The way for us to fix this is to make it
+Alrighty, this one takes a little bit of finagling. The first thing that we'll need to so is get a port to broadcast the password for bandit 20, which is pretty easy to do using `nc`. I'll show the command we'll be using and explain how it works.
+
+```
+
+bandit20@bandit:~$ echo -n "0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO" | nc -l -p 1234 &
+[1] 4112773
+```
+
+So, we know that 
+However, when we open a connection with `netcat` we need to close it to run another command, which stops the broadcast. The way for us to fix this is to make it a background process with `&`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzEzMTM4OCwxODEzMzI0NTUsNzIwND
-M3ODUyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTQ2Mjg1MTE5NCwxNDczMTMxMzg4LDE4MT
+MzMjQ1NSw3MjA0Mzc4NTIsLTIwODg3NDY2MTJdfQ==
 -->
