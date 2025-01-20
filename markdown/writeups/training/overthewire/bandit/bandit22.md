@@ -19,8 +19,8 @@ echo "Copying passwordfile /etc/bandit_pass/$myname to /tmp/$mytarget"
 cat /etc/bandit_pass/$myname > /tmp/$mytarget
 ```
 
-First the script sets the user's name to the myname variabl
+First the script sets the user's name to the myname variable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzQyMzU5OSwtMjA0NzIyOTI3OCwxND
-Y2MDY5MjA0LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbODYzNTY5MTUyLC0yMDQ3MjI5Mjc4LDE0Nj
+YwNjkyMDQsLTIwODg3NDY2MTJdfQ==
 -->
