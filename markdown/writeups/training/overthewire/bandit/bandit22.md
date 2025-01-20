@@ -19,8 +19,8 @@ echo "Copying passwordfile /etc/bandit_pass/$myname to /tmp/$mytarget"
 cat /etc/bandit_pass/$myname > /tmp/$mytarget
 ```
 
-First the script sets the user's name to the `myname` variable, and then uses it in a string that gets obfuscated 
+First the script sets the user's name to the `myname` variable, and then uses it in a string that gets obfuscated. That string ends up being the temp file where the password from bandit23 gets saved. The way to access this is to use
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY2ODkzMTYsLTIwNDcyMjkyNzgsMT
-Q2NjA2OTIwNCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTExODA4MDMwMDgsLTEzNDY2ODkzMTYsLT
+IwNDcyMjkyNzgsMTQ2NjA2OTIwNCwtMjA4ODc0NjYxMl19
 -->
