@@ -36,8 +36,22 @@ bandit21@bandit:~$ cat /etc/cron.d/cronjob_bandit22
 
 Now that we know the command the job is running, lets pop open that shell script and see if we can find anything more important in there.
 
-``
+```
+
+bandit21@bandit:~$ cat /usr/bin/cronjob_bandit22.sh
+#!/bin/bash
+chmod 644 /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+cat /etc/bandit_pass/bandit22 > /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+```
+
+Looks like it changes the readability of a temp directory to readable by everyone, and then puts the password for bandit22 inside of it!
+
+```
+
+bandit21@bandit:~$ cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+{removed in accordance with games rules}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzNDA5MDE3LC0yMDMxNTEyMjI3LC02MD
-g2Mzc0MDUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE5NjE5ODY5OTcsLTIwMzE1MTIyMjcsLT
+YwODYzNzQwNSwtMjA4ODc0NjYxMl19
 -->
