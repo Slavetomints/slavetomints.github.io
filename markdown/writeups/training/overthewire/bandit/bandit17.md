@@ -6,7 +6,16 @@
 
 *If you are having issues with your identify file, make sure that you update the permissions so that only you can read from it.*
 
-This one is pretty easy, we're going to be using the `diff` command today, which shows us the difference between two files. So 
+This one is pretty easy, we're going to be using the `diff` command today, which shows us the difference between two files. The way the syntax works for this level is we'll use `diff passwords.new passwords.old`. And it'll show us the lines that are different, in order of the files in the command.
+
+```
+
+bandit17@bandit:~$ diff passwords.new passwords.old 
+42c42
+< {removed in accordance with game rules}
+---
+> ktfgBvpMzWKR5ENj26IbLGSblgUG9CzB
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1NTYwODM4LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTYyMjM2NTA4MiwtMjA4ODc0NjYxMl19
 -->
