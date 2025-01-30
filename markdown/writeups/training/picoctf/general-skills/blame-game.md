@@ -15,8 +15,10 @@ message.py
 └──╼ $cat message.py 
 print("Hello, World!"
 ```
-Hm, lets take a look at who made this mistake using `git`s logging feature. With it we are able to look at all commits to see who authored them. `git lo
+Hm, lets take a look at who made this mistake using `git`s logging feature. With it we are able to look at all commits to see who authored them. `git log` is the command to look at it.
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1MzI2NDMwXX0=
+eyJoaXN0b3J5IjpbMTUzMDgzMDAzXX0=
 -->
