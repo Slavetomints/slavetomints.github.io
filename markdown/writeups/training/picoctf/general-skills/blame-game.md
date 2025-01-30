@@ -54,8 +54,8 @@ Date:   Tue Mar 12 00:07:06 2024 +0000
     create top secret project
 ```
 
-FLAG: ``
+FLAG: `picoCTF{@sk_th3_1nt3rn_cfca95b2}`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzNjUwOTA1XX0=
+eyJoaXN0b3J5IjpbMTI5Njg4NzAyOF19
 -->
