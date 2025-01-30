@@ -17,7 +17,16 @@ VkpEVGxaYVdFMVhSbHBWV0VKVVZGWm9RMlZzV2tWUmJFNVNDbUpXV25wWmExSmhWMGRHZEdWRlZs
 aGkKYlRrelZERldUMkpzUWxWTlJYTkxDZz09Cg==
 ```
 
-For this all you need to do is use the `base64` command with the 
+For this all you need to do is use the `base64` command with the `-d` flag set in order to decrypt it.
+
+```
+┌─[slavetomints@parrot]─[~/training/picoCTF/general-skills/repetitions]
+└──╼ $base64 -d enc_flag 
+VjFSQ2EyTXlSblJUV0dSVllrWmFWRmx0TlZOalJtUlhZVVU1YVZKVVZuaFdWekZoWVZkR2NrNVVX
+bUZTVmtwUVdWUkdibVZXVm5WUgpiSEJzWVRCd2VWVXhXbXBOUlRWSFdqTnNWZ3BYUjFKeVZGZHdW
+MlZzVWxaVmJFNW9UVVJDTlZaWE1XRlpVWEJUVFZoQ2VsWkVRbE5SCmJWWnpZa1JhV0dGdGVFVlhi
+bTkzVDFWT2JsQlVNRXNLCg==
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4NTExNzgzXX0=
+eyJoaXN0b3J5IjpbODE3NDQwMDUyLDU1ODUxMTc4M119
 -->
