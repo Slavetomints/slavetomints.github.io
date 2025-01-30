@@ -29,6 +29,17 @@ bTkzVDFWT2JsQlVNRXNLCg==
 ```
 
 Hm, still encrypted with base 64, lets use the pipe "`|`" to send the output into the same command `base64 -d`.
+
+```
+
+┌─[slavetomints@parrot]─[~/training/picoCTF/general-skills/repetitions]
+└──╼ $base64 -d enc_flag | base64 -d
+V1RCa2MyRnRTWGRVYkZaVFltNVNjRmRXYUU5aVJUVnhWVzFhYVdGck5UWmFSVkpQWVRGbmVWVnVR
+bHBsYTBweVUxWmpNRTVHWjNsVgpXR1JyVFdwV2VsUlZVbE5oTURCNVZXMWFZUXBTTVhCelZEQlNR
+bVZzYkRaWGFteEVXbm93T1VOblBUMEsK
+```
+
+Lets keep going
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzgzODMzMyw1NTg1MTE3ODNdfQ==
+eyJoaXN0b3J5IjpbLTE2NDAzODE1OCw1NTg1MTE3ODNdfQ==
 -->
