@@ -27,6 +27,8 @@ bUZTVmtwUVdWUkdibVZXVm5WUgpiSEJzWVRCd2VWVXhXbXBOUlRWSFdqTnNWZ3BYUjFKeVZGZHdW
 MlZzVWxaVmJFNW9UVVJDTlZaWE1XRlpVWEJUVFZoQ2VsWkVRbE5SCmJWWnpZa1JhV0dGdGVFVlhi
 bTkzVDFWT2JsQlVNRXNLCg==
 ```
+
+Hm, still encrypted with base 64, lets use the pipe "`|`" to send the output into the same command `base64 -d`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3NDQwMDUyLDU1ODUxMTc4M119
+eyJoaXN0b3J5IjpbLTg2NzgzODMzMyw1NTg1MTE3ODNdfQ==
 -->
