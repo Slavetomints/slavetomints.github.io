@@ -20,7 +20,7 @@ aGkKYlRrelZERldUMkpzUWxWTlJYTkxDZz09Cg==
 For this all you need to do is use the `base64` command with the `-d` flag set in order to decrypt it.
 
 ```
-┌─[slavetomints@parrot]─[~/training/picoCTF/general-skills/repetitions]
+┌─[slavetomints@parrot]─[~]
 └──╼ $base64 -d enc_flag 
 VjFSQ2EyTXlSblJUV0dSVllrWmFWRmx0TlZOalJtUlhZVVU1YVZKVVZuaFdWekZoWVZkR2NrNVVX
 bUZTVmtwUVdWUkdibVZXVm5WUgpiSEJzWVRCd2VWVXhXbXBOUlRWSFdqTnNWZ3BYUjFKeVZGZHdW
@@ -32,7 +32,7 @@ Hm, still encrypted with base 64, lets use the pipe "`|`" to send the output int
 
 ```
 
-┌─[slavetomints@parrot]─[~/training/picoCTF/general-skills/repetitions]
+┌─[slavetomints@parrot]─[~]
 └──╼ $base64 -d enc_flag | base64 -d
 V1RCa2MyRnRTWGRVYkZaVFltNVNjRmRXYUU5aVJUVnhWVzFhYVdGck5UWmFSVkpQWVRGbmVWVnVR
 bHBsYTBweVUxWmpNRTVHWjNsVgpXR1JyVFdwV2VsUlZVbE5oTURCNVZXMWFZUXBTTVhCelZEQlNR
@@ -61,5 +61,6 @@ picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_dfe803c6}
 
 FLAG: `picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_dfe803c6}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNDI2MTAyMyw1NTg1MTE3ODNdfQ==
+eyJoaXN0b3J5IjpbODMxMDI1NDcxLDEyMDQyNjEwMjMsNTU4NT
+ExNzgzXX0=
 -->
