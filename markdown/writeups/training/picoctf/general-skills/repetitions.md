@@ -39,7 +39,27 @@ bHBsYTBweVUxWmpNRTVHWjNsVgpXR1JyVFdwV2VsUlZVbE5oTURCNVZXMWFZUXBTTVhCelZEQlNR
 bVZzYkRaWGFteEVXbm93T1VOblBUMEsK
 ```
 
-Lets keep going
+Lets keep going until we are able to decrypt it.
+
+```
+
+┌─[slavetomints@parrot]─[~]
+└──╼ $base64 -d enc_flag | base64 -d | base64 -d
+WTBkc2FtSXdUbFZTYm5ScFdWaE9iRTVxVW1aaWFrNTZaRVJPYTFneVVuQlpla0pyU1ZjME5GZ3lV
+WGRrTWpWelRVUlNhMDB5VW1aYQpSMXBzVDBSQmVsbDZXamxEWnowOUNnPT0K
+┌─[slavetomints@parrot]─[~]
+└──╼ $base64 -d enc_flag | base64 -d | base64 -d | base64 -d
+Y0dsamIwTlVSbnRpWVhObE5qUmZiak56ZEROa1gyUnBZekJrSVc0NFgyUXdkMjVzTURSa00yUmZa
+R1psT0RBell6WjlDZz09Cg==
+┌─[slavetomints@parrot]─[~]
+└──╼ $base64 -d enc_flag | base64 -d | base64 -d | base64 -d | base64 -d
+cGljb0NURntiYXNlNjRfbjNzdDNkX2RpYzBkIW44X2Qwd25sMDRkM2RfZGZlODAzYzZ9Cg==
+┌─[slavetomints@parrot]─[~]
+└──╼ $base64 -d enc_flag | base64 -d | base64 -d | base64 -d | base64 -d | base64 -d
+picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_dfe803c6}
+```
+
+FLAG: `picoCTF{base64_n3st3d_dic0d!n8_d0wnl04d3d_dfe803c6}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAzODE1OCw1NTg1MTE3ODNdfQ==
+eyJoaXN0b3J5IjpbMTIwNDI2MTAyMyw1NTg1MTE3ODNdfQ==
 -->
