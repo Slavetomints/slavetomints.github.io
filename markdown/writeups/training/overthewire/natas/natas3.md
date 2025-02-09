@@ -1,7 +1,12 @@
+# natas3
+
+Challenge URL:
+
+> http://natas3.natas.labs.overthewire.org
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTc0ODI1MjA1MF19
 -->
