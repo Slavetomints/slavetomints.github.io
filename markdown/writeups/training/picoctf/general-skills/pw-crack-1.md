@@ -39,7 +39,7 @@ level_1_pw_check()
 
 ```
 
-The most interesting thing to see is that the program asks for a password, and that password is stored right here in the source code. 
+The most interesting thing to see is that the program asks for a password, and that password is stored right here in the source code. Lets copy the password that is saved in the variable 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1Nzk3NjgyXX0=
+eyJoaXN0b3J5IjpbMjA0NDQwMDE5MV19
 -->
