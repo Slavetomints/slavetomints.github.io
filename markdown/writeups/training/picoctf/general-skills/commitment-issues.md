@@ -27,7 +27,7 @@ Looks like the flag is hidden in an older commit. Thankfully, there is a command
 
 ```
 
-┌─[slavetomints@parrot]─[~/training/picoCTF/general-skills/commitment_issues/drop-in]
+┌─[slavetomints@parrot]─[~/drop-in]
 └──╼ $git diff 8dc51806c760dfdbb34b33a2008926d3d8e8ad49 87b85d7dfb839b077678611280fa023d76e017b8
 diff --git a/message.txt b/message.txt
 index d552d1e..bae247d 100644
@@ -40,5 +40,5 @@ index d552d1e..bae247d 100644
 
 FLAG: `picoCTF{s@n1t1z3_ea83ff2a}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDYwNDcyOCw4Njk1NTE1NzJdfQ==
+eyJoaXN0b3J5IjpbLTcxMDUyMzQzLDg2OTU1MTU3Ml19
 -->
