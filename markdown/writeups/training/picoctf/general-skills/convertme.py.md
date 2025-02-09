@@ -16,7 +16,7 @@ Answer:
 
 Alright, lets quickly talk about how a binary number works.
 
-| 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+| `256` | `128` | `64` | `32` | `16` | `8` | `4` | `2` | 1 |
 |--|--|--|--|--|--|--|--|--|
 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
@@ -59,5 +59,6 @@ That is correct! Here's your flag: picoCTF{4ll_y0ur_b4535_762f748e}
 
 FLAG: `picoCTF{4ll_y0ur_b4535_762f748e}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDczNDc0OCwyMDUyNjkzNjkyXX0=
+eyJoaXN0b3J5IjpbLTkxOTg2Mjc2NCwtMzUwNzM0NzQ4LDIwNT
+I2OTM2OTJdfQ==
 -->
