@@ -2,12 +2,12 @@
 
 Challenge URL:
 
-> http://natas0.natas.labs.overthewire.org
+> http://natas6.natas.labs.overthewire.org
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTcyNDkxOF19
+eyJoaXN0b3J5IjpbLTUyMTE0MzA0NF19
 -->
