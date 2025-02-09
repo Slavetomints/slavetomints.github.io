@@ -27,8 +27,15 @@ In this example, the binary number `000000` is equal to zero. This is because ea
 |--|--|--|--|--|--|--|--|--|
 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 |
 
-The `8` and `2` bits are flipped, and `8+2=10`, so `10` is represented in binary as `1010`. The easiest way to do this is to find the first number that is smaller than the number you are trying to find, flip it to a `1`, and subtract it from your numbers value, keep repeating that until you are left with 0 and
+The `8` and `2` bits are flipped, and `8+2=10`, so `10` is represented in binary as `1010`. The easiest way to do this is to find the first number that is smaller than the number you are trying to find, flip it to a `1`, and subtract it from your numbers value, keep repeating that until you are left with 0 and you have your binary number.
 
+Now its time to try out our number, `44` the first number smaller than it is `32`, so lets subtract that from `44` and flip its bit to `1`.
+
+| 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|--|--|--|--|--|--|--|--|--|
+| 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+
+Now we are left with the number `12`, and we'll subtract 
 ```
 
 ┌──[slavetomints@parrot]─[~]
@@ -38,5 +45,5 @@ Answer: 101100
 That is correct! Here's your flag: picoCTF{4ll_y0ur_b4535_762f748e}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTQ3MzM5OSwyMDUyNjkzNjkyXX0=
+eyJoaXN0b3J5IjpbMTQ5NjY0MTA3OCwyMDUyNjkzNjkyXX0=
 -->
