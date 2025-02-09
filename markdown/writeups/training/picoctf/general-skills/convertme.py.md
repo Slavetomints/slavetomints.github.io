@@ -35,7 +35,19 @@ Now its time to try out our number, `44` the first number smaller than it is `32
 |--|--|--|--|--|--|--|--|--|
 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
 
-Now we are left with the number `12`, and we'll subtract 
+Now we are left with the number `12`, and we'll subtract `8` from it and flip the `8` bit.
+
+| 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|--|--|--|--|--|--|--|--|--|
+| 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 | 0 |
+
+And finally, we'll get rid of the rest of the number by flipping the `4` bit.
+
+| 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|--|--|--|--|--|--|--|--|--|
+| 0 | 0 | 0 | 1 | 0 | 1 | 1 | 0 | 0 |
+
+And we have our binary representation of `44`! its `101100`.
 ```
 
 ┌──[slavetomints@parrot]─[~]
@@ -44,6 +56,8 @@ If 44 is in decimal base, what is it in binary base?
 Answer: 101100
 That is correct! Here's your flag: picoCTF{4ll_y0ur_b4535_762f748e}
 ```
+
+FLAG: `picoCTF{4ll_y0ur_b4535_762f748e}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjY0MTA3OCwyMDUyNjkzNjkyXX0=
+eyJoaXN0b3J5IjpbLTM1MDczNDc0OCwyMDUyNjkzNjkyXX0=
 -->
