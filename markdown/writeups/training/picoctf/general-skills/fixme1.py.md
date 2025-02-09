@@ -43,7 +43,14 @@ flag = str_xor(flag_enc, 'enkidu')
 
 Ah, the last line is indented, and in python that's a big deal. Let's get rid of the indent and run the script again.
 
+```
 
+┌─[slavetomints@parrot]─[~]
+└──╼ $python fixme1.py 
+That is correct! Here's your flag: picoCTF{1nd3nt1ty_cr1515_09ee727a}
+```
+
+FLAG: `picoCTF{1nd3nt1ty_cr1515_09ee727a}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1MDQ1MjM0XX0=
+eyJoaXN0b3J5IjpbLTI5NDcxMDUzMV19
 -->
