@@ -49,16 +49,17 @@ else:
 
 ```
 
-Yep, when youre comparing two things you need to use two equals signs, else you are assigning the left hand the value of the righ
+Yep, when you're comparing two things you need to use two equals signs, else you are assigning the left hand the value of the right hand, and being the condition in the `if-else` block, that's sure to cause an error. Let's add in another equals sign and rerun it.
 
 ```
 
 ┌─[slavetomints@parrot]─[~]
-└──╼ $python fixme1.py 
-That is correct! Here's your flag: picoCTF{1nd3nt1ty_cr1515_09ee727a}
+└──╼ $python fixme2.py
+That is correct! Here's your flag: picoCTF{3qu4l1ty_n0t_4551gnm3nt_4863e11b}
+
 ```
 
-FLAG: `picoCTF{1nd3nt1ty_cr1515_09ee727a}`
+FLAG: `picoCTF{3qu4l1ty_n0t_4551gnm3nt_4863e11b}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODc0NzYzOCwtMTAxMTA2OTk2XX0=
+eyJoaXN0b3J5IjpbLTE1OTQ4OTc0NDYsLTEwMTEwNjk5Nl19
 -->
