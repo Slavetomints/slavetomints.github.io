@@ -39,7 +39,7 @@ level_1_pw_check()
 
 ```
 
-The most interesting thing to see is that the program asks for a password, and that password is stored right here in the source code. Lets copy the password that is saved in the variable `user_pw` as the string `1e1a`. Let's run the python script with that password in mind.
+The most interesting thing to see is that the program asks for a password, and that password is stored right here in the source code. Lets copy the password that is checked against the variable `user_pw` as the string `1e1a`. Let's run the python script with that password in mind.
 
 ```
 
@@ -52,5 +52,6 @@ picoCTF{545h_r1ng1ng_fa343060}
 
 FLAG: `picoCTF{545h_r1ng1ng_fa343060}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjExMTc4ODU5LDIwNDQ0MDAxOTFdfQ==
+eyJoaXN0b3J5IjpbLTI4MTI4Mjk3MSw2MTExNzg4NTksMjA0ND
+QwMDE5MV19
 -->
