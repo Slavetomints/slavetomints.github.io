@@ -49,7 +49,18 @@ Type "help", "copyright", "credits" or "license" for more information.
 4ec9
 ```
 
-And if w
+And if we run the script with that password we'll get the following:
+
+```
+
+┌─[slavetomints@parrot]─[~/training/picoCTF/general-skills/pw-crack-2]
+└──╼ $python level2.py 
+Please enter correct password for flag: 4ec9
+Welcome back... your flag, user:
+picoCTF{tr45h_51ng1ng_9701e681}
+```
+
+FLAG: `picoCTF{tr45h_51ng1ng_9701e681}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzNzEyMDcxXX0=
+eyJoaXN0b3J5IjpbNjc0MTYxNzkyXX0=
 -->
