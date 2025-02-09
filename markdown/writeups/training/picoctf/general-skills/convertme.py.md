@@ -17,8 +17,11 @@ Answer:
 Alright, lets quickly talk about how a binary number works.
 
 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-|  |  | | | 
+|--|--|--|--|--|--|--|
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+
+In this example, the binary number `000000` is eqal to zer
+
 
 ```
 
@@ -29,5 +32,5 @@ Answer: 101100
 That is correct! Here's your flag: picoCTF{4ll_y0ur_b4535_762f748e}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzMzM2OTc5LDIwNTI2OTM2OTJdfQ==
+eyJoaXN0b3J5IjpbMTg2MDgxMzM5NCwyMDUyNjkzNjkyXX0=
 -->
