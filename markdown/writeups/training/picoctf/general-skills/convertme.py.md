@@ -16,8 +16,8 @@ Answer:
 
 Alright, lets quickly talk about how a binary number works.
 
-| 64 | 32 | 16 | 8 | 4 | 2 | 1 |
-|--|--|--|--|--|--|--|
+| 256 | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|--|--|--|--|--|--|--|--|--|
 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 In this example, the binary number `000000` is equal to zero. This is because each consecutive zero is "valued" twice more than the one preceding it. To represent the number `10`, we need to turn enough of the `0`'s into `1`'s to make the value be `1`.
@@ -25,7 +25,9 @@ In this example, the binary number `000000` is equal to zero. This is because ea
 
 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
 |--|--|--|--|--|--|--|
-| 0 | 0 | 0 | 1 | 0 | 0 | 1 |
+| 0 | 0 | 0 | 1 | 0 | 1 | 0 |
+
+The `8` and `2` bits are flipped, and `8+2=10`, so `10` is represented in binary as `0001010`. The easiest way to do this is to 
 
 ```
 
@@ -36,5 +38,5 @@ Answer: 101100
 That is correct! Here's your flag: picoCTF{4ll_y0ur_b4535_762f748e}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTcyNjIzNCwyMDUyNjkzNjkyXX0=
+eyJoaXN0b3J5IjpbLTYxODc4MjY1NSwyMDUyNjkzNjkyXX0=
 -->
