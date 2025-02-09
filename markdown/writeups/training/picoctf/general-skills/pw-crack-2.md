@@ -37,7 +37,7 @@ def level_2_pw_check():
 level_2_pw_check()
 ```
 
-Once again, we have user input being saved into `user_pw`, and it is being checked against some obfuscated password. In python, the `{python} chr()`
+Once again, we have user input being saved into `user_pw`, and it is being checked against some obfuscated password. In python, the `chr()` method will turn the hexadecimal code for a character into it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjI2NTczMDldfQ==
+eyJoaXN0b3J5IjpbMTI1MzcyMDI0MF19
 -->
