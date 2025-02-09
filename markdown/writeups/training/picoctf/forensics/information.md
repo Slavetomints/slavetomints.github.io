@@ -8,7 +8,7 @@ In this challenge, we are presented with a lovely picture of a cat, so obviously
 
 ```
 
-┌─[slavetomints@parrot]─[~/trainsics/information]
+┌─[slavetomints@parrot]─[~]
 └──╼ $exiftool cat.jpg 
 ExifTool Version Number         : 12.57
 File Name                       : cat.jpg
@@ -40,7 +40,18 @@ Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
 Image Size                      : 2560x1598
 Megapixels                      : 4.1
 ```
+
+The license listed there seems to be encoded in something akin to base64, so lets give it a shot at decoding.
+
+```
+
+┌──[slavetomints@parrot]─[~/training/picoCTF/forensics/information]
+└──╼ $echo "cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9" | base64 -d
+picoCTF{the_m3tadata_1s_modified}
+```
+
+FLAG: `picoCTF{the_m3tadata_1s_modified}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzUxODU0NzUsODczMzc2MjQ1LDg1MT
+eyJoaXN0b3J5IjpbLTE1MjIwMzUxMTYsODczMzc2MjQ1LDg1MT
 Q4ODkyMF19
 -->
