@@ -8,7 +8,7 @@ In this challenge, we are presented with a lovely picture of a cat, so obviously
 
 ```
 
-┌─[slavetomints@parrot]─[~/training/picoCTF/forensics/information]
+┌─[slavetomints@parrot]─[~/trainsics/information]
 └──╼ $exiftool cat.jpg 
 ExifTool Version Number         : 12.57
 File Name                       : cat.jpg
@@ -41,5 +41,6 @@ Image Size                      : 2560x1598
 Megapixels                      : 4.1
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODczMzc2MjQ1LDg1MTQ4ODkyMF19
+eyJoaXN0b3J5IjpbLTE5NzUxODU0NzUsODczMzc2MjQ1LDg1MT
+Q4ODkyMF19
 -->
