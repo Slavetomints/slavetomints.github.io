@@ -37,7 +37,19 @@ def level_2_pw_check():
 level_2_pw_check()
 ```
 
-Once again, we have user input being saved into `user_pw`, and it is being checked against some obfuscated password. In python, the `chr()` method will turn the hexadecimal code for a character into it
+Once again, we have user input being saved into `user_pw`, and it is being checked against some obfuscated password. In python, the `chr()` method will turn the hexadecimal code for a character into its Unicode/ASCII equivalent. With this we can easily decrypt the password with a single `print()` call.
+
+```
+
+┌─[slavetomints@parrot]─[~]
+└──╼ $python
+Python 3.11.2 (main, Month Day Year, HH:MM:SS) [GCC 12.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print(chr(0x34) + chr(0x65) + chr(0x63) + chr(0x39))
+4ec9
+```
+
+And if w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzcyMDI0MF19
+eyJoaXN0b3J5IjpbMzIzNzEyMDcxXX0=
 -->
