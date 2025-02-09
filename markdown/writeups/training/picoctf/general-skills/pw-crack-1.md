@@ -43,12 +43,14 @@ The most interesting thing to see is that the program asks for a password, and t
 
 ```
 
-┌─[slavetomints@parrot]─[~/training/picoCTF/general-skills/pw-crack-1]
+┌─[slavetomints@parrot]─[~]
 └──╼ $python level1.py 
 Please enter correct password for flag: 1e1a
 Welcome back... your flag, user:
 picoCTF{545h_r1ng1ng_fa343060}
 ```
+
+FLAG: `picoCTF{545h_r1ng1ng_fa343060}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMDY1ODI2NywyMDQ0NDAwMTkxXX0=
+eyJoaXN0b3J5IjpbNjExMTc4ODU5LDIwNDQ0MDAxOTFdfQ==
 -->
