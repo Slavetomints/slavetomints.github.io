@@ -52,7 +52,8 @@ undefined8 main(void)
 
 ```
 
-A major thing that you might have to get around is that during the reverse engineering process, almost every time the variable names are not preserved. Thankfully, Ghidra provides us with a 
+A major thing that you might have to get around is that during the reverse engineering process, almost every time the variable names are not preserved. Thankfully, Ghidra provides us with an ability to rename variables 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzM5NjQwMCw2MTc0NDg0OTddfQ==
+eyJoaXN0b3J5IjpbMTI2MzU4NjY0NiwxMTczMzk2NDAwLDYxNz
+Q0ODQ5N119
 -->
