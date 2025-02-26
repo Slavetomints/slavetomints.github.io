@@ -102,10 +102,12 @@ Now we can see what everything is doing. Armed with this knowledge lets work on 
 
 ## Way 1
 
-All we need to get the flag is to know the secret code and the password. We know the password is compared to `Sup3rS3cr3tP455W0rd\n`, so all we need to enter 
+All we need to get the flag is to know the secret code and the password. We know the password is compared to `Sup3rS3cr3tP455W0rd\n`, so all we need to enter the first part to get it correct, since when we hit enter the newline is added on.
+
+But what about the 
 
 ## Way 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNjI4MjAyOCwyNzUxNTYxMTYsMTI2Mz
-U4NjY0NiwxMTczMzk2NDAwLDYxNzQ0ODQ5N119
+eyJoaXN0b3J5IjpbLTE0MjcxMzkwMzIsMjc1MTU2MTE2LDEyNj
+M1ODY2NDYsMTE3MzM5NjQwMCw2MTc0NDg0OTddfQ==
 -->
