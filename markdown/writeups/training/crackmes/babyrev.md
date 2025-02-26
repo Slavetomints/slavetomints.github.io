@@ -7,7 +7,7 @@ Challenge description:
 >  
 > The program not only demands the correct password, but also a secret code—one that isn’t easily discovered. Is it hidden within the code? Or perhaps something you’ll have to figure out for yourself?
 
-For this challenge, we are going to be using `Ghidra`. `Ghidra` is a reverse engineering tool made by the National Security Agency (NSA), 
+For this challenge, we are going to be using `Ghidra`. `Ghidra` is a reverse engineering tool made by the National Security Agency (NSA), completely fre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU3MDE4NzhdfQ==
+eyJoaXN0b3J5IjpbMTE1OTY5MjkwN119
 -->
