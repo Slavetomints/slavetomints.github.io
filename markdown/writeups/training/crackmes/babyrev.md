@@ -52,8 +52,8 @@ undefined8 main(void)
 
 ```
 
-A major thing that you might have to get around is that during the reverse engineering process, almost every time the variable names are not preserved. Thankfully, Ghidra provides us with an ability to rename variables 
+A major thing that you might have to get around is that during the reverse engineering process, almost every time the variable names are not preserved. Thankfully, Ghidra provides us with an ability to rename variables. I see that after asking for the password the program takes the keyboard ino
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzU4NjY0NiwxMTczMzk2NDAwLDYxNz
-Q0ODQ5N119
+eyJoaXN0b3J5IjpbMTk1MTMzODk4NCwxMjYzNTg2NjQ2LDExNz
+MzOTY0MDAsNjE3NDQ4NDk3XX0=
 -->
