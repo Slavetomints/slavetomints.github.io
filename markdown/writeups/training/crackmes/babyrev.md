@@ -17,18 +17,18 @@ undefined8 main(void)
 {
   int iVar1;
   long in_FS_OFFSET;
-  int secretCode;
+  int local_40;
   uint local_3c;
-  char password [40];
+  char local_38 [40];
   long local_10;
   
   local_10 = *(long *)(in_FS_OFFSET + 0x28);
   puts("Welcome to baby rev challenge\nInput the password:\n");
-  fgets(password,0x20,stdin);
+  fgets(local_38,0x20,stdin);
   puts("Input the secret code now:\n");
-  __isoc99_scanf(&DAT_0010211f,&secretCode);
-  if (secretCode == 0x539) {
-    iVar1 = strcmp(password,"Sup3rS3cr3tP455W0rd\n");
+  __isoc99_scanf(&DAT_0010211f,&local_40);
+  if (local_40 == 0x539) {
+    iVar1 = strcmp(local_38,"Sup3rS3cr3tP455W0rd\n");
     if (iVar1 == 0) {
       puts("Correct!\nHere is your flag\n");
       for (local_3c = 0; local_3c < 0x1b; local_3c = local_3c + 1) {
@@ -51,6 +51,8 @@ undefined8 main(void)
 }
 
 ```
+
+A major thing that you might have to get around is that during the reverse engineering process, almost every time the variable names are not preserved. Thankfully, Ghidra provides us with a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3NDQ4NDk3XX0=
+eyJoaXN0b3J5IjpbMTE3MzM5NjQwMCw2MTc0NDg0OTddfQ==
 -->
