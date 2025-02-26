@@ -102,10 +102,10 @@ Now we can see what everything is doing. Armed with this knowledge lets work on 
 
 ## Way 1
 
-All we need to get the flag is to 
+All we need to get the flag is to know the secret code and the password. We know the password is compared to `Sup3rS3cr3tP455W0rd\n`, so all we need to enter 
 
 ## Way 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjAwMTE5MSwyNzUxNTYxMTYsMTI2Mz
+eyJoaXN0b3J5IjpbMTUyNjI4MjAyOCwyNzUxNTYxMTYsMTI2Mz
 U4NjY0NiwxMTczMzk2NDAwLDYxNzQ0ODQ5N119
 -->
