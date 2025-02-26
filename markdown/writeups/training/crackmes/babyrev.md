@@ -98,8 +98,14 @@ undefined8 main(void)
 
 ```
 
-Now we
+Now we can see what everything is doing. Armed with this knowledge lets work on breaking apart this challenge, which we can do 2 ways.
+
+## Way 1
+
+All we need to get the flag is to 
+
+## Way 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NjI0MjkwLDI3NTE1NjExNiwxMjYzNT
-g2NjQ2LDExNzMzOTY0MDAsNjE3NDQ4NDk3XX0=
+eyJoaXN0b3J5IjpbMTE4MjAwMTE5MSwyNzUxNTYxMTYsMTI2Mz
+U4NjY0NiwxMTczMzk2NDAwLDYxNzQ0ODQ5N119
 -->
