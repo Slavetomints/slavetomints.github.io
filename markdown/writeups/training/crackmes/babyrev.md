@@ -52,8 +52,8 @@ undefined8 main(void)
 
 ```
 
-A major thing that you might have to get around is that during the reverse engineering process, almost every time the variable names are not preserved. Thankfully, Ghidra provides us with an ability to rename variables. I see that after asking for the password the program takes the keyboard ino
+A major thing that you might have to get around is that during the reverse engineering process, almost every time the variable names are not preserved. Thankfully, Ghidra provides us with an ability to rename variables. I see that after asking for the password the program takes the keyboard input into the `local_38` variable, and the same with the secret code and `local_40`. So we can rename both.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTMzODk4NCwxMjYzNTg2NjQ2LDExNz
-MzOTY0MDAsNjE3NDQ4NDk3XX0=
+eyJoaXN0b3J5IjpbMjc1MTU2MTE2LDEyNjM1ODY2NDYsMTE3Mz
+M5NjQwMCw2MTc0NDg0OTddfQ==
 -->
