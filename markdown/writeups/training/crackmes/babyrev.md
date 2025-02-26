@@ -110,11 +110,24 @@ Now all er need to do is run the code and enter in our passwords.
 
 ```
 
+┌─[slavetomints@parrot]─[~]
+└──╼ $ ./babyrev
+Welcome to baby rev challenge
+Input the password:
+
+Sup3rS3cr3tP455W0rd
+Input the secret code now:
+
+1337
+Correct!
+Here is your flag
+
+CTFlearn{W4s_1T_Th4T_H4rd?}
 
 ```
 
 ## Way 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDYyMzQ5LDI3NTE1NjExNiwxMjYzNT
-g2NjQ2LDExNzMzOTY0MDAsNjE3NDQ4NDk3XX0=
+eyJoaXN0b3J5IjpbLTIyODk2Mzc5NywyNzUxNTYxMTYsMTI2Mz
+U4NjY0NiwxMTczMzk2NDAwLDYxNzQ0ODQ5N119
 -->
