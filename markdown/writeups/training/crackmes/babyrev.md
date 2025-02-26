@@ -104,10 +104,17 @@ Now we can see what everything is doing. Armed with this knowledge lets work on 
 
 All we need to get the flag is to know the secret code and the password. We know the password is compared to `Sup3rS3cr3tP455W0rd\n`, so all we need to enter the first part to get it correct, since when we hit enter the newline is added on.
 
-But what about the secret code? Well, we can see that its compared to the value of `0x539`, which is hex. And there's a million ways to figure out what it is equivalent to 
+But what about the secret code? Well, we can see that its compared to the value of `0x539`, which is hex. And there's a million ways to figure out what it is equivalent to in the decimal system. In Ghidra, all we need to do is hover over the value, and it will show us that it is equivalent to `1337`.
+
+Now all er need to do is run the code and enter in our passwords.
+
+```
+
+
+```
 
 ## Way 2
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjM1OTE3MTksMjc1MTU2MTE2LDEyNj
-M1ODY2NDYsMTE3MzM5NjQwMCw2MTc0NDg0OTddfQ==
+eyJoaXN0b3J5IjpbMjAwNDYyMzQ5LDI3NTE1NjExNiwxMjYzNT
+g2NjQ2LDExNzMzOTY0MDAsNjE3NDQ4NDk3XX0=
 -->
