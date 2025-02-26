@@ -52,8 +52,54 @@ undefined8 main(void)
 
 ```
 
-A major thing that you might have to get around is that during the reverse engineering process, almost every time the variable names are not preserved. Thankfully, Ghidra provides us with an ability to rename variables. I see that after asking for the password the program takes the keyboard input into the `local_38` variable, and the same with the secret code and `local_40`. So we can rename both.
+A major thing that you might have to get around is that during the reverse engineering process, almost every time the variable names are not preserved. Thankfully, Ghidra provides us with an ability to rename variables. I see that after asking for the password the program takes the keyboard input into the `local_38` variable, and the same with the secret code and `local_40`. So we can rename both. And it looks like `local_3c` is just an iterator to build what might be the flag. `iVar1` is the output of the `strcmp`, and `local_10` is the stack canary, which is beyond the scope of this challenge.
+
+Here's the revised output:
+
+```c
+
+undefined8 main(void)
+
+{
+  int password_check;
+  long in_FS_OFFSET;
+  int secret_code;
+  uint iterator;
+  char password [40];
+  long stack_canary;
+  
+  stack_canary = *(long *)(in_FS_OFFSET + 0x28);
+  puts("Welcome to baby rev challenge\nInput the password:\n");
+  fgets(password,0x20,stdin);
+  puts("Input the secret code now:\n");
+  __isoc99_scanf(&DAT_0010211f,&secret_code);
+  if (secret_code == 0x539) {
+    password_check = strcmp(password,"Sup3rS3cr3tP455W0rd\n");
+    if (password_check == 0) {
+      puts("Correct!\nHere is your flag\n");
+      for (iterator = 0; iterator < 0x1b; iterator = iterator + 1) {
+        putchar((int)(char)((char)iterator + 0x69U ^
+                           (byte)*(undefined4 *)(flag + (long)(int)iterator * 4)));
+      }
+    }
+    else {
+      puts("Wrong password!");
+    }
+  }
+  else {
+    puts("Wrong code!");
+  }
+  if (stack_canary == *(long *)(in_FS_OFFSET + 0x28)) {
+    return 0;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+
+```
+
+Now we
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1MTU2MTE2LDEyNjM1ODY2NDYsMTE3Mz
-M5NjQwMCw2MTc0NDg0OTddfQ==
+eyJoaXN0b3J5IjpbMjg5NjI0MjkwLDI3NTE1NjExNiwxMjYzNT
+g2NjQ2LDExNzMzOTY0MDAsNjE3NDQ4NDk3XX0=
 -->
