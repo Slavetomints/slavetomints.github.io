@@ -12,8 +12,45 @@ For this challenge, we are going to be using `Ghidra`. `Ghidra` is a reverse eng
 
 ```c
 
+undefined8 main(void)
+
+{
+  int iVar1;
+  long in_FS_OFFSET;
+  int secretCode;
+  uint local_3c;
+  char password [40];
+  long local_10;
+  
+  local_10 = *(long *)(in_FS_OFFSET + 0x28);
+  puts("Welcome to baby rev challenge\nInput the password:\n");
+  fgets(password,0x20,stdin);
+  puts("Input the secret code now:\n");
+  __isoc99_scanf(&DAT_0010211f,&secretCode);
+  if (secretCode == 0x539) {
+    iVar1 = strcmp(password,"Sup3rS3cr3tP455W0rd\n");
+    if (iVar1 == 0) {
+      puts("Correct!\nHere is your flag\n");
+      for (local_3c = 0; local_3c < 0x1b; local_3c = local_3c + 1) {
+        putchar((int)(char)((char)local_3c + 0x69U ^
+                           (byte)*(undefined4 *)(flag + (long)(int)local_3c * 4)));
+      }
+    }
+    else {
+      puts("Wrong password!");
+    }
+  }
+  else {
+    puts("Wrong code!");
+  }
+  if (local_10 == *(long *)(in_FS_OFFSET + 0x28)) {
+    return 0;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzM0NjMzMjRdfQ==
+eyJoaXN0b3J5IjpbNjE3NDQ4NDk3XX0=
 -->
