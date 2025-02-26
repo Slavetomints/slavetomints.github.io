@@ -98,9 +98,7 @@ undefined8 main(void)
 
 ```
 
-Now we can see what everything is doing. Armed with this knowledge lets work on breaking apart this challenge, which we can do 2 ways.
-
-## Way 1
+Now we can see what everything is doing. Armed with this knowledge lets work on breaking apart this challenge.
 
 All we need to get the flag is to know the secret code and the password. We know the password is compared to `Sup3rS3cr3tP455W0rd\n`, so all we need to enter the first part to get it correct, since when we hit enter the newline is added on.
 
@@ -126,8 +124,9 @@ CTFlearn{W4s_1T_Th4T_H4rd?}
 
 ```
 
-## Way 2
+FLAG: `CTFlearn{W4s_1T_Th4T_H4rd?}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODk2Mzc5NywyNzUxNTYxMTYsMTI2Mz
-U4NjY0NiwxMTczMzk2NDAwLDYxNzQ0ODQ5N119
+eyJoaXN0b3J5IjpbLTU1MDcwNTUwMiwtMjI4OTYzNzk3LDI3NT
+E1NjExNiwxMjYzNTg2NjQ2LDExNzMzOTY0MDAsNjE3NDQ4NDk3
+XX0=
 -->
