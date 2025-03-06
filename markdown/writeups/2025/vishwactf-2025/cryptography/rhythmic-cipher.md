@@ -35,7 +35,7 @@ Immediately when given a GIF my first though is to extract each frame from it, s
 
 ## Elementary my dear Watson
 
-I've seen this before, this looks like the `Dancing Man cipher`, which first debuted in Sir Aurthor Connan Doyle's "Sherlock Holmes and the Case of the Dancing Men"
+I've seen this before, this looks like the `Dancing Man cipher`, which first debuted in Sir Arthur Conan Doyle's "The Adventure of the Dancing Men"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI1MTA0MDIxXX0=
+eyJoaXN0b3J5IjpbNTAwMzQ5NDQ0XX0=
 -->
