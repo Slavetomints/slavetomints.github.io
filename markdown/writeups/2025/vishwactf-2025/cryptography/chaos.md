@@ -92,7 +92,10 @@ Looking at `challenge.py`, it appears that its pulling some text from `https://x
 
 But, what does it actually do? It compares two values, both of which are either 0 or 1, and returns `1` if the two are different, and `0` if they are different for example:
 
+| Input 1 | Input 2 | Output |
+| -- | -- | -- |
+|  |  | |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTIwNTYwOV19
+eyJoaXN0b3J5IjpbMTY0MzcwMzk0NV19
 -->
