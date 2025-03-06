@@ -33,7 +33,9 @@ Immediately when given a GIF my first though is to extract each frame from it, s
 ![Gif 2-4](assets/2-4.gif)
 ![Gif 2-5](assets/2-5.gif)
 
+## Elementary my dear Watson
 
+I've seen this before, this looks like the `Dancing Man cipher`, which first debuted in Sir Aurthor Connan Doyle's "Sherlock Holmes and the Case of the Dancing Men"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjY5MzM1MzZdfQ==
+eyJoaXN0b3J5IjpbNjI1MTA0MDIxXX0=
 -->
