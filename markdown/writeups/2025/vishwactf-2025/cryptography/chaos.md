@@ -103,7 +103,7 @@ As you can see, where the input were different, a `1` was returned. The nice thi
 
 ## Back to the Challenge
 
-Now that we know how `XOR` works, this challenge is pretty simple, the key used in
+Now that we know how `XOR` works, this challenge is pretty simple. First off, the function `xor_encrypt` takes the message and turns it into an array of bytes, and then preforms an `XOR` on each byte in the array using the output of `index MOD 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NzUyODQ1Ml19
+eyJoaXN0b3J5IjpbMTMzNjg4MTMwM119
 -->
