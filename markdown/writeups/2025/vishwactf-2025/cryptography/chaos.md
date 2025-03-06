@@ -53,7 +53,7 @@ PiZbAU~FP1ab|xjcx7i{dogBvbzwGOd1^Xod3<sp0BT1@R0Tp#PfkNcOAG
 
 ## challenge.p​y
 
-```py
+```python
 import random
 import base64
 import os
@@ -107,10 +107,33 @@ Now that we know how `XOR` works, this challenge is pretty simple. First off, th
 
 ## My Solution
 
+```python
+
+import base64
+
+def xor_decrypt(msg):
+    decoded_msg = base64.b85decode(msg)
+    transformed = bytearray(decoded_msg)
+    for i in range(len(transformed)):
+        transformed[i] ^= (i % 256)
+    return bytes(transformed)
+
+encrypted_messages = []
+
+with open('output.txt', 'r') as f:
+    encrypted_messages = f.read().split('\n\n')
+
+decrypted_messages = []
+for encrypted_msg in encrypted_messages:
+    decrypted_msg = xor_decrypt(encrypted_msg)
+    decrypted_messages.append(decrypted_msg.decode())
+
+for message in decrypted_messages:
+    print(message)
+
 ```
 
-
-```
+It's almost the same as the encryption script, in fact some parts are the exact same, but utilizing the same logic from earlier we can easily decrypt it all. Lets 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTY1ODkzNjNdfQ==
+eyJoaXN0b3J5IjpbLTI1MzE2MjUyXX0=
 -->
