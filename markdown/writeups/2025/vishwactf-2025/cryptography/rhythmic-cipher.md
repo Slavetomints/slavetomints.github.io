@@ -20,10 +20,20 @@ Immediately when given a GIF my first though is to extract each frame from it, s
 ![Elon Musk](assets/1-1.gif)
 ![Gif 1-2](assets/1-2.gif)
 ![Gif 1-3](assets/1-3.gif)
+![Gif 1-4](assets/1-4.gif)
+![Gif 1-5](assets/1-5.gif)
+![Gif 1-6](assets/1-6.gif)
+![Gif 1-7](assets/1-7.gif)
+![Gif 1-8](assets/1-8.gif)
 
-![Gif 1-2](assets/1-4.gif)
 ## gif2.gif
+![Gif 2-1](assets/2-1.gif)
+![Gif 2-2](assets/2-2.gif)
+![Gif 2-3](assets/2-3.gif)
+![Gif 2-4](assets/2-4.gif)
+![Gif 2-5](assets/2-5.gif)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjA5ODU4MF19
+eyJoaXN0b3J5IjpbLTE5MjY5MzM1MzZdfQ==
 -->
