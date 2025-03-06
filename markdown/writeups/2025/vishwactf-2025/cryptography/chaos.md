@@ -90,7 +90,9 @@ Looking at `challenge.py`, it appears that its pulling some text from `https://x
 
 ![XOR gate](https://graphicmaths.com/img/computer-science/logic/combining-logic-gates/xor-create-gate.png)
 
-But, what does it actually do? It compares two values, both of w
+But, what does it actually do? It compares two values, both of which are either 0 or 1, and returns `1` if the two are different, and `0` if they are different for example:
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDc3NzIyODZdfQ==
+eyJoaXN0b3J5IjpbLTM4NTIwNTYwOV19
 -->
