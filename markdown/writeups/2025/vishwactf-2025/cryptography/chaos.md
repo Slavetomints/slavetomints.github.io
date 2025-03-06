@@ -88,7 +88,9 @@ Looking at `challenge.py`, it appears that its pulling some text from `https://x
 
 `XOR`, or `exclusive or` is a logic gate. In a basic sense, a logic gates are ["device[s] that performs a Boolean function"](https://en.wikipedia.org/wiki/Logic_gate). They preform the most basic computation that a computer chip needs in order to function. You computer chip has hundreds of millions of logic gates on it, in order to work the way that it does. The `XOR` gate looks as such:
 
-![https://graphicmaths.com/img/computer-science/logic/combining-logic-gates/xor-create-gate.png](XOR Gate)
+![XOR gate](https://graphicmaths.com/img/computer-science/logic/combining-logic-gates/xor-create-gate.png)
+
+But, what does it actually do? It compares two values, both of w
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5MjEyNTgyXX0=
+eyJoaXN0b3J5IjpbLTExNDc3NzIyODZdfQ==
 -->
