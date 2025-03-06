@@ -133,7 +133,36 @@ for message in decrypted_messages:
 
 ```
 
-It's almost the same as the encryption script, in fact some parts are the exact same, but utilizing the same logic from earlier we can easily decrypt it all. Lets 
+It's almost the same as the encryption script, in fact some parts are the exact same, but utilizing the same logic from earlier we can easily decrypt it all. Lets take a look at what that looks like.
+
+```
+
+┌─[slavetomints@parrot]─[~]
+└──╼ $python3 py.py 
+
+Perhaps the flag is encoded in Base64? Or maybe hex?
+Or maybe the real flag is just one character different from all these fakes?
+VishwaCTF{Fl4g_Or_N0t_Th4t_1s_Th3_QuesT10n}
+Maybe the flag is hidden elsewhere...
+VishwaCTF{T00_M4ny_F4k3_Fl4Gs_G00d_Luck}
+Or inside a comment in the source code?
+This is not the flag, keep looking!
+Or maybe there's a script generating multiple fake flags dynamically?
+VishwaCTF{CrYpt0_cRyPT0_1g_It_1s_sOm3_7hiNg_t0_D0}
+Maybe it's inside another challenge, cross-referencing flags?
+Or is it?
+But wait... isn't this too obvious?
+What if it's a hash of the real flag?
+VishwaCTF{NoT_ThE_ReaL_fLaG_K33P_tRy1Ng}
+Or hidden in an image using steganography?
+Happy hunting!
+VishwaCTF{Y0u_WiLl_N3v3r_F1nd_1t}
+Or maybe the real flag is hidden inside a hidden file?
+Find_the_real_flag_somewhere_in_this_mess
+Oh, did you think that was real? Keep digging!
+```
+
+Eaugh, fake flags. Thankfully accuracy isn't taken into consideration when submitting these 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MzE2MjUyXX0=
+eyJoaXN0b3J5IjpbMjcxNTQxNjQwXX0=
 -->
