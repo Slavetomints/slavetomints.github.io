@@ -162,7 +162,9 @@ Find_the_real_flag_somewhere_in_this_mess
 Oh, did you think that was real? Keep digging!
 ```
 
-Eaugh, fake flags. Thankfully accuracy isn't taken into consideration when submitting these 
+Looks like we have a few flags, lets submit the one that doesn't allude to being a fake flag.
+
+FLAG: `VishwaCTF{CrYpt0_cRyPT0_1g_It_1s_sOm3_7hiNg_t0_D0}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxNTQxNjQwXX0=
+eyJoaXN0b3J5IjpbMTQ1OTY1NTIyOV19
 -->
