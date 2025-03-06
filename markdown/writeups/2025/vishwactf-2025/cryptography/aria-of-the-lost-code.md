@@ -15,7 +15,13 @@ All we are given for this challenge is a single image with some patterns on it:
 
 ![the challenge](assets/Chall_crypto.png)
 
-Now, I highly doubt that this is a novel encoding, so lets do a qw
+Now, I highly doubt that this is a novel encoding, so lets do a quick reverse image search to look for similar ciphers. And as a result of that I found the following:
+
+![hymmnos](assets/Hymmnos.png)
+
+Looks like we have the cipher down, now all we need to do is decrypt it and we'll be on our way!
+
+FLAG: `VishwaCTF{H4v3_y0u_7ri3d_Ar_70n3l1c0}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NzgwMjA1LDU3MjA3NjA3NF19
+eyJoaXN0b3J5IjpbMTQyNDUwNDAzMiw1NzIwNzYwNzRdfQ==
 -->
