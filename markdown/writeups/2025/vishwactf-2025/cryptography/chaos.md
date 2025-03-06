@@ -54,11 +54,9 @@ PiZbAU~FP1ab|xjcx7i{dogBvbzwGOd1^Xod3<sp0BT1@R0Tp#PfkNcOAG
 ## challenge.p​y
 
 ```py
-
 import random
 import base64
 import os
-  
 
 messages = []
 with open('https://x.com/Abhinav04139720.txt', 'rb') as f:
@@ -70,28 +68,21 @@ with open('flag.txt', 'rb') as f:
 messages.append(flag)
 
 random.shuffle(messages)
-  
-def  xor_encrypt(msg):
 
-transformed =  bytearray(msg)
+def xor_encrypt(msg):
+    transformed = bytearray(msg)
+    for i in range(len(transformed)):
+        transformed[i] ^= (i % 256)  
+    return base64.b85encode(transformed).decode() 
 
-for i in  range(len(transformed)):
+with open('output.txt', 'w') as f:
+    for msg in messages:
+        encrypted_msg = xor_encrypt(msg)
+        f.write(f'{encrypted_msg}\n\n')
 
-transformed[i] ^= (i %  256)
-
-return base64.b85encode(transformed).decode()
-
-  
-
-with  open('output.txt', 'w') as f:
-
-for msg in messages:
-
-encrypted_msg = xor_encrypt(msg)
-
-f.write(f'{encrypted_msg}\n\n')
 ```
 
+Looking at `challenge.py`, it appears that its pulling some text from `https://x.com/Abhinav04139720.txt` and then encoding it using `xor`, and then writing it to a file named `output
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyMTgyMDMyXX0=
+eyJoaXN0b3J5IjpbLTE0ODA2Mzk5OTZdfQ==
 -->
