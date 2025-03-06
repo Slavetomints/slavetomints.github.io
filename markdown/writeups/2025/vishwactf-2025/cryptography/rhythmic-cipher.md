@@ -9,7 +9,13 @@ Challenge description:
 >  Flag Format:
 > VishwaCTF{word1_word2}
 
-So here we are given two tiny little 
+So here we are given two tiny little GIFs, so lets take a look at them!
+
+![gif 1](assets/gif1.gif)
+![gif 2](assets/gif2.gif)
+
+Immediate
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzc1NzA0Nl19
+eyJoaXN0b3J5IjpbMTk1MTc4Mzk3M119
 -->
