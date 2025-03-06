@@ -11,6 +11,11 @@ Challenge description:
 > Flag Format:
 > VishwaCTF{A4v4_a4a_4aa4a_Aa_44a4a4a4}
 
+All we are given for this challenge is a single image with some patterns on it:
+
+![the challenge](assets/Chall_crypto.png)
+
+Now, I highly doubt that this is a novel encoding, so lets do a qw
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyMDc2MDc0XX0=
+eyJoaXN0b3J5IjpbMTc4NzgwMjA1LDU3MjA3NjA3NF19
 -->
