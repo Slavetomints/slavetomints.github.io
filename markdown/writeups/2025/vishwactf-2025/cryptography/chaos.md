@@ -86,7 +86,7 @@ Looking at `challenge.py`, it appears that its pulling some text from `https://x
 
 ## xor
 
-`xor`, or `exclusive or` is a logic gate. In a basic sense, a logic gate is the 
+`xor`, or `exclusive or` is a logic gate. In a basic sense, a logic gates are ["device[s] that performs a Boolean function"](https://en.wikipedia.org/wiki/Logic_gate). They are used in the construction logic circuts
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTQ3MTY5OV19
+eyJoaXN0b3J5IjpbMTA3MjIzNjY3N119
 -->
