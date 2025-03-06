@@ -82,7 +82,11 @@ with open('output.txt', 'w') as f:
 
 ```
 
-Looking at `challenge.py`, it appears that its pulling some text from `https://x.com/Abhinav04139720.txt` and then encoding it using `xor`, and then writing it to a file named `output
+Looking at `challenge.py`, it appears that its pulling some text from `https://x.com/Abhinav04139720.txt` and then encoding it using `xor`, and then writing it to a file named `output.txt`. That's all fine and dandy, but what is `xor`?
+
+## xor
+
+`xor`, or `exclusive or` is a logic gate. In a basic sense, a logic gate is the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODA2Mzk5OTZdfQ==
+eyJoaXN0b3J5IjpbLTgyNTQ3MTY5OV19
 -->
