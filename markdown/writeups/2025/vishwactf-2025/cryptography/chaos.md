@@ -56,34 +56,21 @@ PiZbAU~FP1ab|xjcx7i{dogBvbzwGOd1^Xod3<sp0BT1@R0Tp#PfkNcOAG
 ```py
 
 import random
-import bas64
-
+import base64
 import os
-
   
 
 messages = []
+with open('https://x.com/Abhinav04139720.txt', 'rb') as f:
+    for line in f.readlines():
+        messages.append(line.strip())
 
-with  open('https://x.com/Abhinav04139720.txt', 'rb') as f:
-
-for line in f.readlines():
-
-messages.append(line.strip())
-
-  
-
-with  open('flag.txt', 'rb') as f:
-
-flag = f.read().strip()
-
+with open('flag.txt', 'rb') as f:
+    flag = f.read().strip()
 messages.append(flag)
 
-  
-
 random.shuffle(messages)
-
   
-
 def  xor_encrypt(msg):
 
 transformed =  bytearray(msg)
@@ -104,6 +91,7 @@ encrypted_msg = xor_encrypt(msg)
 
 f.write(f'{encrypted_msg}\n\n')
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA4NTY4ODFdfQ==
+eyJoaXN0b3J5IjpbNDAyMTgyMDMyXX0=
 -->
