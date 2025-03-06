@@ -82,11 +82,13 @@ with open('output.txt', 'w') as f:
 
 ```
 
-Looking at `challenge.py`, it appears that its pulling some text from `https://x.com/Abhinav04139720.txt` and then encoding it using `xor`, and then writing it to a file named `output.txt`. That's all fine and dandy, but what is `xor`?
+Looking at `challenge.py`, it appears that its pulling some text from `https://x.com/Abhinav04139720.txt` and then encoding it using `xor`, and then writing it to a file named `output.txt`. That's all fine and dandy, but what is `XOR`?
 
-## xor
+## XOR
 
-`xor`, or `exclusive or` is a logic gate. In a basic sense, a logic gates are ["device[s] that performs a Boolean function"](https://en.wikipedia.org/wiki/Logic_gate). They preform the most basic computation that a computer chip needs in order to function. You computer chip has hundereds of millions of logic gates on it, in order to work the way that it does.
+`XOR`, or `exclusive or` is a logic gate. In a basic sense, a logic gates are ["device[s] that performs a Boolean function"](https://en.wikipedia.org/wiki/Logic_gate). They preform the most basic computation that a computer chip needs in order to function. You computer chip has hundreds of millions of logic gates on it, in order to work the way that it does. The `XOR` gate looks as such:
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/XOR_from_NAND.svg/300px-XOR_from_NAND.svg.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDczOTYxXX0=
+eyJoaXN0b3J5IjpbMjAwNDY4ODk5Nl19
 -->
