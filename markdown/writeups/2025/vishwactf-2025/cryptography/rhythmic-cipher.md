@@ -33,9 +33,9 @@ Immediately when given a GIF my first though is to extract each frame from it, s
 ![Gif 2-4](assets/2-4.gif)
 ![Gif 2-5](assets/2-5.gif)
 
-## Elementary my dear Watson
+## Elementary My Dear Watson!
 
-I've seen this before, this looks like the `Dancing Man cipher`, which first debuted in Sir Arthur Conan Doyle's "The Adventure of the Dancing Men"
+I've seen this before, this looks like the `Dancing Man cipher`, which first debuted in Sir Arthur Conan Doyle's "The Adventure of the Dancing Men". It is a simple
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwMzQ5NDQ0XX0=
+eyJoaXN0b3J5IjpbMTkyOTQzMTY4MV19
 -->
