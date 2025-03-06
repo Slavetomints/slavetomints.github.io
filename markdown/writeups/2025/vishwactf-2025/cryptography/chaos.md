@@ -99,7 +99,11 @@ But, what does it actually do? It compares two values, both of which are either 
 | 1 | 0 | 1 |
 | 1 | 1 | 0 |
 
-As you can see, where the input were different, a `1` was returned. The nice thing about this is that if you simply
+As you can see, where the input were different, a `1` was returned. The nice thing about this is that if you simply preform the `XOR` again and it will decrypt itself, as long as you use the same key.
+
+## Back to the Challenge
+
+Now that we know how `XOR` works, this challenge is pretty simple, the key used in
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzODA2ODQ3NV19
+eyJoaXN0b3J5IjpbLTc4NzUyODQ1Ml19
 -->
