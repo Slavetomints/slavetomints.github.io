@@ -14,8 +14,13 @@ So here we are given two tiny little GIFs, so lets take a look at them!
 ![gif 1](assets/gif1.gif)
 ![gif 2](assets/gif2.gif)
 
-Immediate
+Immediately when given a GIF my first though is to extract each frame from it, so I can see it better. It doesn't matter what you use, just don't be clinking on random links. The extracted images of interest are as follows:
+
+## gif1.gif
+
+
+## gif2.gif
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTc4Mzk3M119
+eyJoaXN0b3J5IjpbMTk1NjYzMzkyOV19
 -->
