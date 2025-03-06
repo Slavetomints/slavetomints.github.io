@@ -96,9 +96,10 @@ But, what does it actually do? It compares two values, both of which are either 
 | -- | -- | -- |
 | 0 | 0 | 0 |
 | 0 | 1 | 1 |
-| 1 | 0 | |
-| 1 | 1 | |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
 
+As you can see, where the input were different, a `1` was returned. The nice thing about this is that if you simply
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzE0NzUxOF19
+eyJoaXN0b3J5IjpbLTMzODA2ODQ3NV19
 -->
