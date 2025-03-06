@@ -94,8 +94,11 @@ But, what does it actually do? It compares two values, both of which are either 
 
 | Input 1 | Input 2 | Output |
 | -- | -- | -- |
-|  |  | |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | |
+| 1 | 1 | |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzcwMzk0NV19
+eyJoaXN0b3J5IjpbMTEwNzE0NzUxOF19
 -->
