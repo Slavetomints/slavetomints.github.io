@@ -82,7 +82,7 @@ with open('output.txt', 'w') as f:
 
 ```
 
-Looking at `challenge.py`, it appears that its pulling some text from `https://x.com/Abhinav04139720.txt` and then encoding it using `xor`, and then writing it to a file named `output.txt`. That's all fine and dandy, but what is `XOR`?
+Looking at `challenge.py`, it appears that its pulling some text from `https://x.com/Abhinav04139720.txt` and `flag.txt`, shuffling the order of the line, then encoding each using `xor`, and then writing it to a file named `output.txt`. That's all fine and dandy, but what is `XOR`?
 
 ## XOR
 
@@ -103,7 +103,14 @@ As you can see, where the input were different, a `1` was returned. The nice thi
 
 ## Back to the Challenge
 
-Now that we know how `XOR` works, this challenge is pretty simple. First off, the function `xor_encrypt` takes the message and turns it into an array of bytes, and then preforms an `XOR` on each byte in the array using the output of `index MOD 256`, so know we know the key to use in decrypting it. And finally it returns the `XOR`ed message encod
+Now that we know how `XOR` works, this challenge is pretty simple. First off, the function `xor_encrypt` takes the message and turns it into an array of bytes, and then preforms an `XOR` on each byte in the array using the output of `index MOD 256`, so know we know the key to use in decrypting it. And finally it returns the `XOR`ed message encoded in `base85`. I'm not too concerned about the shuffling of the messages since its a simple task to decrypt them all. Let's take a look now at the solution
+
+## My Solution
+
+```
+
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjU1MjQ4NDBdfQ==
+eyJoaXN0b3J5IjpbLTE2OTY1ODkzNjNdfQ==
 -->
