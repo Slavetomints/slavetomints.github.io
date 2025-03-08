@@ -10,8 +10,7 @@ However, it seems that the file we have is too slow, so lets bump up the speed o
 
 ![The decoding in process](assets/image0.png)
 
-FLAG: `VishwaCTF{CR4CK3D_7H3_C0D3}
-
+FLAG: `VishwaCTF{CR4CK3D_7H3_C0D3}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxMTM5MTk1LC0xNTY1MTY1MTJdfQ==
+eyJoaXN0b3J5IjpbNTI4NzM0MDg3LC0xNTY1MTY1MTJdfQ==
 -->
