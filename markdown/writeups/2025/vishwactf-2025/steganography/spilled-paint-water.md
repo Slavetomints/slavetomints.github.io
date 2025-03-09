@@ -70,7 +70,7 @@ So here I see a few issues, the first is that the `background-color` element is 
 
 However, this just gives us a blank image, which brings me to the next thing about this I see. The `<rect  x="1000"  y="1000"  width="200"  height="200"/>` defines where we can see the image, but in the first element the image is defined as taking place at `viewBox="0 0 300 300"`, so we'll need to edit the `rect` tag to capture those values. Alternatively you could've seen that in the `line` tags, some of the `transform` elements fell outside of the defined range. Regardless, lets look at what the code should look like now.
 
-```
+```xml
 
 <svg id="eEnmxFAjcr61"
 	xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,13 @@ However, this just gives us a blank image, which brings me to the next thing abo
 </svg>
 
 ```
+
+And now our image looks like:
+
+![Solved!](assets/canvas_solved.svg)
+
+FLAG: `VishwaCTF{STROKE__N_FILL}`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczMjYzMTcxLC0xOTc2MzE0NTM1LDQyNj
-gwNzMwMSw4Njk3MzU2NjVdfQ==
+eyJoaXN0b3J5IjpbMTkxMjQ5MjM5MiwtMTk3NjMxNDUzNSw0Mj
+Y4MDczMDEsODY5NzM1NjY1XX0=
 -->
