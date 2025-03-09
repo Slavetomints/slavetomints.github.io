@@ -13,8 +13,10 @@ Hm, cryptic (not) description, but lets look at what we're given
 ![Part 3](assets/flag3.png)
 ![Part 4](assets/flag4.png)
 
-Since we have 4 parts og a QR code, lets layer them all on top of each o
+Since we have 4 parts of a QR code, lets layer them all on top of each other and see what we get from that.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDg5MjE0MiwxODEzMTQ3NzYsNzMwOT
+eyJoaXN0b3J5IjpbMjA3NTcwODEyMywxODEzMTQ3NzYsNzMwOT
 k4MTE2XX0=
 -->
