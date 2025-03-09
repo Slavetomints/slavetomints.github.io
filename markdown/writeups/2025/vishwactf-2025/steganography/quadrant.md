@@ -15,8 +15,11 @@ Hm, cryptic (not) description, but lets look at what we're given
 
 Since we have 4 parts of a QR code, lets layer them all on top of each other and see what we get from that.
 
+![The reconstructed QR code](assets/image0.png)
+
+Now, and interesting thing about QR codes is that you dont actually need to entire code to recreate the data that it had encoded, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTcwODEyMywxODEzMTQ3NzYsNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEzMzAzNDg4MywyMDc1NzA4MTIzLDE4MT
+MxNDc3Niw3MzA5OTgxMTZdfQ==
 -->
