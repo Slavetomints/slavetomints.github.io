@@ -66,7 +66,9 @@ Hm, very blue. Now, if you didn't know, an SVG image is an XML-based image forma
 
 ```
 
-So here I see a few issues, the first is that the `background-color` element is washing out all of the li nes, since it is the same
+So here I see a few issues, the first is that the `background-color` element is washing out all of the lines, since it is the same color as they are. To remedy this you can simply comment it out using the `/* comment *\` syntax.
+
+The next thing about this I see is that
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTA5NDM1NzEsODY5NzM1NjY1XX0=
+eyJoaXN0b3J5IjpbLTgwNTc1NTEyMCw4Njk3MzU2NjVdfQ==
 -->
