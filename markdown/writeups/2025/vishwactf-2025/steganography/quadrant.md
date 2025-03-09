@@ -17,9 +17,11 @@ Since we have 4 parts of a QR code, lets layer them all on top of each other and
 
 ![The reconstructed QR code](assets/image0.png)
 
-Now, and interesting thing about QR codes is that you don't actually need to entire code to recreate the data that it had encoded, so lets scan it with our camera and get 
+Now, and interesting thing about QR codes is that you don't actually need to entire code to recreate the data that it had encoded, so lets scan it with our camera and get that flag.
+
+FLAG: `VishwaCTF{aG9lMTIzNDU2c3Bhc3NhZ2U=}`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDg2NjY0OCwyMDc1NzA4MTIzLDE4MT
-MxNDc3Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTEzMDc2NjgxODQsMjA3NTcwODEyMywxOD
+EzMTQ3NzYsNzMwOTk4MTE2XX0=
 -->
