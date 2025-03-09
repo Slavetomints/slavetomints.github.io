@@ -68,7 +68,7 @@ Hm, very blue. Now, if you didn't know, an SVG image is an XML-based image forma
 
 So here I see a few issues, the first is that the `background-color` element is washing out all of the lines, since it is the same color as they are. To remedy this you can simply comment it out using the `/* comment *\` syntax.
 
-The next thing about this I see is that
+However, this just gives us a blank image, which brings me to the next thing about this I see. The `<rect  x="1000"  y="1000"  width="200"  height="200"/>` defines where we can see the image, but in the first element the image is defined as taking place at `viewBox="0 0 300 300"`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTc1NTEyMCw4Njk3MzU2NjVdfQ==
+eyJoaXN0b3J5IjpbNDI2ODA3MzAxLDg2OTczNTY2NV19
 -->
