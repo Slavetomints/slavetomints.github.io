@@ -66,7 +66,7 @@ Hm, very blue. Now, if you didn't know, an SVG image is an XML-based image forma
 
 ```
 
-
+So here I see a few issues, the first is that 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwNjc0MTY4XX0=
+eyJoaXN0b3J5IjpbODY5NzM1NjY1XX0=
 -->
