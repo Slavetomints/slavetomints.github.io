@@ -8,6 +8,8 @@ Challenge description:
 Alrighty, here we're given a svg image, and we have to find something in it. Here's the svg.
 
 ![the svg](assets/canvas.svg)
+
+Hm, very blue. Now, if you didnt know, an svg image is an XML-based image format, meaning we can actually edit it all as a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI0NjczNzldfQ==
+eyJoaXN0b3J5IjpbLTEyMzk3MTk3NDVdfQ==
 -->
