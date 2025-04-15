@@ -107,28 +107,25 @@ social_preview_image: # string, local or CORS resources
 # boolean type, the global switch for TOC in posts.
 toc: true
 
-comments: 
+comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: utterances # [disqus | utterances | giscus]
+  provider: giscus # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: slavetomints/website-comments
-    issue-term: pathname
-    label: Comment
-    theme: github-dark
-    crossorigin: anonymous
+    repo: # <gh-username>/<repo>
+    issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
+    repo: slavetomints/website-comments# <gh-username>/<repo>
+    repo_id: R_kgDOOZwjRQ
+    category: Announcements
+    category_id: DIC_kwDOOZwjRc4CpG68
     mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
+    strict: 1 # optional, default to '0'
+    input_position: top # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
