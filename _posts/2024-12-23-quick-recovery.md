@@ -1,13 +1,15 @@
 ---
 title: Quick Recovery
 date: 2024-12-23 19:47:00 +/-0600
-categories: [Capture The Flags, 1337Up Live 2024]
+categories: [Capture The Flags, 1337UP Live 2024]
 tags: [ctf, 1337up, misc, writeups]
+description: 1337UP Live 2024 Quick Recovery Challenge
 ---
 
-Challenge description:
-
+> Challenge description:
+> 
 > Hey, check this QR code ASAP! It's highly sensitive so I scrambled it, but you shouldn't have a hard time reconstructing - just make sure to update the a_order to our shared PIN. The b_order is the reverse of that 😉
+{: .prompt-info }
 
 Downloading the attached file and extrating its contents leads us to have a `gen.py` file and a `obscured.png` file. What is the png?
 
@@ -15,7 +17,8 @@ Downloading the attached file and extrating its contents leads us to have a `gen
 
 Huh, that looks pretty scrambled. Well, lets run the python script! 
 
-*Note: You will need to install pillow with pip if you haven't already.*
+> Note: You will need to install pillow with pip if you haven't already.
+{: .prompt-tip }
 
 ```terminal
 ┌─[slavetomints@parrot]─[~/CTFS/1337UP2024/misc/quick_recovery]

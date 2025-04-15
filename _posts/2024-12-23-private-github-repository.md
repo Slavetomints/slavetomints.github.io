@@ -1,14 +1,15 @@
 ---
-title: Private Github Repository
+title: Private GitHub Repository
 date: 2024-12-23 19:47:00 +/-0600
-categories: [Capture The Flags, 1337Up Live 2024]
+categories: [Capture The Flags, 1337UP Live 2024]
 tags: [ctf, 1337up, osint, writeups]
-pin: true
+description: 1337UP Live 2024 Private GitHub Repository Challenge
 ---
 
-Challenge description:
-
+> Challenge description:
+> 
 > Bob Robizillo created a public instructions for Tiffany, so she can start work on new secret project. can you access the secret repository?
+{: .prompt-info }
 
 Unfortunately, or, rather fortunately, there is no way to see a private GitHub repository unless you've been invited as a collaborator. So lets leverage our amazing OSINT skills to find any trace of Mr. Robizillo on the Internet. Now, your results may vary, but for me `"Robizillo" site:github.com` turned up nothing, so I then tied with a more general search `"Robizillo"`. And now we see why the first search turned up nothing, it's a github gist! Lets t ake a look at what it says.
 

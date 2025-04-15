@@ -1,14 +1,15 @@
 ---
 title: Secure Bank
 date: 2024-12-23 19:47:00 +/-0600
-categories: [Capture The Flags, 1337Up Live 2024]
+categories: [Capture The Flags, 1337UP Live 2024]
 tags: [ctf, 1337up, reverse engineering, writeups]
+description: 1337UP Live 2024 Secure Bank Challenge
 ---
 
-Challenge description:
-
+> Challenge description:
+>
 > Can you crack the bank?
-
+{: .prompt-info }
 
 Well, I sure hope so, lets take a look at it.
 

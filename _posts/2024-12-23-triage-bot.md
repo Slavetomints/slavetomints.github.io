@@ -1,15 +1,17 @@
 ---
 title: Triage Bot
 date: 2024-12-23 19:47:00 +/-0600
-categories: [Capture The Flags, 1337Up Live 2024]
+categories: [Capture The Flags, 1337UP Live 2024]
 tags: [ctf, 1337up, misc, writeups]
+description: 1337UP Live 2024 Triage Bot Challenge
 ---
 
-Challenge description:
-
+>Challenge description:
+>
 > Check out our new and improved Triage Bot! 
 >
 > https://go.intigriti.com/discord 
+{: .prompt-info }
 
 I tackled this one with a friend who's much more adept at Discord than me. But, if you ran `!news` in the bot channel it displayed a number of commands and their descriptions. One that stood out was `!read_report`
 

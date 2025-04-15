@@ -1,13 +1,15 @@
 ---
 title: Trackdown
 date: 2024-12-23 19:47:00 +/-0600
-categories: [Capture The Flags, 1337Up Live 2024]
+categories: [Capture The Flags, 1337UP Live 2024]
 tags: [ctf, 1337up, osint, writeups]
+description: 1337UP Live 2024 Trackdown Challenge
 ---
 
-Challenge description:
-
+> Challenge description:
+>
 > There's a fugitive on the loose and we need to track him down! He posted this to social media recently, do you know where the photograph was taken from? If you can provide the precise building, we can move in immediately 🚔" with the flag being the name of the location.
+{: .prompt-info }
 
 So lets download the image and find out where he is!
 

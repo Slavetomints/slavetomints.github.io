@@ -1,15 +1,17 @@
 ---
 title: Sanity Check
 date: 2024-12-23 19:47:00 +/-0600
-categories: [Capture The Flags, 1337Up Live 2024]
+categories: [Capture The Flags, 1337UP Live 2024]
 tags: [ctf, 1337up, writeups]
+description: 1337UP Live 2024 Sanity Check Challenge
 ---
 
-Challenge description:
-
+> Challenge description:
+>
 > Join our discord, there are flags!!
 >
 > https://go.intigriti.com/discord 
+{: .prompt-info }
 
 For this one, its pretty simple, all you have to do is go check out the discord, then once you go to the #ctf-general channel, there will be a flag in the description.
 

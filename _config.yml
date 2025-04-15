@@ -119,7 +119,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: slavetomints/website-comments# <gh-username>/<repo>
+    repo: Slavetomints/website-comments # <gh-username>/<repo>
     repo_id: R_kgDOOZwjRQ
     category: Announcements
     category_id: DIC_kwDOOZwjRc4CpG68

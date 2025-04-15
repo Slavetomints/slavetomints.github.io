@@ -1,13 +1,15 @@
 ---
 title: In Plain Sight
 date: 2024-12-23 19:47:00 +/-0600
-categories: [Capture The Flags, 1337Up Live 2024]
+categories: [Capture The Flags, 1337UP Live 2024]
 tags: [ctf, 1337up, writeups]
+description: 1337UP Live 2024 In Plain Sight Challenge
 ---
 
-Challenge description:
-
+>Challenge description:
+>
 > Barely hidden tbh..
+{: .prompt-info }
 
 We're given this photo
 

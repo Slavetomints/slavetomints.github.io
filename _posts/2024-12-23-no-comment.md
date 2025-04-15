@@ -1,13 +1,15 @@
 ---
 title: No Comment
 date: 2024-12-23 19:47:00 +/-0600
-categories: [Capture The Flags, 1337Up Live 2024]
+categories: [Capture The Flags, 1337UP Live 2024]
 tags: [ctf, 1337up, osint, writeups]
+description: 1337UP Live 2024 No Comment Challenge
 ---
 
-Challenge description:
-
+>Challenge description:
+>
 > Or is there? 🤔
+{: .prompt-info }
 
 We get this... psychedelic image
 

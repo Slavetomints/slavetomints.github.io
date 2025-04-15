@@ -1,14 +1,16 @@
 ---
 title: Bob L'éponge
 date: 2024-12-23 19:47:00 +/-0600
-categories: [Capture The Flags, 1337Up Live 2024]
+categories: [Capture The Flags, 1337UP Live 2024]
 tags: [ctf, 1337up, osint, writeups]
+description: 1337UP Live 2024 Bob L'éponge Challenge
 ---
 
-Challenge description:
-
+> Challenge description:
+>
 > I'm an epic hacker and I'm trying to start a YouTube channel to show off my skills! I've been playing around with some of the video settings and stumbled upon a few cool features. Can you find the secret I've hidden?
 > https://youtu.be/DXZrAGYS6X8 
+{: .prompt-info }
 
 Alright, so we're given a youtube video titled `test`. Now, this video is actually a red herring. I know, crazy right? A red herring in a CTF. If we go to the youtube channel we'll see that they have a YT Short named `test3`, so we can safely assume that there's a `test2` hidden somewhere, and upon further investigation it seems to be the case. They channel has a playlist with 1 unlisted video named `test2`
 
