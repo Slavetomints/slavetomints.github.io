@@ -1,6 +1,6 @@
 ---
 title: Quick Recovery
-date: 2024-12-23 19:47:SS +/-0600
+date: 2024-12-23 19:47:00 +/-0600
 categories: [Capture The Flags, 1337Up Live 2024]
 tags: [ctf, 1337up, misc, writeups]
 ---
