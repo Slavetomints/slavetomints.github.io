@@ -52,7 +52,7 @@ To be honest, Technoblade summarized this mentality best:
 
 The next part of this blog will be dedicated to me writing guides on tools that I use in my cybersecurity training. So expect to see those show up from time to time.
 
-Thee last part of this blog will be yes... the actual blogging. Whether I'm working on a new project that I'lll never finish or building up my homelab, you can expect to see those posts all under the `blogging` tag.
+The last part of this blog will be yes... the actual blogging. Whether I'm working on a new project that I'lll never finish or building up my homelab, you can expect to see those posts all under the `blogging` tag.
 
 ## Contact Me
 You can catch me via email and discord (both are linked in the [about me](https://slavetomints.github.io/about) page) if you have any comments, questions, concerns, threats, bribes, manifestos, declarations of independence, poltergeist sightings, time travel conundrums, UFO reports, unresolved childhood traumas, spontaneous poetry, pop culture references, existential crises, unsolicited fashion advice, attempts to decode my personality, forgotten passwords,

@@ -3,7 +3,7 @@ title: Follow For Clues
 date: 2025-04-16 00:24:42 +/-0600
 categories: [Capture The Flags, VishwaCTF 2025]
 tags: [ctf, vishwactf, misc, writeups]
-descriprion: VishwaCTF 2025 Follow For Clues Challenge
+description: VishwaCTF 2025 Follow For Clues Challenge
 ---
 
 > Challenge description
