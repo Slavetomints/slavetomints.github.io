@@ -1,6 +1,6 @@
 ---
 title: Crypto 2
-date: 2024-12-23 19:47:00 -0600
+date: 2024-12-08 19:47:00 -0600
 categories: [Capture The Flags, Hacker Conclvae v2]
 tags: [ctf, hacker conclave v2, crypto, writeups]
 description: Hacker Conclave v2 Crpyto 2 Challenge

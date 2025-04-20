@@ -1,5 +1,5 @@
 ---
-title: The National Cyber League
+title: "Competing in the National Cyber League: A Student’s Perspective"
 date: 2025-04-16 20:12:00 +/-0600
 categories: [Blog]
 tags: [blog, national cyber league, competition, cybersecurity, training]

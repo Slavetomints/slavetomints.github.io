@@ -1,6 +1,6 @@
 ---
 title: Private GitHub Repository 
-date: 2024-12-23 19:47:00 -0600
+date: 2024-11-17 19:47:00 -0600
 categories: [Capture The Flags, 1337UP Live 2024]
 tags: [ctf, 1337up, osint, writeups]
 description: 1337UP Live 2024 Private GitHub Repository Challenge

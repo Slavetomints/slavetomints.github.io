@@ -1,6 +1,6 @@
 ---
 title: Crack That Zip
-date: 2024-12-23 19:47:00 -0600
+date: 2024-12-08 19:47:00 -0600
 categories: [Capture The Flags, Mountain West Cyber Challenge]
 tags: [ctf, mountain west cyber challenge, password cracking, writeups]
 description: Mountain West Cyber Challenge Crack That Zip Challenge
