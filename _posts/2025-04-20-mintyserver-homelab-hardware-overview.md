@@ -48,4 +48,4 @@ Where I live, you can expect to loose power a couple times a year due to weather
 We're going to be using an APC UPS (model number BVN900M1), as this one will supply us with 6 battery backup and surge protection ports, one for each node and the switch, and an extra 3 surge protection ports. One for the laptop and two for future devices.
 
 ## Rack
-Now its time for the final part, the rack that's going to hold everything together. Once again, in the spirit of not spending an arm and a leg but retaining the ability to expand in the future I went with a 20U open frame rack from Tecmojo off of Amazon. I was pretty impressed with the quality of the rack, and with 20U i have 3U to play with in the future once all's said and done.
+Now its time for the final part, the rack that's going to hold everything together. Once again, in the spirit of not spending an arm and a leg but retaining the ability to expand in the future I went with a 20U open frame rack from Tecmojo off of Amazon. I was pretty impressed with the quality of the rack, and with 20U I have 3U to play with in the future once all's said and done.
