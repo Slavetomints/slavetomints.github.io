@@ -3,7 +3,7 @@ title: Debian Server Installation Guide
 date: 2025-04-22 22:32:52
 categories: [mintyserver.lab, Building the Lab]
 tags: [homelab, debian]
-description: Let's install Debian 12 for the Plex Server!
+description: Let's install Debian 12!
 ---
 
 Alright, so as outlined in the beginning post, we're going to be migrating over to Debian for our server, and simply operate it headlessly rather than have a GUI, so let's look over the installation process for Debian 12 as an SSH server, and optimize the hardware we have with Plex in mind.
