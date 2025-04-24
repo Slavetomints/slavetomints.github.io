@@ -72,80 +72,12 @@ Alright, so our USB drive in hand, we plug it into the computer and reboot into 
 
 Once you boot into Ventoy, it's a pretty easy process to pick the ISO file you want to boot up
 
-![ventoy starting](/assets/img/mintyserver/ventoyStart.jpeg)
-
 From there we'll select the Debian image that we saved onto there, and then boot it into normal mode.
 
-After that it's a pretty standard Debian install, hostname was `mintyserver-plex`, to specify that it's the Plex server. We are not going to install a desktop, and instead keep it only as an SSH server. The last notable thing we are going to do is manually partition the server out. Since all the media is being stored on an external drive, we can afford some more swap space than normal. 
+![](/assets/img/mintyserver/debianInstall.png)
+
+After that it's a pretty standard Debian install. We are not going to install a desktop, and instead keep it only as an SSH server. The last notable thing we are going to do is manually partition the server out. Since all the media is being stored on an external drive, we can afford some more swap space than normal. 
 
 Now, I am aware that a general convention for swap is 1.5x the amount of RAM the system has installed, but seeing as the server only has 8GB of RAM I decided to allocate a whole 24GB of swap for any transcoding issues that occur. 
 
-## Testing... Testing...
-Sweet, so let's go back to our computer and connect right in!
-
-```terminal
-┌─[slavetomints@parrot]─[~]
-└──╼ $ssh slavetomints@plex.mintyserver.lab 
-ssh: connect to host plex.mintyserver.lab port 22: No route to host
-```
-
-> Note: for now all the domain names are a result of `/etc/hosts` shenanigans, once we install some more services, I plan to get a DNS server up and running on the lab to organize all of this.
-{: .prompt-info }
-
-Hm, seems like it's not connected to the network, which would be correct. Since we haven't run any ethernet cable to the server, and it has a WLAN card, let's go ahead and set up Wi-Fi for the server temporarily.
-
-### Wireless Access
-Alright, so on the server, we don't have `nmcli`, or `nmtui`, which are both very popular network managers used. For this we'll be using `wpa_supplicant` to connect to the network. First off, we'll need to configure the `/etc/wpa_supplilcant.conf` file:
-
-```plaintext
-ctrl_interface=DIR=/run/wpa_supplicant GROUP=netdev
-update_config=1
-country=US
-
-network={
-    ssid="SSID"
-    psk="PASSWORD"
-}
-```
-{: file="/etc/wpa_supplicant.conf"}
-
-Alright, so line by line let's go over this. 
-
-1. `ctrl_interface=DIR=/run/wpa_supplicant GROUP=netdev`
-This line allows it to work with CLI tools, and also allows those in the `netdev` group to edit the file without needing `root` access. 
-2.  `update_config=1`
-This line allows those other tools to edit this file and save configs.
-3.  `country=US`
-This is included for regulatory compliance
-4. `network={...`
-This is where you throw in the SSID and password of the wireless network to connect.
-
-
-Once all of that is done, lets run the command `sudo wpa_supplicant -B -i wlp0s20f3 -c /etc/wpa_supplicant.conf`. The `-B` flag specifies background mode, so we can still use the CLI without having logs pollute the terminal. `-i wlp0s20f3` specifies the interface, and `-c /etc/wpa_supplicant.conf` specifies the configuration file we're using.
-
-Now remember, this is only a temporary solution until I can run Ethernet down to the server, and we won't be using it for the long term.
-
-After that, we need to get an IP from the router, so the command `sudo dhclient wlp0s20f3` will do just that. Now running `ip a` we see:
-
-```terminal
-slavetomints@mintyserver-plex:~$ ip address | grep 192
-    inet 192.168.1.75/24 brd 192.168.1.255 scope global dynamic wlp0s20f3
-```
-
-Heck yeah! we got an IP. Let's try that SSH connection again
-
-```terminal
-┌─[slavetomints@parrot]─[~]
-└──╼ $ssh slavetomints@plex.mintyserver.lab 
-slavetomints@plex.mintyserver.lab's password: 
-
-The programs included with the Debian GNU/Linux system are free software;
-the exact distribution terms for each program are described in the
-individual files in /usr/share/doc/*/copyright.
-
-Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
-permitted by applicable law.
-slavetomints@mintyserver-plex:~$ 
-```
-
-We did it!
+And thats about it, once we're here, make sure you can get an IP address and then you can SSH in and remotely work with the server!
