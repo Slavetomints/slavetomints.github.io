@@ -19,8 +19,7 @@ It does have it's own code, so lets take a look at that code to see if there's a
 > Note
 >  
 >  The code was minimized, and while some may think of it as a proper form of obfuscation, it's trivially easy to make minimized code easily readable again, the only benefit to minimizing is the space you might save, just don't use it to keep your code secure.
-
-{: .prompt-tip }
+{: .prompt-info }
 
 ```javascript
 const requiredGrains = 7,

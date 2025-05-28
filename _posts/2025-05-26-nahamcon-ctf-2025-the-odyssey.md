@@ -11,6 +11,7 @@ description: NahamCon CTF 2025 The Oddyssey Challenge
 >  Remember reading The Odyssey in high school? Well I sure don't, because I never did my homework. But I really wanted to get back into the classics and give it a fair shake. The problem is I have a fourth grade reading level and that book is waaaaaay too long.  
 > 
 > To solve this, I made a server that reads out tiny chunks of The Odyssey, one at a time, so I can take my time reading it! How is Odysseus gonna get himself out of this one?
+{: .prompt-info}
 
 Let's take a look at this challenge! 
 

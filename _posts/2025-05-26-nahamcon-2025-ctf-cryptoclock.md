@@ -9,6 +9,7 @@ description: NahamCon CTF 2025 Cryptoclock Challenge
 > Challenge description:
 >  
 >  Just imagine it, _the Cryptoclock!!_ Just like you've seen in the movies, a magical power to be able to manipulate the world's numbers across time!!
+{: .prompt-info }
 
 For this challenge, we are given `server.py`, let's take a look at that script.
 
