@@ -62,4 +62,4 @@ confessions of impromptu dance moves, embarrassing childhood stories,
 pet conspiracy theories, secret handshakes, plans for a rock band, detailed critiques of my haircut, complaints about the air conditioning, existential questions about socks, requests to speak with my manager, cryptic dreams you'd like analyzed, opinions on the best taco fillings, or an undying desire to say "i use arch btw"
 
 ## Site Issues
-Check out [this post](https://slavetomints.github.io/posts/issues-with-the-site) for help clearing those out
+Check out [this post](https://slavetomints.github.io/posts/blog-issues-with-the-site) for help clearing those out
