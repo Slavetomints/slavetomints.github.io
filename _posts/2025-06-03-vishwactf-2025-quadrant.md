@@ -10,7 +10,8 @@ description: VishwaCTF 2025 QuadRant Challenge
 > 
 > Four pieces of a forgotten code lie before you. Each fragment holds a part of a greater whole, but the puzzle is incomplete. Your task: find the pattern, align the pieces, and unlock the final code. Once the pieces fall into place, scan what you’ve created to uncover the secret within.
 >
-> Let the search begin. {: .prompt-info }
+> Let the search begin. 
+{: .prompt-info }
 
 For this challenge we were given 4 different images, each one is part of a QR code. I'm assuming that the QR code is either the flag or a clue to look at the next step of the flag. The flags are as follows:
 

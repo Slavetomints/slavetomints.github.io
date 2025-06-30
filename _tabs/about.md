@@ -33,6 +33,6 @@ You can reach me at the following, please give 1-2 business days for a response:
 
 <br> 
 
-![](https://img.shields.io/badge/gmail-EA4335.svg?logo=gmail&logoColor=white){: .left } @ [slavetomints@gmail.com](mailto:slavetomints@gmail.com)
+![](https://img.shields.io/badge/Proton%20Mail-6D4AFF?logo=protonmail&logoColor=fff){: .left } @ [slavetomints@protonmail.com](mailto:slavetomints@protonmail.com)
 
 ---
