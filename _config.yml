@@ -119,11 +119,11 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: Slavetomints/website-comments # <gh-username>/<repo>
-    repo_id: R_kgDOOZwjRQ
+    repo: Slavetomints/slavetomints.github.io # <gh-username>/<repo>
+    repo_id: R_kgDOOZicdw
     category: Announcements
-    category_id: DIC_kwDOOZwjRc4CpG68
-    mapping: # optional, default to 'pathname'
+    category_id: DIC_kwDOOZicd84CsoDL
+    mapping: "og:title" # optional, default to 'pathname'
     strict: 1 # optional, default to '0'
     input_position: top # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
