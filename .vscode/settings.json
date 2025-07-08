@@ -26,5 +26,13 @@
   // Run tasks in macOS
   "terminal.integrated.profiles.osx": {
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
-  }
+  },
+  "cSpell.words": [
+    "endcapture",
+    "endfor",
+    "forloop",
+    "lqip",
+    "rubygems",
+    "Writeups"
+  ]
 }

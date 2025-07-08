@@ -1,7 +1,14 @@
 ---
-# the default layout is 'page'
+layout: page
+# Index page
 icon: fas fa-info-circle
-order: 4
+permalink: /
+
+---
+
+# About Me
+<br>
+
 ---
 
 Hello! I'm Slavetomints <a href="https://www.lgbtqnation.com/2022/02/adding-pronouns-email-signatures/" title="Why include pronouns?">(she/her)</a>, a cybersecurity student passionate about CTF challenges, Cyber Skyline's National Cyber League, and all things tech. Explore my projects, guides, and writeups to dive into my world of cybersecurity adventures.
@@ -24,6 +31,15 @@ Hello! I'm Slavetomints <a href="https://www.lgbtqnation.com/2022/02/adding-pron
 <br>
 
 ---
+
+![](https://readme-stats-fork-mauve.vercel.app/api/top-langs/?username=slavetomints&theme=blueberry&hide=html,css&hide_border=false&no-bg=true&no-frame=true&layout=compact&langs_count=10)
+
+![](https://readme-stats-fork-mauve.vercel.app/api/?username=slavetomints&theme=blueberry&rank_icon=github&show_icons=true&count_private=true)
+
+![](https://github-readme-streak-stats-five-roan.vercel.app?user=slavetomints&theme=blueberry)
+
+---
+
 ## Contact
 
 You can reach me at the following, please give 1-2 business days for a response:
