@@ -94,4 +94,4 @@ Another repository! Ugh this is getting kind tedious, but nevertheless, lets clo
 
 Finally! We've found the flag, but we should clean up first. All we'll need to do is run `ssh-add -d is_rsa` to remove that key, because we don't need it anymore, and we're all good! Hopefully you learned a thing or two about git and GitHub on your way here.
 
-FLAG: INTIGRITI{9e0121bb8bce15ead3d7f529a81b77b4}
+FLAG: `INTIGRITI{9e0121bb8bce15ead3d7f529a81b77b4}`
