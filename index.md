@@ -11,7 +11,7 @@ permalink: /
 
 ---
 
-Hello! I'm Slavetomints <a href="https://www.lgbtqnation.com/2022/02/adding-pronouns-email-signatures/" title="Why include pronouns?">(she/her)</a>, a cybersecurity student passionate about CTF challenges, Cyber Skyline's National Cyber League, and all things tech. Explore my projects, guides, and writeups to dive into my world of cybersecurity adventures.
+Hello! I'm Slavetomints <a href="https://www.lgbtqnation.com/2022/02/adding-pronouns-email-signatures/" title="Why include pronouns?">(she/her)</a>, a cybersecurity student who helps <a href="https://detraced.org"> DeTraced Security</a> with Cyber Threat Intelligence. Explore my projects, guides, and writeups to dive into my world of cybersecurity adventures.
 
 ---
 ## My Skills
@@ -42,13 +42,14 @@ Hello! I'm Slavetomints <a href="https://www.lgbtqnation.com/2022/02/adding-pron
 
 ## Contact
 
+## Contact me
 You can reach me at the following, please give 1-2 business days for a response:
-
-
-![](https://img.shields.io/badge/discord-5865F2?logo=discord&logoColor=white){: .left } @ [Slavetomints#2103](https://discord.com/users/703115086935359568)
-
-<br> 
-
-![](https://img.shields.io/badge/Proton%20Mail-6D4AFF?logo=protonmail&logoColor=fff){: .left } @ [slavetomints@protonmail.com](mailto:slavetomints@protonmail.com)
+<ul>
+  <li><p><a href="https://discord.com/users/703115086935359568" target="_blank"><img src="https://img.shields.io/badge/discord-5865F2?logo=discord&logoColor=white" alt="discord logo"></a> @ Slavetomints#2103</p></li>
+  <li><p><a href="mailto:me@slavetomints.com" ><img src="https://img.shields.io/badge/Proton%20Mail-6D4AFF?logo=protonmail&logoColor=fff" alt="protonmail logo"></a> @ me@slavetomints.com</p></li>
+  <li><p><a href="mailto:slavetomints@detraced.org" ><img src="https://img.shields.io/badge/Proton%20Mail-6D4AFF?logo=protonmail&logoColor=fff" alt="protonmail logo"></a> @ slavetomints@detraced.org</p></li>
+  <li><p><a href="https://getsession.org/download"><img src="https://img.shields.io/badge/Session-000?logo=session&logoColor=fff" alt="session messenger logo"></a> @ 052291b788e137d214e0702ea9b4d82d6401c173179d51efee39cc8a272380ac32</p></li>
+  <li><p><a href="https://signal.me/#eu/4kaKfZ0tEmmnlbiM6i0ifKlUNDMyn0TWtdlaiysh72I0UR_goNpAw4acLCFRqyt-" ><img src="https://img.shields.io/badge/Signal-3A76F0?logo=signal&logoColor=fff" alt="signal messenger logo"></a> @ Slavetomints.13</p></li>
+</ul>
 
 ---
