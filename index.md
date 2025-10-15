@@ -16,21 +16,49 @@ Hello! I'm Slavetomints <a href="https://www.lgbtqnation.com/2022/02/adding-pron
 ---
 ## My Skills
 
+<!-- From https://github.com/inttter/md-badges -->
+
+### Languages
 ![ruby logo](https://img.shields.io/badge/Ruby-CB171E?logo=ruby&logoColor=fff){: .left }
 ![c++ logo](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white){: .left }
 ![java logo](https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white){: .left }
-![python logo](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff){: .left } 
-![html logo](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white){: .left } 
-![css logo](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff){: .left } 
-![git logo](https://img.shields.io/badge/Git-000?logo=git&logoColor=F05032){: .left } 
-![github logo](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=fff){: .left } 
-![bash logo](https://img.shields.io/badge/Bash-000?logo=gnubash&logoColor=#4EAA25){: .left } 
-![rubygems logo](https://img.shields.io/badge/RubyGems-CB171E?logo=rubygems&logoColor=fff){: .left }
-![linux logo](https://img.shields.io/badge/Linux-%23000000.svg?logo=linux&logoColor=white){: .left }
+![python logo](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff){: .left }
+![html logo](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white){: .left }
+![css logo](https://img.shields.io/badge/CSS-1572B6?logo=css&logoColor=fff){: .left }
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000){: .left }
+![bash logo](https://img.shields.io/badge/Bash-000?logo=gnubash&logoColor=#4EAA25){: .left }
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?&logo=php&logoColor=white){: .left }
+![Rust](https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white){: .left }
 
-<br>
+<br><br><br>
+
+### Technologies
+
+![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white){: .left }
+![git logo](https://img.shields.io/badge/Git-000?logo=git&logoColor=F05032){: .left }
+![github logo](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=fff){: .left }
+![rubygems logo](https://img.shields.io/badge/RubyGems-CB171E?logo=rubygems&logoColor=fff){: .left }
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white){: .left }
+![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white){: .left }
+![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white){: .left }
+![VSCodium](https://img.shields.io/badge/VSCodium-2F80ED?logo=vscodium&logoColor=fff){: .left }
+![Jekyll](https://img.shields.io/badge/Jekyll-C00?logo=jekyll&logoColor=fff){: .left }
+
+<br><br><br>
+
+### Operating Systems
+
+![linux logo](https://img.shields.io/badge/Linux-%23000000.svg?logo=linux&logoColor=white){: .left }
+![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff){: .left }
+![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff){: .left }
+![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white){: .left }
+
+<br><br><br><br><br><br>
+
+## GitHub Stats
 
 ---
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=slavetomints&theme=blueberry) 
 
 ![](https://readme-stats-fork-mauve.vercel.app/api/top-langs/?username=slavetomints&theme=blueberry&hide=html,css&hide_border=false&no-bg=true&no-frame=true&layout=compact&langs_count=10)
 
@@ -38,9 +66,32 @@ Hello! I'm Slavetomints <a href="https://www.lgbtqnation.com/2022/02/adding-pron
 
 ![](https://github-readme-streak-stats-five-roan.vercel.app?user=slavetomints&theme=blueberry)
 
+![](https://github-profile-trophy.vercel.app/?username=slavetomints&theme=aura)
 ---
 
-## Contact
+## Projects
+I've worked on various projects here and there, some of them are here:
+
+### blog-tools
+[![slavetomints/blog-tools - GitHub](https://gh-card.dev/repos/slavetomints/blog-tools.svg)](https://github.com/slavetomints/blog-tools)
+
+- Ruby CLI tools to help with managing post ideas and generation for a blog.
+- [What is blog-tools?](/posts/blog-what-is-blog-tools/)
+- [Documentation](https://slavetomints.com/blog-tools)
+
+### Security Certification Roadmap
+[![dragkob/security-certification-roadmap - GitHub](https://gh-card.dev/repos/dragkob/security-certification-roadmap.svg)](https://github.com/dragkob/security-certification-roadmap)
+![website](https://dragkob.com/MainWeb/images/certifications/seccertroadmapOverall.png)
+
+- [https://cybersecroadmap.com](https://cybersecroadmap.com)
+- Succesor to [Paul Jerimy's Certification roadmap](https://pauljerimy.com/security-certification-roadmap/)
+- Served on R&D team
+
+### DeTraced Security
+[![detraced-security/detection-rules - GitHub](https://gh-card.dev/repos/detraced-security/detection-rules.svg)](https://github.com/detraced-security/detection-rules)
+- [About the Group](https://detraced.org/about/)
+- Provided CTI for ongoing investigations
+- Collected IOCs and created YARA rules for public dissemination
 
 ## Contact me
 You can reach me at the following, please give 1-2 business days for a response:

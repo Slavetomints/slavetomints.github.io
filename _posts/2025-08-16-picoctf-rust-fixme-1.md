@@ -1,7 +1,7 @@
 ---
 title: Rust fixme 1
 date: 2025-08-15
-categories: [Capture The Flags, PicoCTF]
+categories: [Capture The Flags, picoCTF]
 tags: [ctf, picoctf, general skills, writeups]
 description: PicoCTF Rust fixme 1 Challenge
 ---
