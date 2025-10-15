@@ -58,7 +58,7 @@ Hello! I'm Slavetomints <a href="https://www.lgbtqnation.com/2022/02/adding-pron
 ## GitHub Stats
 
 ---
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=slavetomints&theme=blueberry) 
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=slavetomints&theme=blueberry) 
 
 ![](https://readme-stats-fork-mauve.vercel.app/api/top-langs/?username=slavetomints&theme=blueberry&hide=html,css&hide_border=false&no-bg=true&no-frame=true&layout=compact&langs_count=10)
 
