@@ -4,6 +4,10 @@ date: 2024-11-17 19:47:00 -0600
 categories: [Capture The Flags, 1337UP Live 2024]
 tags: [ctf, 1337up, misc, writeups]
 description: 1337UP Live 2024 Quick Recovery Challenge
+image:
+  path: assets/img/1337up-2024/quick-recovery/qr_code.png
+  alt: a jumbled up QR code
+  post: false
 ---
 
 > Challenge description:

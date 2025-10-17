@@ -4,6 +4,10 @@ date: 2025-05-28
 categories: [Capture The Flags, NahamCon CTF 2025]
 tags: [ctf, nahamcon ctf 2025, misc, writeups]
 description: NahamCon CTF 2025 Flagdle Challenge
+image:
+  path: /assets/img/nahamcon-ctf-2025/flagdle/image0.png
+  alt: flagdle landing page
+  post: false
 ---
 
 
