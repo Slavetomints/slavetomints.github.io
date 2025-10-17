@@ -9,6 +9,28 @@ permalink: /
 # About Me
 <br>
 
+<!-- For view counts -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const pv = document.getElementById('pageviews');
+
+    if (pv !== null) {
+      const uri = location.pathname.replace(/\/$/, '');
+      const url = `https://slavetomints.goatcounter.com/counter/${encodeURIComponent(uri)}.json`;
+
+      fetch(url)
+        .then((response) => response.json())
+        .then((data) => {
+          const count = data.count.replace(/\s/g, '');
+          pv.innerText = new Intl.NumberFormat().format(count);
+        })
+        .catch((error) => {
+          pv.innerText = '1';
+        });
+    }
+  });
+</script>
+
 ---
 
 Hello! I'm Slavetomints <a href="https://www.lgbtqnation.com/2022/02/adding-pronouns-email-signatures/" title="Why include pronouns?">(she/her)</a>, a cybersecurity student who helps <a href="https://detraced.org"> DeTraced Security</a> with Cyber Threat Intelligence. Explore my projects, guides, and writeups to dive into my world of cybersecurity adventures.
@@ -110,3 +132,4 @@ You can reach me at the following, please give 1-2 business days for a response:
 </ul>
 
 ---
+<div style="font-size: 12px"><span><i>This page has been viewed <em id="pageviews"></em> times</i></span></div>
