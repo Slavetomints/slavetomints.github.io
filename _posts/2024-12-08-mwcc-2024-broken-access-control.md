@@ -4,6 +4,10 @@ date: 2024-12-08 19:47:00 -0600
 categories: [Capture The Flags, Mountain West Cyber Challenge]
 tags: [ctf, mountain west cyber challenge, web, writeups]
 description: Mountain West Cyber Challenge Broken Access Control Challenge
+image:
+  path: /assets/img/mwcc-2024/broken-access-control/image1.png
+  alt: login page
+  post: false
 ---
 
 > Challenge description:

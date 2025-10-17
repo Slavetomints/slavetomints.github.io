@@ -4,6 +4,10 @@ date: 2025-03-06 19:59:00 -0600
 categories: [Capture The Flags, VishwaCTF 2025]
 tags: [ctf, vishwactf, crypto, writeups]
 description: VishwaCTF 2025 Aria of the Lost Code Challenge
+image:
+  path: /assets/img/vishwactf-2025/aria-of-the-lost-code/Chall_crypto.png
+  alt: challenge 
+  post: false
 ---
 
 > Challenge description: 

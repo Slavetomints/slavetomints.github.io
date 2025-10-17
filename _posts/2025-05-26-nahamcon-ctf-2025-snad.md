@@ -4,6 +4,10 @@ date: 2025-05-26
 categories: [Capture The Flags, NahamCon CTF 2025]
 tags: [ctf, nahamcon ctf 2025, web, writeups]
 description: NahamCon CTF 2025 SNAD Challenge
+image:
+  path: /assets/img/nahamcon-ctf-2025/snad/image1.png
+  alt: SNAD!
+  post: false
 ---
 
 > Challenge description:

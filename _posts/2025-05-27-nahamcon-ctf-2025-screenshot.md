@@ -4,6 +4,10 @@ date: 2025-05-27
 categories: [Capture The Flags, NahamCon CTF 2025]
 tags: [ctf, nahamcon ctf 2025, misc, writeups]
 description: NahamCon CTF 2025 Screenshot Challenge
+image:
+  path: /assets/img/nahamcon-ctf-2025/screenshot/image2.png
+  alt: hex code
+  post: false
 ---
 
 

@@ -10,6 +10,10 @@ tags:
   - osint
   - writeups
 description: Diver OSINT CTF 2025 Afghanistan Challenge
+image:
+  path: /assets/img/diver25/afghanistan/basketball.png
+  alt: two soldiers playing basketball
+  post: false
 ---
 
 

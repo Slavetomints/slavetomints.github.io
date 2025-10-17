@@ -4,6 +4,10 @@ date: 2025-06-03
 categories: [Capture The Flags, VishwaCTF 2025] 
 tags: [ctf, vishwactf 2025, steganography, writeups] 
 description: VishwaCTF 2025 QuadRant Challenge
+image:
+  path: /assets/img/vishwactf-2025/quadrant/image0.png
+  alt: reconstructed QR code in GIMP
+  post: false
 ---
 
 > Challenge description:

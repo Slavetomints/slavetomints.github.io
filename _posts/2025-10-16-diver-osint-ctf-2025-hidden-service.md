@@ -10,8 +10,10 @@ tags:
   - osint
   - writeups
 description: Diver OSINT CTF 2025 hidden_service Challenge
-image: /assets/img/diver25/hidden-service/hidden_service.jpg
-show_image: false
+image: 
+  path: /assets/img/diver25/hidden-service/hidden_service.jpg
+  alt: crumpled paper showing .onion link
+  post: false
 ---
 
 

@@ -4,6 +4,10 @@ date: 2025-05-29
 categories: [Capture The Flags, VishwaCTF 2025]
 tags: [ctf, vishwactf, web, writeups]
 description: VishwaCTF 2025 Flames Challenge
+image:
+  path: /assets/img/vishwactf-2025/flames/image0.png
+  alt: login page
+  post: false
 ---
 
 > Challenge description:

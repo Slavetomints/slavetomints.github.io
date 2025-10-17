@@ -4,6 +4,10 @@ date: 2025-05-31
 categories: [Capture The Flags, VishwaCTF 2025]
 tags: [ctf, vishwactf 2025, steganography, writeups]
 description: VishwaCTF 2025 Echoes of the Unknown Challenge
+image:
+  path: /assets/img/vishwactf-2025/echoes/image0.png
+  alt: morse code translator
+  post: false
 ---
 
 

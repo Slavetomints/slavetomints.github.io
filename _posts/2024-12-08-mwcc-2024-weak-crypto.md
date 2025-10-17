@@ -19,45 +19,45 @@ Hm, that sounds no great, lets take  quick look at the html to verify that we ca
 
 ```html
 
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-  &lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
-    &lt;title&gt;Admin Panel&lt;/title&gt;
-    &lt;link href="static/bootstrap.min.css" rel="stylesheet"&gt;
-    &lt;link href="static/admin.css" rel="stylesheet"&gt;
-    &lt;script src="static/bootstrap.min.js"&gt;&lt;/script&gt;
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;div class="container"&gt;
-        &lt;div class="row vertical-center"&gt;
-            &lt;div class="col-md-4 col-md-offset-4"&gt;
-                &lt;div class="panel panel-default"&gt;
-                    &lt;div class="panel-heading"&gt;
-                        &lt;h3 class="panel-title text-center"&gt;&lt;b&gt;Admin Panel&lt;/b&gt;&lt;/h3&gt;
-                    &lt;/div&gt;
-                    &lt;div class="panel-body"&gt;
-                        &lt;form id="login_form" handled="true" method="#" action="#"&gt;
-                            &lt;fieldset&gt;
-                                &lt;div class="form-group"&gt;
-                                    &lt;input class="form-control" placeholder="Username" name="username" id="username" type="text" disabled=""&gt;
-                                &lt;/div&gt;
-                                &lt;div class="form-group"&gt;
-                                    &lt;input class="form-control" placeholder="Password" name="password" id="password" type="password" disabled=""&gt;
-                                &lt;/div&gt;
-                                &lt;input type="submit" name="submit" id="submit" class="btn btn-block btn-primary" disabled=""&gt;
-                            &lt;/fieldset&gt;
-                        &lt;/form&gt;
-                    &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;div class="text-center"&gt;&lt;a href="api/user"&gt;You can verify your user status here&lt;/a&gt;&lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/body&gt;
-&lt;/html&gt;
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Panel</title>
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+    <link href="static/admin.css" rel="stylesheet">
+    <script src="static/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row vertical-center">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center"><b>Admin Panel</b></h3>
+                    </div>
+                    <div class="panel-body">
+                        <form id="login_form" handled="true" method="#" action="#">
+                            <fieldset>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Username" name="username" id="username" type="text" disabled="">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" placeholder="Password" name="password" id="password" type="password" disabled="">
+                                </div>
+                                <input type="submit" name="submit" id="submit" class="btn btn-block btn-primary" disabled="">
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="text-center"><a href="api/user">You can verify your user status here</a></div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
 
 ```
 
