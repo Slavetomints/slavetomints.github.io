@@ -41,53 +41,47 @@ Hello! I'm Slavetomints <a href="https://www.lgbtqnation.com/2022/02/adding-pron
 <!-- From https://github.com/inttter/md-badges -->
 
 ### Languages
-<div class="badge-group">
-  <img src="https://img.shields.io/badge/Ruby-CB171E?logo=ruby&logoColor=fff" alt="Ruby logo">
-  <img src="https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white" alt="C++ logo">
-  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white" alt="Java logo">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff" alt="Python logo">
-  <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white" alt="HTML logo">
-  <img src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff" alt="CSS logo">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000" alt="JavaScript logo">
-  <img src="https://img.shields.io/badge/Bash-000?logo=gnubash&logoColor=%234EAA25" alt="Bash logo">
-  <img src="https://img.shields.io/badge/PHP-%23777BB4.svg?logo=php&logoColor=white" alt="PHP logo">
-  <img src="https://img.shields.io/badge/Rust-%23000000.svg?logo=rust&logoColor=white" alt="Rust logo">
-  <img src="https://img.shields.io/badge/Yara-340000?logo=virustotal&color=rgb(34%2C0%2C0)" alt="Yara logo">
-</div>
+![ruby logo](https://img.shields.io/badge/Ruby-CB171E?logo=ruby&logoColor=fff){: .left }
+![c++ logo](https://img.shields.io/badge/C++-%2300599C.svg?logo=c%2B%2B&logoColor=white){: .left }
+![java logo](https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white){: .left }
+![python logo](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff){: .left }
+![html logo](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white){: .left }
+![css logo](https://img.shields.io/badge/CSS-1572B6?logo=css&logoColor=fff){: .left }
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000){: .left }
+![bash logo](https://img.shields.io/badge/Bash-000?logo=gnubash&logoColor=#4EAA25){: .left }
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?&logo=php&logoColor=white){: .left }
+![Rust](https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white){: .left }
+
+<br><br><br>
 
 ### Technologies
-<div class="badge-group">
-  <img src="https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white" alt="Markdown logo">
-  <img src="https://img.shields.io/badge/Git-000?logo=git&logoColor=F05032" alt="Git logo">
-  <img src="https://img.shields.io/badge/GitHub-000?logo=github&logoColor=fff" alt="GitHub logo">
-  <img src="https://img.shields.io/badge/RubyGems-CB171E?logo=rubygems&logoColor=fff" alt="RubyGems logo">
-  <img src="https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white" alt="GitHub Pages logo">
-  <img src="https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=eclipse&logoColor=white" alt="Eclipse logo">
-  <img src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white" alt="VS Code logo">
-  <img src="https://img.shields.io/badge/VSCodium-2F80ED?logo=vscodium&logoColor=fff" alt="VSCodium logo">
-  <img src="https://img.shields.io/badge/Jekyll-C00?logo=jekyll&logoColor=fff" alt="Jekyll logo">
-  <img src="https://img.shields.io/badge/Tailscale-242424?logo=tailscale" alt="Tailscale logo">
-  <img src="https://img.shields.io/badge/Proxmox-000000?logo=proxmox&logoColor=E57000" alt="Proxmox logo">
-  <img src="https://img.shields.io/badge/Pi--hole-96060C?logo=pihole" alt="Pi-hole logo">
-  <img src="https://img.shields.io/badge/VirtualBox-2F61B4?logo=virtualbox&logoColor=white" alt="VirtualBox logo">
-  <img src="https://img.shields.io/badge/Wireshark-%231679A7?logo=wireshark" alt="Wireshark logo">
-  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?logo=burpsuite&logoColor=white" alt="Burp Suite logo">
-  <img src="https://img.shields.io/badge/Metasploit-2596CD?logo=metasploit&logoColor=white" alt="Metasploit logo">
-</div>
+
+![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white){: .left }
+![git logo](https://img.shields.io/badge/Git-000?logo=git&logoColor=F05032){: .left }
+![github logo](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=fff){: .left }
+![rubygems logo](https://img.shields.io/badge/RubyGems-CB171E?logo=rubygems&logoColor=fff){: .left }
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white){: .left }
+![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?logo=Eclipse&logoColor=white){: .left }
+![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white){: .left }
+![VSCodium](https://img.shields.io/badge/VSCodium-2F80ED?logo=vscodium&logoColor=fff){: .left }
+![Jekyll](https://img.shields.io/badge/Jekyll-C00?logo=jekyll&logoColor=fff){: .left }
+![Tailscale](https://img.shields.io/badge/Tailscale-242424?logo=tailscale){: .left }
+![Proxmox](https://img.shields.io/badge/proxmox-000000?logo=proxmox&logoColor=E57000){: .left}
+![Pi-hole](https://img.shields.io/badge/Pi--hole-96060C?logo=pihole){: .left }
+
+<br><br><br>
 
 ### Operating Systems
-<div class="badge-group">
-  <img src="https://img.shields.io/badge/Linux-%23000000.svg?logo=linux&logoColor=white" alt="Linux logo">
-  <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff" alt="Arch Linux logo">
-  <img src="https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff" alt="Debian logo">
-  <img src="https://img.shields.io/badge/Raspbian-%23A22846?logo=raspberrypi" alt="Raspbian logo">
-  <img src="https://custom-icon-badges.demolab.com/badge/Windows 10/11-0078D6?logo=windows11&logoColor=white" alt="Windows logo">
-  <img src="https://img.shields.io/badge/Parrot_Security-%2315E0ED?logo=parrotsecurity&logoColor=white" alt="Parrot Security logo">
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?logo=kalilinux&logoColor=white" alt="Kali Linux logo">
-  <img src="https://img.shields.io/badge/Cisco_IOS-1BA0D7?logo=cisco&logoColor=white" alt="Cisco IOS logo">
-  <img src="https://img.shields.io/badge/Apple_iOS-000000?logo=apple&logoColor=white" alt="Apple iOS logo">
-</div>
 
+![linux logo](https://img.shields.io/badge/Linux-%23000000.svg?logo=linux&logoColor=white){: .left }
+![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff){: .left }
+![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=fff){: .left }
+![Raspbian](https://img.shields.io/badge/Raspbian-%23A22846?logo=raspberrypi){: .left }
+![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?logo=windows11&logoColor=white){: .left }
+![Cisco IOS](https://img.shields.io/badge/Cisco_IOS-1BA0D7?logo=cisco&logoColor=white){: .left }
+![Apple iOS](https://img.shields.io/badge/Apple_iOS-000000?&logo=apple&logoColor=white){: .left }
+
+<br><br><br><br><br><br>
 
 ## GitHub Stats
 
@@ -100,9 +94,7 @@ Hello! I'm Slavetomints <a href="https://www.lgbtqnation.com/2022/02/adding-pron
 
 ![](https://github-readme-streak-stats-five-roan.vercel.app?user=slavetomints&theme=blueberry)
 
-<div style="display: flex; justify-content: center; align-items: center; margin: 1rem 0;">
-  <img src="https://github-profile-trophy.vercel.app/?username=slavetomints&theme=aura&column=3" alt="GitHub Profile Trophies">
-</div>
+![](https://github-profile-trophy.vercel.app/?username=slavetomints&theme=aura)
 ---
 
 ## Projects
