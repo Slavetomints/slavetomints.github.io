@@ -16,7 +16,7 @@ image:
 
 In this challenge, we we're given a website that lets you place sand and watch it fill up the screen.
 
-![The site](assets/img/nahamcon-ctf-2025/snad/image0.png)
+![The site](/assets/img/nahamcon-ctf-2025/snad/image0.png)
 
 It does have it's own code, so lets take a look at that code to see if there's anything interesting there.
 

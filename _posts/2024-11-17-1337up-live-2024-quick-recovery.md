@@ -5,7 +5,7 @@ categories: [Capture The Flags, 1337UP Live 2024]
 tags: [ctf, 1337up, misc, writeups]
 description: 1337UP Live 2024 Quick Recovery Challenge
 image:
-  path: assets/img/1337up-2024/quick-recovery/qr_code.png
+  path: /assets/img/1337up-2024/quick-recovery/qr_code.png
   alt: a jumbled up QR code
   post: false
 ---
@@ -17,7 +17,7 @@ image:
 
 Downloading the attached file and extrating its contents leads us to have a `gen.py` file and a `obscured.png` file. What is the png?
 
-![the original qr code](assets/img/1337up-2024/quick-recovery/qr_code.png)
+![the original qr code](/assets/img/1337up-2024/quick-recovery/qr_code.png)
 
 Huh, that looks pretty scrambled. Well, lets run the python script! 
 
@@ -110,12 +110,12 @@ a_order = ["1", "3", "2", "4"]  # UPDATE ME
 b_order = ["4", "2", "3", "1"]  # UPDATE ME
 ```
 
-![better image](assets/img/1337up-2024/quick-recovery/obscured.png)
+![better image](/assets/img/1337up-2024/quick-recovery/obscured.png)
 
 Hey!, now while it is split in half, lets take a screenshot of each half and rearrange those so that its in order. Sure, we could try finding the correct arrangement of numbers, but for a first try I'll take it. 
 
-![QR1](assets/img/1337up-2024/quick-recovery/qr1.png)
+![QR1](/assets/img/1337up-2024/quick-recovery/qr1.png)
 
-![QR2](assets/img/1337up-2024/quick-recovery/qr2.png)
+![QR2](/assets/img/1337up-2024/quick-recovery/qr2.png)
 
 FLAG: `INTIGRITI{7h475_h0w_y0u_r3c0n57ruc7_qr_c0d3}`
