@@ -26,7 +26,7 @@ image:
 ## Getting Ready
 ![landing page](/assets/img/stoutctf-2025/admin-login-part-2/login.png)
 
-Alright, this is part two, if you haven't seen part one yet, feel free to read it first, so you get the idea of the challenge. You can find it [here](http://slavetomints.com/posts/stoutctf-admin-login-part-1/). 
+Alright, this is part two, if you haven't seen part one yet, feel free to read it first, so you get the idea of the challenge. You can find it [here](https://slavetomints.com/posts/stoutctf-admin-login-part-1/). 
 
 ### What We Know
 
