@@ -1,0 +1,89 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+.guide-card {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: inherit;
+
+  background-color: var(--card-bg);        // same as posts
+  box-shadow: var(--card-shadow);
+  border-radius: 0.5rem;                   // same rounded corners as posts
+  overflow: hidden;
+  position: relative;
+  transition: box-shadow 0.35s ease-in-out; // remove background-color transition
+  margin-bottom: 1.5rem;
+
+  &:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+
+  .guide-card-image {
+    display: flex;
+    align-items: center;    // vertical center
+    justify-content: center; // horizontal center
+    padding: 1rem;
+
+    img {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 0.25rem; // slightly rounded
+    }
+  }
+
+  .guide-card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+
+    h2 {
+      margin: 0 0 0.5rem;
+    }
+
+    p {
+      margin: 0 0 1rem;
+      line-height: 1.4;
+    }
+
+    .guide-card-meta {
+      font-size: 0.85rem;
+      color: var(--text-muted-color);
+      display: flex;
+      align-items: center;
+
+      i {
+        margin-right: 0.25rem;
+      }
+    }
+  }
+
+  // subtle overlay like posts
+  &::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--card-hover-bg);
+    opacity: 0;              // start invisible
+    transition: opacity 0.35s ease-in-out;
+    border-radius: 0.5rem;
+    pointer-events: none;
+  }
+
+  &:hover::before {
+    opacity: 0.15;           // very subtle darkening
+  }
+}
