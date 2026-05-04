@@ -64,6 +64,7 @@ for i in range(32):
 
 Then implementing in the `send_guess` function brings us to this script:
 
+{% raw %}
 ```python
 import requests
 
@@ -105,7 +106,7 @@ final_flag = f"flag{{{''.join(flag_chars)}}}"
 print(f"\n[✅] Final Flag: {final_flag}")
 ```
 {: file="flagdle.py" }
-
+{% endraw %}
 ### Running the Script
 Now all that's left to do is run it, the results are below.
 
