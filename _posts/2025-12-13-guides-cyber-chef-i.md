@@ -18,9 +18,9 @@ image:
 
 > This was originally a set of walkthrough challenges I created for StoutCTF 2025. They have been re-uploaded here as guides after the fact. CyberChef VIII - CyberChef X are considered to be writeups, and are in the writeups category.
 >
->CyberChef VIII: http://slavetomints.com/posts/stoutctf-cyber-chef-viii/
->CyberChef IX: http://slavetomints.com/posts/stoutctf-cyber-chef-ix/
->CyberChef X: http://slavetomints.com/posts/stoutctf-cyber-chef-x/
+>- CyberChef VIII: [here](https://slavetomints.com/posts/stoutctf-cyber-chef-viii/)
+>- CyberChef IX: [here](https://slavetomints.com/posts/stoutctf-cyber-chef-ix/)
+>- CyberChef X: [here](https://slavetomints.com/posts/stoutctf-cyber-chef-x/)
 {: .prompt-info }
 
 Can you decode this ciphertext?
