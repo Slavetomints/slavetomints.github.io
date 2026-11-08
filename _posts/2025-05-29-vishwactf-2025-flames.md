@@ -27,7 +27,7 @@ With this payload, all I am attempting to do is establish the version of SQL tha
 
 ![the response](/assets/img/vishwactf-2025/flames/image2.png)
 
-Hm, it looks like it might not have worked. Either that or the names of our two lovebirds just got thrown into the database, so let's check out the `Famous Love Stories` to see if anything happened there.
+Hm, it looks like it might not have worked. Either that or the names of our two lovebirds just got thrown into the database, so let's check out the Famous Love Stories to see if anything happened there.
 
 ![the flag??](/assets/img/vishwactf-2025/flames/image3.png)
 

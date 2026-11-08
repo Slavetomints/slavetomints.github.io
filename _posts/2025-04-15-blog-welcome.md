@@ -17,7 +17,7 @@ Blog Theme: [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) for [Jeky
   - relatively painless to set up
   - way better organized than [this](https://web.archive.org/web/20250309042128/https://slavetomints.github.io/)
   - free
-- why Jekyll?
+- why `Jekyll`?
   - easy to use
   - right here on GitHub
   - free

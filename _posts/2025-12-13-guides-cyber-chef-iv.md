@@ -29,7 +29,7 @@ Can you decode this ciphertext?
 
 ## Walkthrough
 
-Welcome back to the CyberChef Walkthroughs! Here we are going to go through the basics of CyberChef, with a few extra challenges at the end for you to work on.
+Welcome back to the CyberChef Walkthroughs! Here we are going to go through the basics of `CyberChef`, with a few extra challenges at the end for you to work on.
 
 This time, we are going to be super duper lazy, and solve the entire challenge using a single block!
 
@@ -44,10 +44,10 @@ Depth allows you to specify how "deep" or how many layers of encoding might be o
 Intensive mode makes the Magic block try more complex combinations than it normally would. Be careful, this can crash the application depending on the ciphertext.
 
 ### Extensive language Support
-This is a mode you might not regularly use. This let's CyberChef know you want it to check against all languages, not just the most common ones.
+This is a mode you might not regularly use. This let's `CyberChef` know you want it to check against all languages, not just the most common ones.
 
 ### Crib
-This tells CyberChef what the start of the plaintext is, so it can only show you ones that contain the crib in it.
+This tells `CyberChef` what the start of the plaintext is, so it can only show you ones that contain the crib in it.
 
 Now that you've learned all about `Magic`, you can try and solve this challenge.
 

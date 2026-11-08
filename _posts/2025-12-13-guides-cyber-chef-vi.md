@@ -29,7 +29,7 @@ Can you decode this ciphertext?
 
 ## Walkthrough
 
-Welcome back to the CyberChef Walkthroughs! Here we are going to go through the basics of CyberChef, with a few extra challenges at the end for you to work on.
+Welcome back to the CyberChef Walkthroughs! Here we are going to go through the basics of `CyberChef`, with a few extra challenges at the end for you to work on.
 
 This time, we are going to look at translations and rotations. One of the easiest ways to do this is with the `ROT 13` block.
 

@@ -24,7 +24,7 @@ For this challenge we were given 4 different images, each one is part of a QR co
 ![quadrant 3](/assets/img/vishwactf-2025/quadrant/flag3.png)
 ![quadrant 4](/assets/img/vishwactf-2025/quadrant/flag4.png)
 
-Let's use GIMP to piece the images together into a single QR code.
+Let's use `GIMP` to piece the images together into a single QR code.
 
 ![The reconstructed QR code](/assets/img/vishwactf-2025/quadrant/image0.png)
 

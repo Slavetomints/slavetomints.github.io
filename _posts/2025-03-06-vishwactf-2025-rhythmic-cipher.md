@@ -42,7 +42,7 @@ Immediately when given a GIF my first though is to extract each frame from it, s
 
 ## Elementary My Dear Watson!
 
-I've seen this before, this looks like the `Dancing Man cipher`, which first debuted in Sir Arthur Conan Doyle's "The Adventure of the Dancing Men". It is a simple substitution cipher that has a different position of the characters arms and legs for different letters and numbers, the key is as follows:
+I've seen this before, this looks like the Dancing Man cipher, which first debuted in Sir Arthur Conan Doyle's "The Adventure of the Dancing Men". It is a simple substitution cipher that has a different position of the characters arms and legs for different letters and numbers, the key is as follows:
 
 ![dancing men cipher](https://www.geocachingtoolbox.com/pages/codeTables/dancingMen.png)
 Going back through each frame, we'll end up with `CIPHERED` and `DANCE`, which makes our flag!

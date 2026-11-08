@@ -29,11 +29,11 @@ Can you decode this ciphertext?
 
 ## Walkthrough
 
-Welcome back to the CyberChef Walkthroughs! Here we are going to go through the basics of CyberChef, with a few extra challenges at the end for you to work on.
+Welcome back to the CyberChef Walkthroughs! Here we are going to go through the basics of `CyberChef`, with a few extra challenges at the end for you to work on.
 
 This time, we are going to talk about our last topic, brute forcing.
 
-CyberChef does have limited brute force capabilities built into it. We'll be looking at `XOR Brute Force` this time.
+`CyberChef` does have limited brute force capabilities built into it. We'll be looking at `XOR Brute Force` this time.
 
 First things first, we need to read the ciphertext as hex, so let's first add the `From Hex` with `\x` as the delimiter. Then, we can look into breaking the XOR encryption on it.
 
@@ -41,6 +41,6 @@ The nice things about XOR, is the same value you use to encrypt, is the same one
 
 You'll notice that it shows the first 100 hexadecimal keys, and it can be pretty hard to parse through that, so let's fill in the crib with the flag header `STOUTCTF{`, to see if we get a match.
 
-And just like that, you've learned the basics on how to do brute force wiith CyberChef. By now, you should be familiar with the basics of the program, so challenges VIII, IX, and X will be all on your own. Good luck!
+And just like that, you've learned the basics on how to do brute force wiith `CyberChef`. By now, you should be familiar with the basics of the program, so challenges VIII, IX, and X will be all on your own. Good luck!
 
 FLAG: `STOUTCTF{2gxcejB3huKenkqbKEgtHMWYQIAcTW9m}`

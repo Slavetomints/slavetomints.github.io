@@ -13,7 +13,7 @@ description: OverTheWire Bandit Level 1 → Level 2
 
 ## The Solution
 
-Using the password we got from the last challenge, lets ssh into the game server as `bandit1`
+Using the password we got from the last challenge, lets `ssh` into the game server as `bandit1`
 
 ```terminal
 

@@ -29,9 +29,9 @@ Can you decode this ciphertext?
 
 ## Walkthrough
 
-Welcome back to the CyberChef Walkthroughs! Here we are going to go through the basics of CyberChef, with a few extra challenges at the end for you to work on.
+Welcome back to the CyberChef Walkthroughs! Here we are going to go through the basics of `CyberChef`, with a few extra challenges at the end for you to work on.
 
-This time, we are going to explore how CyberChef can handle multiple types of encodings, not only Base 64. We'll do that by exploring Base 16, better known as Hexadecimal.
+This time, we are going to explore how `CyberChef` can handle multiple types of encodings, not only Base 64. We'll do that by exploring Base 16, better known as Hexadecimal.
 
 This is very similar to the first walkthrough, where we are going to put our ciphertext into the input, and out block into the recipe. However, I want you to try and find the correct block now. Can you decode the hexadecimal? I guess we'll find out!
 

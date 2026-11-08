@@ -15,7 +15,7 @@ description: What is the blog-tools gem, and why I decided to make it
 ## The Issue
 Okay, so I manage this blog by myself, and it can get tedious at times, trying to remember all of the things I was to write about, making sure I'm using a consistent style as I set up my posts, etc and etc.
 
-And while yes I'm sure there are plugins on Obsidian for all of my issues, but I don't really learn anything from just installing the nth plugin.
+And while yes I'm sure there are plugins on `Obsidian` for all of my issues, but I don't really learn anything from just installing the nth plugin.
 
 ### What I Need
 So what do I need? Well, I'm going to start with the following:
@@ -62,7 +62,7 @@ echo "Challenge name - CTF"
 
 As you can see, it got out of hand really quickly, with enough writeups on the to-do list, it becomes an unsightly chore to deal with.
 
-The other thing I needed was some way to standardize the front matter of my posts. If you don't know already: Jekyll is a static-site generator, and in my case I make my posts in markdown files, and then it generates the `html` from that. The way I'm able to get the tags, and categories and everything is through something called `front matter`. It is a `YAML` block that looks similar to this:
+The other thing I needed was some way to standardize the front matter of my posts. If you don't know already: `Jekyll` is a static-site generator, and in my case I make my posts in markdown files, and then it generates the `html` from that. The way I'm able to get the tags, and categories and everything is through something called `front matter`. It is a `YAML` block that looks similar to this:
 
 ```markdown
 ---

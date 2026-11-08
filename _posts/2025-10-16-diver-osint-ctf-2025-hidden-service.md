@@ -37,7 +37,7 @@ This link, however, has a `.onion` TLD, which is a special TLD I'll let Wikipedi
 > .onion is a special-use top-level domain name designating an anonymous onion service, which was formerly known as a "hidden service", reachable via the Tor network. Such addresses are not actual DNS names, and the .onion TLD is not in the Internet DNS root, but with the appropriate proxy software installed, Internet programs such as web browsers can access sites with .onion addresses by sending the request through the Tor network.
 {: .prompt-info}
 
-We can access the site using Tor, which is a browser that connects to the Tor network. and when we do, our flag is there.
+We can access the site using `Tor`, which is a browser that connects to the `Tor` network. and when we do, our flag is there.
 
 ![the flag](/assets/img/diver25/hidden-service/flag.png)
 *While true that many "Dark Web" sites use Tor to remain anonymous, the mere fact of using Tor doesn't make you a criminal. Journalists and privacy enthusiasts also use it for its privacy features.*

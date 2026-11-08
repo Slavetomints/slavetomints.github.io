@@ -42,7 +42,7 @@ bandit3@bandit:~/inhere$ ls -a
 
 The `.` and `..` are the current directory and the directory one level higher up respectively, like how they would be used with `cd`. Wwhy is `.` the current directory, and why is `..` the directory one level up? It's from very early Unix, and exemplified in [this 1974 paper by Dennis Ritchie and Ken Thompson](https://people.eecs.berkeley.edu/~brewer/cs262/unix.pdf).
 
-Now that we know what the name of the file is, lets use cat to figure it out.
+Now that we know what the name of the file is, lets use `cat` to figure it out.
 
 ```terminal
 

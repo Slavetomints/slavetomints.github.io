@@ -40,11 +40,11 @@ The first thing we had to do was realize that the checksum, was just some Base 6
 
 Seeing the end bracket there, probably means that that's the end of the flag, lets look at the `id` string to try and get the first half.
 
-Now, with this first half, given that the "checksum" was most definitely not a checksum, its probably safe to assume that the id isn't actually a UUID. So let's go ahead and remove all of the dashes, and see what CyberChef thinks of the remaining output.
+Now, with this first half, given that the "checksum" was most definitely not a checksum, its probably safe to assume that the id isn't actually a UUID. So let's go ahead and remove all of the dashes, and see what `CyberChef` thinks of the remaining output.
 
 ![Second half recipe](/assets/img/stoutctf-2025/cyber-chef-viii/first-half-recipe.png)
 
-Well I'll be damned *(She says as if she didn't make the challenge)*. It looks like CyberChef was able to figure out that all out needed after the replacement was a `From Base58`, and got out the beginning of the flag.
+Well I'll be damned *(She says as if she didn't make the challenge)*. It looks like `CyberChef` was able to figure out that all out needed after the replacement was a `From Base58`, and got out the beginning of the flag.
 
 Combine the two parts, and you've got it!
 

@@ -29,9 +29,9 @@ Can you decode this ciphertext?
 
 ## Walkthrough
 
-Welcome back to the CyberChef Walkthroughs! Here we are going to go through the basics of CyberChef, with a few extra challenges at the end for you to work on.
+Welcome back to the CyberChef Walkthroughs! Here we are going to go through the basics of `CyberChef`, with a few extra challenges at the end for you to work on.
 
-This time, we are going to talk about stacking up blocks to make a full fledged recipe. Last time we learned how to use just one block, but that's pretty boring. We want to really start to push CyberChef to its limits.
+This time, we are going to talk about stacking up blocks to make a full fledged recipe. Last time we learned how to use just one block, but that's pretty boring. We want to really start to push `CyberChef` to its limits.
 
 All you need to do is drag another block down onto the recipe, and voilà, you have it!
 

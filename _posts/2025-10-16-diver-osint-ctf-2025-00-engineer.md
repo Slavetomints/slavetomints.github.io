@@ -38,7 +38,7 @@ Anyways, lets check out the website there.
 
 ![the personal website](/assets/img/diver25/engineer/personal-website.png)
 
-The part I'm most interested in is the Career section, where they say they've been working for `Magneight Software`. This is probably the company who's website we have to find.
+The part I'm most interested in is the Career section, where they say they've been working for Magneight Software. This is probably the company who's website we have to find.
 
 A quick lookup later reveals `magneight.com` to us, and with it the solution
 

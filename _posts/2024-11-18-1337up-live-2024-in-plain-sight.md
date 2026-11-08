@@ -27,13 +27,13 @@ Aha! So there's some hidden zip files in there. Lets use the extract option with
 
 ![binwalk pt.mine](/assets/img/1337up-2024/in-plain-sight/image1.png)
 
-Alas, it appears the zip files contents are locked. Maybe someone else has already figured out a password? Lets check out `Aperi'Solve`
+Alas, it appears the zip files contents are locked. Maybe someone else has already figured out a password? Lets check out Aperi'Solve
 
 ![locked!](/assets/img/1337up-2024/in-plain-sight/image2.png)
 
 ![Aperi'Solve](/assets/img/1337up-2024/in-plain-sight/image3.png)
 
-It's right, I never wouldve gotten that. Let's throw that into the file and we get a blank white image. Hm. maybe `Aperi'Solve` isn't done yet 
+It's right, I never wouldve gotten that. Let's throw that into the file and we get a blank white image. Hm. maybe Aperi'Solve isn't done yet 
 
 ![flagged!](/assets/img/1337up-2024/in-plain-sight/image4.png)
 

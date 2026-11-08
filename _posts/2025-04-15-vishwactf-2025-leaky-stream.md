@@ -18,7 +18,7 @@ Hm, looks like a challenge that is going to test my network forensics skills. I 
 ## The Janky Solution
 So assuming that the flag is simply hidden in some packets, its is possible to use the `strings` command in order to display all the printable strings tin the .pcap file. And if we know the flag format, it is also super easy for us to use `grep` in order to find the flag.
 
-> Note to CTF devs: I understand that creating enough challenges for a full weekend of fun is hard, and I also totally understand the need to have nice easy challenges. However, if I can solve a network analysis challenge using nothing but grep and strings, it kinda defeats the purpose of it being a network analysis challenge. Please test for this when designing challenges.
+> Note to CTF devs: I understand that creating enough challenges for a full weekend of fun is hard, and I also totally understand the need to have nice easy challenges. However, if I can solve a network analysis challenge using nothing but `grep` and `strings`, it kinda defeats the purpose of it being a network analysis challenge. Please test for this when designing challenges.
 {: .prompt-warning }
 
 ```terminal

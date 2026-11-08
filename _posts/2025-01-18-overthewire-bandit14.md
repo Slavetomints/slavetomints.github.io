@@ -18,7 +18,7 @@ bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
 {removed in accordance with game rules}
 ```
 
-For this challenge, it's asking us to submit the password to port `30000` on `localhost`, which is our own machine, aka `127.0.0.1`. We can open this connection with `netcat`, which is, according to the GNU Netcat project, "a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol." All we need to know for now is that the syntax for netcat is `nc ip_address port` So, in our case, we're looking to make a connection with `nc localhost 30000`.
+For this challenge, it's asking us to submit the password to port `30000` on `localhost`, which is our own machine, aka `127.0.0.1`. We can open this connection with `netcat`, which is, according to the GNU `Netcat` project, "a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol." All we need to know for now is that the syntax for `netcat` is `nc ip_address port` So, in our case, we're looking to make a connection with `nc localhost 30000`.
 
 Nothing will happen, and that's okay. Pass in the password for bandit14, and you should get prompted that that answer was correct, and you'll get the next password.
 

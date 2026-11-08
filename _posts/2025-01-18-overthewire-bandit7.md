@@ -11,7 +11,7 @@ description: OverTheWire Bandit Level 7 → Level 8
 > The password for the next level is stored in the file **data.txt** next to the word **millionth**
 {: .prompt-info }
 
-So, if we try to cat the file `data.txt` we notice that there are quite a few lines in it, and while we could read through until we find the word millionth it would take quite a while. So let's use the `grep` command to filter the output from that.
+So, if we try to `cat` the file `data.txt` we notice that there are quite a few lines in it, and while we could read through until we find the word millionth it would take quite a while. So let's use the `grep` command to filter the output from that.
 
 If we run `cat data.txt | grep millionth`, it should work, but let's break down how the command works.
 

@@ -14,7 +14,7 @@ Okay so this is a pretty standard reverse image search challenge, let's throw th
 
 ![The image](/assets/img/vishwactf-2025/stadium/Chall_osint.png)
 
-We ended up finding [this Instagram post](https://www.instagram.com/p/CSKcUKyBCyh/?locale=ko), which mentions a `Ghanche Cricket Stadium`, and looking into that reveals the following image:
+We ended up finding [this Instagram post](https://www.instagram.com/p/CSKcUKyBCyh/?locale=ko), which mentions a Ghanche Cricket Stadium, and looking into that reveals the following image:
 
 ![found it](/assets/img/vishwactf-2025/stadium/found.png)
 

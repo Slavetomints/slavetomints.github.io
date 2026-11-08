@@ -50,7 +50,7 @@ irb(main):006> fibs_rec(10)
 => [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 ```
 
-Now, let's use CyberChef's to hex feature to get the hex representation of that, and then reverse it. And now we have the key (`93835353433313233313835333231313`), and IV (`31313233353831333231333435353839`) for the `AES Decrypt` block
+Now, let's use `CyberChef`'s to hex feature to get the hex representation of that, and then reverse it. And now we have the key (`93835353433313233313835333231313`), and IV (`31313233353831333231333435353839`) for the `AES Decrypt` block
 
 ![after hex](/assets/img/stoutctf-2025/cyber-chef-ix/after-aes.png)
 
